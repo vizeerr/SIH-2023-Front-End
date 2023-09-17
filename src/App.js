@@ -1,9 +1,13 @@
 
 import './App.css';
+import Home from './pages/Home'
 
 function App() {
   return (
-    <h1>REACT APP</h1>
+    <div>
+      <Home/>
+    </div>
+
   );
 }
 
