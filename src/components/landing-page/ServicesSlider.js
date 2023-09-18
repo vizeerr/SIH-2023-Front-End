@@ -26,7 +26,7 @@ const ServicesSlider = () => {
                 <img src={orgico} className="card-img-top w-25 ms-3 mt-3" alt="..."/>
                 <div className="card-body mx-3 text-start">
                     <h2 className="card-title">Card title</h2>
-                    <p className="card-text fs-6 lh-lg">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p className="card-text lighttext fs-6 lh-lg">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
             <img src={famlawimg} className="card-img-bottom z-1 " alt="..."/>
@@ -36,7 +36,7 @@ const ServicesSlider = () => {
                 <img src={orgico} className="card-img-top w-25 ms-3 mt-3" alt="..."/>
                 <div className="card-body mx-3 text-start">
                     <h2 className="card-title">Card title</h2>
-                    <p className="card-text fs-6 lh-lg">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p className="card-text lighttext fs-6 lh-lg">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
             <img src={famlawimg} className="card-img-bottom z-1 " alt="..."/>
@@ -46,7 +46,7 @@ const ServicesSlider = () => {
                 <img src={orgico} className="card-img-top w-25 ms-3 mt-3" alt="..."/>
                 <div className="card-body mx-3 text-start">
                     <h2 className="card-title">Card title</h2>
-                    <p className="card-text fs-6 lh-lg">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p className="card-text lighttext fs-6 lh-lg">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
             <img src={famlawimg} className="card-img-bottom z-1 " alt="..."/>
@@ -62,7 +62,7 @@ const ServicesSlider = () => {
                 <img src={orgico} className="card-img-top w-25 ms-3 mt-3" alt="..."/>
                 <div className="card-body mx-3 text-start">
                     <h2 className="card-title">Card title</h2>
-                    <p className="card-text fs-6 lh-lg">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p className="card-text lighttext fs-6 lh-lg">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
             <img src={famlawimg} className="card-img-bottom z-1 " alt="..."/>
@@ -72,7 +72,7 @@ const ServicesSlider = () => {
                 <img src={orgico} className="card-img-top w-25 ms-3 mt-3" alt="..."/>
                 <div className="card-body mx-3 text-start">
                     <h2 className="card-title">Card title</h2>
-                    <p className="card-text fs-6 lh-lg">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p className="card-text lighttext fs-6 lh-lg">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
             <img src={famlawimg} className="card-img-bottom z-1 " alt="..."/>
@@ -82,7 +82,7 @@ const ServicesSlider = () => {
                 <img src={orgico} className="card-img-top w-25 ms-3 mt-3" alt="..."/>
                 <div className="card-body mx-3 text-start">
                     <h2 className="card-title">Card title</h2>
-                    <p className="card-text fs-6 lh-lg">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p className="card-text lighttext fs-6 lh-lg">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
             <img src={famlawimg} className="card-img-bottom z-1 " alt="..."/>
@@ -98,7 +98,7 @@ const ServicesSlider = () => {
                 <img src={orgico} className="card-img-top w-25 ms-3 mt-3" alt="..."/>
                 <div className="card-body mx-3 text-start">
                     <h2 className="card-title">Card title</h2>
-                    <p className="card-text fs-6 lh-lg">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p className="card-text lighttext fs-6 lh-lg">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
             <img src={famlawimg} className="card-img-bottom z-1 " alt="..."/>
@@ -108,7 +108,7 @@ const ServicesSlider = () => {
                 <img src={orgico} className="card-img-top w-25 ms-3 mt-3" alt="..."/>
                 <div className="card-body mx-3 text-start">
                     <h2 className="card-title">Card title</h2>
-                    <p className="card-text fs-6 lh-lg">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p className="card-text lighttext fs-6 lh-lg">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
             <img src={famlawimg} className="card-img-bottom z-1 " alt="..."/>
@@ -118,7 +118,7 @@ const ServicesSlider = () => {
                 <img src={orgico} className="card-img-top w-25 ms-3 mt-3" alt="..."/>
                 <div className="card-body mx-3 text-start">
                     <h2 className="card-title">Card title</h2>
-                    <p className="card-text fs-6 lh-lg">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p className="card-text lighttext fs-6 lh-lg">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
             <img src={famlawimg} className="card-img-bottom z-1 " alt="..."/>

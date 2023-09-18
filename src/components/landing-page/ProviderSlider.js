@@ -1,6 +1,5 @@
 import React from 'react'
 import pvads from '../../page 1 design images/pvadscpy.jpeg'
-// import famlawimg from '../../page 1 design images/family-law-q2rkt7sgpskp9dph2acgnex6yz1b27u49ti9vpu458.jpg'
 import verifico from '../../page 1 design images/icons8-verified-50.png'
 import locoico from '../../page 1 design images/icons8-location-50.png'
 import blstar from '../../page 1 design images/icons8-rating-100.png'
@@ -31,19 +30,19 @@ const ProviderSlider = () => {
                 <div className="card-body">
                 <div className='d-flex m-0 mb-2 justify-content-between align-items-center'>
                   <div className='d-flex align-items-center'>
-                      <p className='m-0 sm-13'>Adv Shami Gautam </p>
+                      <p className='m-0 lighttext sm-13'>Adv Shami Gautam </p>
                       <img className = 'verifico ms-2 m-0' src={verifico}  alt=""/>
                   </div>
                   <div>
-                  <p className='m-0 sm-13'>Level 3+</p>
+                  <p className='m-0 lighttext sm-13'>Level 3+</p>
                   </div>
                 </div>
                     <h4 className="card-title">Criminal Lawyer</h4>
                     <div className='locprovider d-flex w-100 align-item-center '>
                       <img src={locoico} className = 'verifico' alt="" />
-                      <p className='d-flex sm-13 ms-2 '> High Court, Delhi </p>
+                      <p className='d-flex sm-13 lighttext  ms-2 '> High Court, Delhi </p>
                     </div>
-                    <p className="card-text">20+ Yr of Experience Newer Lost Any Case till know. Flexible Charge free of cost consulting</p>
+                    <p className="card-text lighttext ">20+ Yr of Experience Newer Lost Any Case till know. Flexible Charge free of cost consulting</p>
                     {/* <Link to="/"> */}
                     <div className='d-flex justify-content-between w-100'>
                       <button type="button " className="btn btn-brown w-75 sm-13 ">Contact Me</button>
@@ -55,7 +54,7 @@ const ProviderSlider = () => {
                           <img src={flstar} alt="" className='verifico'/>
                           <img src={blstar} alt="" className='verifico'/>
                         </div>
-                        <p className='sm-9 mt-2'>4.0 | 30+ User Rating</p>
+                        <p className=' sm-9 mt-2 lighttext '>4.0 | 30+ User Rating</p>
                       </div>
                     </div>
                     {/* </Link> */}
@@ -66,19 +65,19 @@ const ProviderSlider = () => {
                 <div className="card-body">
                 <div className='d-flex m-0 mb-2 justify-content-between align-items-center'>
                   <div className='d-flex align-items-center'>
-                      <p className='m-0 sm-13'>Adv Shami Gautam </p>
+                      <p className='m-0 lighttext sm-13'>Adv Shami Gautam </p>
                       <img className = 'verifico ms-2 m-0' src={verifico}  alt=""/>
                   </div>
                   <div>
-                  <p className='m-0 sm-13'>Level 3+</p>
+                  <p className='m-0 lighttext sm-13'>Level 3+</p>
                   </div>
                 </div>
                     <h4 className="card-title">Criminal Lawyer</h4>
                     <div className='locprovider d-flex w-100 align-item-center '>
                       <img src={locoico} className = 'verifico' alt="" />
-                      <p className='d-flex sm-13 ms-2 '> High Court, Delhi </p>
+                      <p className='d-flex sm-13 lighttext  ms-2 '> High Court, Delhi </p>
                     </div>
-                    <p className="card-text">20+ Yr of Experience Newer Lost Any Case till know. Flexible Charge free of cost consulting</p>
+                    <p className="card-text lighttext ">20+ Yr of Experience Newer Lost Any Case till know. Flexible Charge free of cost consulting</p>
                     {/* <Link to="/"> */}
                     <div className='d-flex justify-content-between w-100'>
                       <button type="button " className="btn btn-brown w-75 sm-13 ">Contact Me</button>
@@ -90,7 +89,7 @@ const ProviderSlider = () => {
                           <img src={flstar} alt="" className='verifico'/>
                           <img src={blstar} alt="" className='verifico'/>
                         </div>
-                        <p className='sm-9 mt-2'>4.0 | 30+ User Rating</p>
+                        <p className=' sm-9 mt-2 lighttext '>4.0 | 30+ User Rating</p>
                       </div>
                     </div>
                     {/* </Link> */}
@@ -101,19 +100,19 @@ const ProviderSlider = () => {
                 <div className="card-body">
                 <div className='d-flex m-0 mb-2 justify-content-between align-items-center'>
                   <div className='d-flex align-items-center'>
-                      <p className='m-0 sm-13'>Adv Shami Gautam </p>
+                      <p className='m-0 lighttext sm-13'>Adv Shami Gautam </p>
                       <img className = 'verifico ms-2 m-0' src={verifico}  alt=""/>
                   </div>
                   <div>
-                  <p className='m-0 sm-13'>Level 3+</p>
+                  <p className='m-0 lighttext sm-13'>Level 3+</p>
                   </div>
                 </div>
                     <h4 className="card-title">Criminal Lawyer</h4>
                     <div className='locprovider d-flex w-100 align-item-center '>
                       <img src={locoico} className = 'verifico' alt="" />
-                      <p className='d-flex sm-13 ms-2 '> High Court, Delhi </p>
+                      <p className='d-flex sm-13 lighttext  ms-2 '> High Court, Delhi </p>
                     </div>
-                    <p className="card-text">20+ Yr of Experience Newer Lost Any Case till know. Flexible Charge free of cost consulting</p>
+                    <p className="card-text lighttext ">20+ Yr of Experience Newer Lost Any Case till know. Flexible Charge free of cost consulting</p>
                     {/* <Link to="/"> */}
                     <div className='d-flex justify-content-between w-100'>
                       <button type="button " className="btn btn-brown w-75 sm-13 ">Contact Me</button>
@@ -125,7 +124,7 @@ const ProviderSlider = () => {
                           <img src={flstar} alt="" className='verifico'/>
                           <img src={blstar} alt="" className='verifico'/>
                         </div>
-                        <p className='sm-9 mt-2'>4.0 | 30+ User Rating</p>
+                        <p className=' sm-9 mt-2 lighttext '>4.0 | 30+ User Rating</p>
                       </div>
                     </div>
                     {/* </Link> */}
@@ -136,19 +135,19 @@ const ProviderSlider = () => {
                 <div className="card-body">
                 <div className='d-flex m-0 mb-2 justify-content-between align-items-center'>
                   <div className='d-flex align-items-center'>
-                      <p className='m-0 sm-13'>Adv Shami Gautam </p>
+                      <p className='m-0 lighttext sm-13'>Adv Shami Gautam </p>
                       <img className = 'verifico ms-2 m-0' src={verifico}  alt=""/>
                   </div>
                   <div>
-                  <p className='m-0 sm-13'>Level 3+</p>
+                  <p className='m-0 lighttext sm-13'>Level 3+</p>
                   </div>
                 </div>
                     <h4 className="card-title">Criminal Lawyer</h4>
                     <div className='locprovider d-flex w-100 align-item-center '>
                       <img src={locoico} className = 'verifico' alt="" />
-                      <p className='d-flex sm-13 ms-2 '> High Court, Delhi </p>
+                      <p className='d-flex sm-13 lighttext  ms-2 '> High Court, Delhi </p>
                     </div>
-                    <p className="card-text">20+ Yr of Experience Newer Lost Any Case till know. Flexible Charge free of cost consulting</p>
+                    <p className="card-text lighttext ">20+ Yr of Experience Newer Lost Any Case till know. Flexible Charge free of cost consulting</p>
                     {/* <Link to="/"> */}
                     <div className='d-flex justify-content-between w-100'>
                       <button type="button " className="btn btn-brown w-75 sm-13 ">Contact Me</button>
@@ -160,7 +159,7 @@ const ProviderSlider = () => {
                           <img src={flstar} alt="" className='verifico'/>
                           <img src={blstar} alt="" className='verifico'/>
                         </div>
-                        <p className='sm-9 mt-2'>4.0 | 30+ User Rating</p>
+                        <p className=' sm-9 mt-2 lighttext '>4.0 | 30+ User Rating</p>
                       </div>
                     </div>
                     {/* </Link> */}

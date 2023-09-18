@@ -8,68 +8,68 @@ const Footer = () => {
             <div className="col">
                 <p className='fs-4 mb-0'>Categories</p>
                 <ul className='footerul sm-13 p-0 mt-0'>
-                    <li className="list-group-item mt-2 mb-2" >Law Firms</li>
-                    <li className="list-group-item mt-2 mb-2">Solo Practitioners</li>
-                    <li className="list-group-item mt-2 mb-2">Legal Consultancy</li>
-                    <li className="list-group-item mt-2 mb-2">Mediators</li>
-                    <li className="list-group-item mt-2 mb-2">Arbitrators</li>
-                    <li className="list-group-item mt-2 mb-2">Notaries</li>
-                    <li className="list-group-item mt-2 mb-2">Document Preparation </li>
-                    <li className="list-group-item mt-2 mb-2">Services</li>
-                    <li className="list-group-item mt-2 mb-2">Expert Witnesses</li>
-                    <li className="list-group-item mt-2 mb-2">Legal Process Servers</li>
-                    <li className="list-group-item mt-2 mb-2">Legal Funding Companies</li>
+                    <li className="list-group-item darktextlight mt-2 mb-2" >Law Firms</li>
+                    <li className="list-group-item darktextlight mt-2 mb-2">Solo Practitioners</li>
+                    <li className="list-group-item darktextlight mt-2 mb-2">Legal Consultancy</li>
+                    <li className="list-group-item darktextlight mt-2 mb-2">Mediators</li>
+                    <li className="list-group-item darktextlight mt-2 mb-2">Arbitrators</li>
+                    <li className="list-group-item darktextlight mt-2 mb-2">Notaries</li>
+                    <li className="list-group-item darktextlight mt-2 mb-2">Document Preparation </li>
+                    <li className="list-group-item darktextlight mt-2 mb-2">Services</li>
+                    <li className="list-group-item darktextlight mt-2 mb-2">Expert Witnesses</li>
+                    <li className="list-group-item darktextlight mt-2 mb-2">Legal Process Servers</li>
+                    <li className="list-group-item darktextlight mt-2 mb-2">Legal Funding Companies</li>
                 </ul>
             </div>
             <div className="col">
                 <p className='fs-4 mb-0'>Categories</p>
                 <ul className='footerul sm-13 p-0 mt-0'>
-                    <li className="list-group-item mt-2 mb-2" >Law Firms</li>
-                    <li className="list-group-item mt-2 mb-2">Solo Practitioners</li>
-                    <li className="list-group-item mt-2 mb-2">Legal Consultancy</li>
-                    <li className="list-group-item mt-2 mb-2">Mediators</li>
-                    <li className="list-group-item mt-2 mb-2">Arbitrators</li>
-                    <li className="list-group-item mt-2 mb-2">Notaries</li>
-                    <li className="list-group-item mt-2 mb-2">Document Preparation </li>
-                    <li className="list-group-item mt-2 mb-2">Services</li>
-                    <li className="list-group-item mt-2 mb-2">Expert Witnesses</li>
-                    <li className="list-group-item mt-2 mb-2">Legal Process Servers</li>
-                    <li className="list-group-item mt-2 mb-2">Legal Funding Companies</li>
+                    <li className="list-group-item darktextlight mt-2 mb-2" >Law Firms</li>
+                    <li className="list-group-item darktextlight mt-2 mb-2">Solo Practitioners</li>
+                    <li className="list-group-item darktextlight mt-2 mb-2">Legal Consultancy</li>
+                    <li className="list-group-item darktextlight mt-2 mb-2">Mediators</li>
+                    <li className="list-group-item darktextlight mt-2 mb-2">Arbitrators</li>
+                    <li className="list-group-item darktextlight mt-2 mb-2">Notaries</li>
+                    <li className="list-group-item darktextlight mt-2 mb-2">Document Preparation </li>
+                    <li className="list-group-item darktextlight mt-2 mb-2">Services</li>
+                    <li className="list-group-item darktextlight mt-2 mb-2">Expert Witnesses</li>
+                    <li className="list-group-item darktextlight mt-2 mb-2">Legal Process Servers</li>
+                    <li className="list-group-item darktextlight mt-2 mb-2">Legal Funding Companies</li>
                 </ul>
             </div>
             <div className="col">
                 <p className='fs-4 mb-0'>Categories</p>
                 <ul className='footerul sm-13 p-0 mt-0'>
-                    <li className="list-group-item mt-2 mb-2" >Law Firms</li>
-                    <li className="list-group-item mt-2 mb-2">Solo Practitioners</li>
-                    <li className="list-group-item mt-2 mb-2">Legal Consultancy</li>
-                    <li className="list-group-item mt-2 mb-2">Mediators</li>
-                    <li className="list-group-item mt-2 mb-2">Arbitrators</li>
-                    <li className="list-group-item mt-2 mb-2">Notaries</li>
-                    <li className="list-group-item mt-2 mb-2">Document Preparation </li>
+                    <li className="list-group-item darktextlight mt-2 mb-2" >Law Firms</li>
+                    <li className="list-group-item darktextlight mt-2 mb-2">Solo Practitioners</li>
+                    <li className="list-group-item darktextlight mt-2 mb-2">Legal Consultancy</li>
+                    <li className="list-group-item darktextlight mt-2 mb-2">Mediators</li>
+                    <li className="list-group-item darktextlight mt-2 mb-2">Arbitrators</li>
+                    <li className="list-group-item darktextlight mt-2 mb-2">Notaries</li>
+                    <li className="list-group-item darktextlight mt-2 mb-2">Document Preparation </li>
                 </ul>
                 <p className='fs-4 mb-0'>Categories</p>
                 <ul className='footerul sm-13 p-0 mt-0'>
-                    <li className="list-group-item mt-2 mb-2" >Law Firms</li>
-                    <li className="list-group-item mt-2 mb-2">Solo Practitioners</li>
+                    <li className="list-group-item darktextlight mt-2 mb-2" >Law Firms</li>
+                    <li className="list-group-item darktextlight mt-2 mb-2">Solo Practitioners</li>
                 </ul>
             </div>
             <div className="col">
                 <p className='fs-4 mb-0'>Categories</p>
                 <ul className='footerul sm-13 p-0 mt-0'>
-                    <li className="list-group-item mt-2 mb-2" >Law Firms</li>
-                    <li className="list-group-item mt-2 mb-2">Solo Practitioners</li>
-                    <li className="list-group-item mt-2 mb-2">Legal Consultancy</li>
-                    <li className="list-group-item mt-2 mb-2">Mediators</li>
+                    <li className="list-group-item darktextlight mt-2 mb-2" >Law Firms</li>
+                    <li className="list-group-item darktextlight mt-2 mb-2">Solo Practitioners</li>
+                    <li className="list-group-item darktextlight mt-2 mb-2">Legal Consultancy</li>
+                    <li className="list-group-item darktextlight mt-2 mb-2">Mediators</li>
                 </ul>
                 <p className='fs-4 mb-0'>Categories</p>
                 <ul className='footerul sm-13 p-0 mt-0'>
-                    <li className="list-group-item mt-2 mb-2" >Law Firms</li>
-                    <li className="list-group-item mt-2 mb-2">Solo Practitioners</li>
+                    <li className="list-group-item darktextlight mt-2 mb-2" >Law Firms</li>
+                    <li className="list-group-item darktextlight mt-2 mb-2">Solo Practitioners</li>
                 </ul>
                 <p className='fs-4 mb-0'>Categories</p>
                 <ul className='footerul sm-13 p-0 mt-0'>
-                    <li className="list-group-item mt-2 mb-2" >Law Firms</li>
+                    <li className="list-group-item darktextlight mt-2 mb-2" >Law Firms</li>
                 </ul>
             </div>
             <div className="col-3">
