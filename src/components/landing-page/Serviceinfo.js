@@ -1,5 +1,5 @@
 import React from 'react'
-import "../../Styles/Serviceinfo.css"
+import "../../App.css"
 
 function Serviceinfo() {
   return (

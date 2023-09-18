@@ -1,5 +1,5 @@
 import React from 'react'
-import "../../Styles/Jumbo.css"
+import "../../App.css"
 
 function Jumbo() {
   return (
