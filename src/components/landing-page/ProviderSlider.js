@@ -11,7 +11,7 @@ import flstar from '../../page 1 design images/icons8-star-50.png'
 const ProviderSlider = () => {
   return (
     <div className='container-fluid mt-5 mb-5'>
-    <div className='w-100 text-center'>
+    <div className='w-100 text-center mt-5'>
         <h1 className="display-3 "> Our Top Service Providers</h1>
         <button type="button" className="btn btn-brown float-end me-5"> View More</button>
     </div>
@@ -23,100 +23,144 @@ const ProviderSlider = () => {
       <button type="button" data-bs-target="#providerslider" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#providerslider" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
-    <div className="container carousel-inner carol-serv carol-provid">
-      <div className="carousel-item active" data-bs-interval="10000">
+    <div className="container carousel-inner carol-provid">
+      <div className="carousel-item mb-5 active" data-bs-interval="10000">
         <div className="d-flex">
             <div className="card border-none" >
                 <img src={pvads} className="card-img-top" alt="..."/>
                 <div className="card-body">
-                    <p>Adv Shami Gautam <img className = 'verifico' src={verifico}  alt=""/></p>
-                    <h3 className="card-title">card border-nonetitle</h3>
-                    <p><img src={locoico} className = 'verifico' alt="" /> High Court, Delhi </p>
-                    <p className="card-text">Some quick example text to build on the card border-nonetitle and make up the bulk of the card's content.</p>
-                    {/* <Link to="/"> */}
-                    <div className='d-flex justify-content-between w-100'>
-                      <button type="button " className="btn btn-brown w-50">Contact Me</button>
-                      <div className='d-flex flex-wrap'>
-                        <div className='w-75'>
-                          <img src={flstar} alt="" className='verifico'/>
-                          <img src={flstar} alt="" className='verifico'/>
-                          <img src={flstar} alt="" className='verifico'/>
-                          <img src={flstar} alt="" className='verifico'/>
-                          <img src={flstar} alt="" className='verifico'/>
-                        </div>
-                        <span>4.0 | 30+ User Rating</span>
-                      </div>
-                    </div>
-                    {/* </Link> */}
+                <div className='d-flex m-0 mb-2 justify-content-between align-items-center'>
+                  <div className='d-flex align-items-center'>
+                      <p className='m-0 sm-13'>Adv Shami Gautam </p>
+                      <img className = 'verifico ms-2 m-0' src={verifico}  alt=""/>
+                  </div>
+                  <div>
+                  <p className='m-0 sm-13'>Level 3+</p>
+                  </div>
                 </div>
-            </div>
-            <div className="card border-none" >
-                <img src={pvads} className="card-img-top" alt="..."/>
-                <div className="card-body">
-                    <p>Adv Shami Gautam <img className = 'verifico' src={verifico}  alt=""/></p>
-                    <h3 className="card-title">card border-nonetitle</h3>
-                    <p><img src={locoico} className = 'verifico' alt="" /> High Court, Delhi </p>
-                    <p className="card-text">Some quick example text to build on the card border-nonetitle and make up the bulk of the card's content.</p>
-                    {/* <Link to="/"> */}
-                    <div className='d-flex justify-content-between w-100'>
-                      <button type="button " className="btn btn-brown w-50">Contact Me</button>
-                      <div className='d-flex flex-wrap'>
-                        <div className='w-75'>
-                          <img src={flstar} alt="" className='verifico'/>
-                          <img src={flstar} alt="" className='verifico'/>
-                          <img src={flstar} alt="" className='verifico'/>
-                          <img src={flstar} alt="" className='verifico'/>
-                          <img src={flstar} alt="" className='verifico'/>
-                        </div>
-                        <span>4.0 | 30+ User Rating</span>
-                      </div>
+                    <h4 className="card-title">Criminal Lawyer</h4>
+                    <div className='locprovider d-flex w-100 align-item-center '>
+                      <img src={locoico} className = 'verifico' alt="" />
+                      <p className='d-flex sm-13 ms-2 '> High Court, Delhi </p>
                     </div>
-                    {/* </Link> */}
-                </div>
-            </div>
-            <div className="card border-none" >
-                <img src={pvads} className="card-img-top" alt="..."/>
-                <div className="card-body">
-                    <p>Adv Shami Gautam <img className = 'verifico' src={verifico}  alt=""/></p>
-                    <h3 className="card-title">card border-nonetitle</h3>
-                    <p><img src={locoico} className = 'verifico' alt="" /> High Court, Delhi </p>
-                    <p className="card-text">Some quick example text to build on the card border-nonetitle and make up the bulk of the card's content.</p>
+                    <p className="card-text">20+ Yr of Experience Newer Lost Any Case till know. Flexible Charge free of cost consulting</p>
                     {/* <Link to="/"> */}
                     <div className='d-flex justify-content-between w-100'>
-                      <button type="button " className="btn btn-brown w-50">Contact Me</button>
-                      <div className='d-flex flex-wrap'>
-                        <div className='w-75'>
-                          <img src={flstar} alt="" className='verifico'/>
-                          <img src={flstar} alt="" className='verifico'/>
-                          <img src={flstar} alt="" className='verifico'/>
-                          <img src={flstar} alt="" className='verifico'/>
-                          <img src={flstar} alt="" className='verifico'/>
-                        </div>
-                        <span>4.0 | 30+ User Rating</span>
-                      </div>
-                    </div>
-                    {/* </Link> */}
-                </div>
-            </div>
-            <div className="card border-none" >
-                <img src={pvads} className="card-img-top" alt="..."/>
-                <div className="card-body">
-                    <p>Adv Shami Gautam <img className = 'verifico' src={verifico}  alt=""/></p>
-                    <h3 className="card-title">card border-nonetitle</h3>
-                    <p><img src={locoico} className = 'verifico' alt="" /> High Court, Delhi </p>
-                    <p className="card-text">Some quick example text to build on the card border-nonetitle and make up the bulk of the card's content.</p>
-                    {/* <Link to="/"> */}
-                    <div className='d-flex justify-content-between w-100'>
-                      <button type="button " className="btn btn-brown w-50">Contact Me</button>
-                      <div className='d-flex flex-wrap'>
-                        <div className='w-75 text-right'>
+                      <button type="button " className="btn btn-brown w-75 sm-13 ">Contact Me</button>
+                      <div className='d-flex flex-wrap justify-content-end'>
+                        <div className='d-flex flex-nowrap justify-content-end'>
                           <img src={flstar} alt="" className='verifico'/>
                           <img src={flstar} alt="" className='verifico'/>
                           <img src={flstar} alt="" className='verifico'/>
                           <img src={flstar} alt="" className='verifico'/>
                           <img src={blstar} alt="" className='verifico'/>
                         </div>
-                        <p>4.0 | 30+ User Rating</p>
+                        <p className='sm-9 mt-2'>4.0 | 30+ User Rating</p>
+                      </div>
+                    </div>
+                    {/* </Link> */}
+                </div>
+            </div>
+            <div className="card border-none" >
+                <img src={pvads} className="card-img-top" alt="..."/>
+                <div className="card-body">
+                <div className='d-flex m-0 mb-2 justify-content-between align-items-center'>
+                  <div className='d-flex align-items-center'>
+                      <p className='m-0 sm-13'>Adv Shami Gautam </p>
+                      <img className = 'verifico ms-2 m-0' src={verifico}  alt=""/>
+                  </div>
+                  <div>
+                  <p className='m-0 sm-13'>Level 3+</p>
+                  </div>
+                </div>
+                    <h4 className="card-title">Criminal Lawyer</h4>
+                    <div className='locprovider d-flex w-100 align-item-center '>
+                      <img src={locoico} className = 'verifico' alt="" />
+                      <p className='d-flex sm-13 ms-2 '> High Court, Delhi </p>
+                    </div>
+                    <p className="card-text">20+ Yr of Experience Newer Lost Any Case till know. Flexible Charge free of cost consulting</p>
+                    {/* <Link to="/"> */}
+                    <div className='d-flex justify-content-between w-100'>
+                      <button type="button " className="btn btn-brown w-75 sm-13 ">Contact Me</button>
+                      <div className='d-flex flex-wrap justify-content-end'>
+                        <div className='d-flex flex-nowrap justify-content-end'>
+                          <img src={flstar} alt="" className='verifico'/>
+                          <img src={flstar} alt="" className='verifico'/>
+                          <img src={flstar} alt="" className='verifico'/>
+                          <img src={flstar} alt="" className='verifico'/>
+                          <img src={blstar} alt="" className='verifico'/>
+                        </div>
+                        <p className='sm-9 mt-2'>4.0 | 30+ User Rating</p>
+                      </div>
+                    </div>
+                    {/* </Link> */}
+                </div>
+            </div>
+            <div className="card border-none" >
+                <img src={pvads} className="card-img-top" alt="..."/>
+                <div className="card-body">
+                <div className='d-flex m-0 mb-2 justify-content-between align-items-center'>
+                  <div className='d-flex align-items-center'>
+                      <p className='m-0 sm-13'>Adv Shami Gautam </p>
+                      <img className = 'verifico ms-2 m-0' src={verifico}  alt=""/>
+                  </div>
+                  <div>
+                  <p className='m-0 sm-13'>Level 3+</p>
+                  </div>
+                </div>
+                    <h4 className="card-title">Criminal Lawyer</h4>
+                    <div className='locprovider d-flex w-100 align-item-center '>
+                      <img src={locoico} className = 'verifico' alt="" />
+                      <p className='d-flex sm-13 ms-2 '> High Court, Delhi </p>
+                    </div>
+                    <p className="card-text">20+ Yr of Experience Newer Lost Any Case till know. Flexible Charge free of cost consulting</p>
+                    {/* <Link to="/"> */}
+                    <div className='d-flex justify-content-between w-100'>
+                      <button type="button " className="btn btn-brown w-75 sm-13 ">Contact Me</button>
+                      <div className='d-flex flex-wrap justify-content-end'>
+                        <div className='d-flex flex-nowrap justify-content-end'>
+                          <img src={flstar} alt="" className='verifico'/>
+                          <img src={flstar} alt="" className='verifico'/>
+                          <img src={flstar} alt="" className='verifico'/>
+                          <img src={flstar} alt="" className='verifico'/>
+                          <img src={blstar} alt="" className='verifico'/>
+                        </div>
+                        <p className='sm-9 mt-2'>4.0 | 30+ User Rating</p>
+                      </div>
+                    </div>
+                    {/* </Link> */}
+                </div>
+            </div>
+            <div className="card border-none" >
+                <img src={pvads} className="card-img-top" alt="..."/>
+                <div className="card-body">
+                <div className='d-flex m-0 mb-2 justify-content-between align-items-center'>
+                  <div className='d-flex align-items-center'>
+                      <p className='m-0 sm-13'>Adv Shami Gautam </p>
+                      <img className = 'verifico ms-2 m-0' src={verifico}  alt=""/>
+                  </div>
+                  <div>
+                  <p className='m-0 sm-13'>Level 3+</p>
+                  </div>
+                </div>
+                    <h4 className="card-title">Criminal Lawyer</h4>
+                    <div className='locprovider d-flex w-100 align-item-center '>
+                      <img src={locoico} className = 'verifico' alt="" />
+                      <p className='d-flex sm-13 ms-2 '> High Court, Delhi </p>
+                    </div>
+                    <p className="card-text">20+ Yr of Experience Newer Lost Any Case till know. Flexible Charge free of cost consulting</p>
+                    {/* <Link to="/"> */}
+                    <div className='d-flex justify-content-between w-100'>
+                      <button type="button " className="btn btn-brown w-75 sm-13 ">Contact Me</button>
+                      <div className='d-flex flex-wrap justify-content-end'>
+                        <div className='d-flex flex-nowrap justify-content-end'>
+                          <img src={flstar} alt="" className='verifico'/>
+                          <img src={flstar} alt="" className='verifico'/>
+                          <img src={flstar} alt="" className='verifico'/>
+                          <img src={flstar} alt="" className='verifico'/>
+                          <img src={blstar} alt="" className='verifico'/>
+                        </div>
+                        <p className='sm-9 mt-2'>4.0 | 30+ User Rating</p>
                       </div>
                     </div>
                     {/* </Link> */}

@@ -155,11 +155,26 @@ body{
   border-radius: 22px;
   }
 
+  .carol-provid{
+    margin-top: 6em;
+  }
+
+  #providerslider .carousel-control-next, .carousel-control-prev,.carousel-indicators{
+    margin-top: 3em;
+  }
 
   .carol-provid .card{
     margin: 0 30px;
   }
 
   .verifico{
-    width: 18px;
+    width: 13px;
+    height: 13px;
+  }
+
+  .sm-13{
+    font-size: 13px;
+  }
+  .sm-9{
+    font-size: 9px;
   }
