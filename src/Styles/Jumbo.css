@@ -1,0 +1,30 @@
+.info1 .container {
+  height: 300px;
+  /* UI Properties */
+  background: #f0f0f0 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+
+.info1 .container h1 {
+  height: 80px;
+
+  /* UI Properties */
+  font-weight: 300;
+  font: normal normal Josefin Sans;
+  letter-spacing: 0px;
+  color: #000000;
+
+  opacity: 1;
+}
+.info1 .container h4 {
+  left: 171px;
+  height: 273px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal Josefin Sans;
+  letter-spacing: 0.82px;
+  color: #646464;
+  font-weight: 200;
+  opacity: 1;
+}
