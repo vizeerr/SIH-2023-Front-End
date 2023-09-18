@@ -166,8 +166,6 @@ const ProviderSlider = () => {
                     {/* </Link> */}
                 </div>
             </div>
-            
-           
         </div>
       </div>
       <div className="carousel-item" data-bs-interval="2000">

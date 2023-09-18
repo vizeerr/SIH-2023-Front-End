@@ -35,6 +35,11 @@ body{
     color: var(--brown);
   }
 
+  .btn-lightbg{
+    background: var(--yellight);
+    color: #000000;
+  }
+
   .head-land{
     color: var(--brown);
     text-shadow: 5px 4px 9px #00000029;
@@ -179,4 +184,12 @@ body{
   }
   .sm-9{
     font-size: 9px;
+  }
+
+  .bg-dark{
+    background: #000000 !important;
+  }
+
+  .footerul li{
+    color: #949494;
   }
