@@ -9,12 +9,12 @@ body{
   --unnamed-color-fef3e4: #FEF3E4;
   --unnamed-color-ff9f00: #FF9F00;
   --yellight: #F4EEE4;
-  --unnamed-color-fffbf6: #FFFBF6;
+  --lgbag: #FFFBF6;
   --unnamed-color-e8e8e8: #E8E8E8;
   --unnamed-color-b9977f: #B9977F;
   --brown: #452B01;
   }
-
+  
   .navbar-brand{
     font-family: 'Libre Baskerville', serif;
   }
@@ -32,4 +32,134 @@ body{
   .btn-yellight{
     border: 1px solid var(--brown);
     color: var(--brown);
+  }
+
+  .head-land{
+    color: var(--brown);
+    text-shadow: 5px 4px 9px #00000029;
+    font-family: 'Libre Baskerville', serif;
+  }
+
+  .rightarea img{
+    width: 84%;
+    filter: drop-shadow(0px 0px 8px #000000B8);
+  }
+
+  .leftarea{
+    width: 53%;
+    margin: 0 auto;
+  }
+
+  .leftarea .search{
+    border : 2px solid var(--unnamed-color-b9977f);
+    padding: 8px;
+    justify-content: space-between;
+   
+  }
+
+  .search input{
+    border-right: 1px solid var(--unnamed-color-b9977f);
+    border-radius: 0;
+    width: 89%;
+  }
+
+  .search input:active,.search input:focus{
+    border: none;
+  }
+  .border-none{
+    border: none;
+  }
+
+  .searchlog{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+  }
+
+  .leftarea h1{
+    font-size: 5.5em;
+  }
+
+  .showtabs .card{
+    width: 45%;
+  }
+
+  .showtabs .card img{
+    width: 85%;
+  }
+
+  .custpopbadge{
+    font-size: 15px;
+    color: #000000;
+    border: 1px solid #6F6F6F;
+    padding: 10px 26px;
+    font-weight: 400;
+    margin: 0 10px;
+  }
+
+
+  .infotab-img{
+    width: 90%;
+  }
+
+  .infotab .card{
+    width: 42%;
+    border-radius: 20px;
+  }
+  .infotab .card .card-title{
+    color: #473400;
+  }
+  .infotab .card .card-text{
+    color: #656565;
+  }
+  .infotab .card img{
+    width: 33%;
+  }
+
+  .lgbag{
+    background: var(--lgbag);
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .carol-serv{
+    max-width: 92%;
+    bottom: 5em;
+  }
+
+
+  .carousel-control-next, .carousel-control-prev{
+    width: 7%;
+    bottom: 8em;
+  }
+  .contain-card{
+    margin: 0 40px;
+  }
+  .contain-card .card{
+    box-shadow: 0px 3px 25px #A2A2A266;
+    border: 1px solid #ADADAD;
+    width: 91%;
+  }
+
+  .contain-card .card-text{
+    color:#686868;
+  }
+  .contain-card .card-img-bottom{
+    width: 100%;
+    position: relative;
+    bottom: 8px;
+    box-shadow: 0px 0px 28px #00000061;
+  border-radius: 22px;
+  }
+
+
+  .carol-provid .card{
+    margin: 0 30px;
+  }
+
+  .verifico{
+    width: 18px;
   }
