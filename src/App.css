@@ -11,8 +11,11 @@ body{
   --yellight: #F4EEE4;
   --lgbag: #FFFBF6;
   --unnamed-color-e8e8e8: #E8E8E8;
-  --unnamed-color-b9977f: #B9977F;
+  --searchcol: #B9977F;
   --brown: #452B01;
+  --lighttext : #686868;
+  --darktextlight : #A2A2A2;
+
   }
   .info1 .container {
   height: 300px;
@@ -52,8 +55,9 @@ body{
 
   .btn{
     border-radius: 60px;
-    width: 7.5%;
-    height: 35px;
+    width: 9%;
+    height: 33px;
+    font-size: 15px;
   }
   .btn-brown{
     background: var(--brown);
@@ -65,6 +69,11 @@ body{
     color: var(--brown);
   }
 
+  .btn-lightbg{
+    background: var(--yellight);
+    color: #000000;
+  }
+
   .head-land{
     color: var(--brown);
     text-shadow: 5px 4px 9px #00000029;
@@ -72,7 +81,7 @@ body{
   }
 
   .rightarea img{
-    width: 84%;
+    width: 71%;
     filter: drop-shadow(0px 0px 8px #000000B8);
   }
 
@@ -82,15 +91,15 @@ body{
   }
 
   .leftarea .search{
-    border : 2px solid var(--unnamed-color-b9977f);
-    padding: 8px;
+    border : 2px solid var(--searchcol);
+    padding: 3px;
     justify-content: space-between;
    
   }
 
   .search input{
-    border-right: 1px solid var(--unnamed-color-b9977f);
-    border-radius: 0;
+    border-right: 1px solid var(--searchcol);
+    border-radius: 50px;
     width: 89%;
   }
 
@@ -108,7 +117,7 @@ body{
   }
 
   .leftarea h1{
-    font-size: 5.5em;
+    /* font-size: 5.5em; */
   }
 
   .showtabs .card{
@@ -121,9 +130,9 @@ body{
 
   .custpopbadge{
     font-size: 15px;
-    color: #000000;
+    color: #6F6F6F;
     border: 1px solid #6F6F6F;
-    padding: 10px 26px;
+    padding: 10px 26px 6px;
     font-weight: 400;
     margin: 0 10px;
   }
@@ -158,7 +167,8 @@ body{
 
   .carol-serv{
     max-width: 92%;
-    bottom: 5em;
+    bottom: 4em;
+    margin-top: 4em;
   }
 
 
@@ -175,8 +185,8 @@ body{
     width: 91%;
   }
 
-  .contain-card .card-text{
-    color:#686868;
+  .lighttext{
+    color:var(--lighttext);
   }
   .contain-card .card-img-bottom{
     width: 100%;
@@ -186,14 +196,19 @@ body{
   border-radius: 22px;
   }
 
+  .carol-provid{
+    margin-top: 6em;
+  }
+
+  #providerslider .carousel-control-next, .carousel-control-prev,.carousel-indicators{
+    margin-top: 3em;
+  }
 
   .carol-provid .card{
     margin: 0 30px;
   }
 
-  .verifico{
-    width: 18px;
-  }
+
   .faq {
   font: normal normal 300 83px/109px Josefin Sans;
   letter-spacing: 0px;
@@ -292,3 +307,46 @@ body{
   font-weight: bold;
   color: aqua;
 }
+
+ .verifico{
+    width: 13px;
+    height: 13px;
+  }
+
+  .sm-13{
+    font-size: 13px;
+  }
+  .sm-9{
+    font-size: 9px;
+  }
+
+  .bg-dark{
+    background: #000000 !important;
+  }
+
+  
+
+  .footerul li{
+    color: #949494;
+  }
+
+  .darktextlight{
+    color: var(--darktextlight);
+  }
+
+  .imgcontainer{
+    background: #1D1200;
+  }
+  .imgcontainer .backimg{
+    opacity: 27%;
+  }
+
+  .stateimg{
+    box-shadow: 7px 11px 16px #00000059;
+  }
+
+  .x-3{
+    top: 3em;
+  }
+
+  
