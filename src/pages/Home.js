@@ -6,7 +6,7 @@ import ServicesSlider from '../components/landing-page/ServicesSlider'
 
 import Jumbo from '../components/landing-page/Jumbo'
 import Questions from '../components/landing-page/Questions'
-import Serviceinfo from '../components/landing-page/Serviceinfo'
+// import Serviceinfo from '../components/landing-page/Serviceinfo'
 
 
 import ProviderSlider from '../components/landing-page/ProviderSlider'
@@ -21,18 +21,18 @@ const Home = () => {
 
       <Herosection/>
       <Jumbo />
-      
       <Bestpart/>
-      <Serviceinfo />
       
       <ServicesSlider/>
 
-      <Questions />
+   
       
      
+      {/* <Serviceinfo /> */}
 
       <ProviderSlider/>
       <StateService/>
+      <Questions />
       <Footer/>
     </div>
   )

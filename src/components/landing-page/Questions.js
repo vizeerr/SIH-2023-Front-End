@@ -3,30 +3,28 @@ import "../../App.css"
 
 function Questions() {
   return (
-    <div>
-        <div class="container">
-        <div class="faq">Frequently Asked Questions</div>
-        <div class="accordion" id="accordionExample">
-          <div class="accordion-item">
-            <h2 class="accordion-header">
+    <div className="container mt-5">
+        <h1 className="display-3 mb-5">Frequently Asked Questions</h1>
+        <div className="accordion fw-light" id="accordionFAQ">
+          <div className="accordion-item  mb-4 acordhead rounded-3">
+            <h2 className="accordion-header ">
               <button
-                class="accordion-button"
+                className="accordion-button rounded-2 border-none "
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseOne"
                 aria-expanded="true"
                 aria-controls="collapseOne"
-                 
                 >
                 What is WakillMart ?
               </button>
             </h2>
             <div
               id="collapseOne"
-              class="accordion-collapse collapse show"
-              data-bs-parent="#accordionExample"
+              className="accordion-collapse collapse show"
+              data-bs-parent="#accordionFAQ"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 <strong>
                   WakillMart is an online marketplace that connects individuals
                   and businesses with experienced legal service providers. We
@@ -36,28 +34,29 @@ function Questions() {
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
+          <div className="accordion-item  mb-4 acordhead rounded-3">
+            <h2 className="accordion-header ">
               <button
-                class="accordion-button collapsed"
+                className="accordion-button rounded-2 border-none "
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseTwo"
                 aria-expanded="false"
                 aria-controls="collapseTwo"
-              >
+                 
+                >
                 What types of legal service providers are available on the
                 platform?
               </button>
             </h2>
             <div
               id="collapseTwo"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionExample"
+              className="accordion-collapse collapse hide"
+              data-bs-parent="#accordionFAQ"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 <strong>
-                  Our platform features a diverse range of legal service
+                Our platform features a diverse range of legal service
                   providers, including law firms, solo practitioners, legal
                   consultants, mediators, arbitrators, notaries, document
                   preparation services, expert witnesses, legal process servers,
@@ -66,57 +65,67 @@ function Questions() {
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
+          <div className="accordion-item  mb-4 acordhead rounded-3">
+            <h2 className="accordion-header ">
               <button
-                class="accordion-button collapsed"
+                className="accordion-button rounded-2 border-none "
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseThree"
                 aria-expanded="false"
                 aria-controls="collapseThree"
-              >
-                Is Your Legal Service Platform secure and trustworthy?
+                 
+                >
+                What types of legal service providers are available on the
+                platform?
               </button>
             </h2>
             <div
               id="collapseThree"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionExample"
+              className="accordion-collapse collapse hide"
+              data-bs-parent="#accordionFAQ"
             >
-              <div class="accordion-body">
-                <strong>Yes,it is completely secure and trustworthy.</strong>
+              <div className="accordion-body">
+                <strong>
+                Our platform features a diverse range of legal service
+                  providers, including law firms, solo practitioners, legal
+                  consultants, mediators, arbitrators, notaries, document
+                  preparation services, expert witnesses, legal process servers,
+                  and legal funding companies.
+                </strong>
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
+          <div className="accordion-item  mb-4 acordhead rounded-3">
+            <h2 className="accordion-header ">
               <button
-                class="accordion-button collapsed"
+                className="accordion-button rounded-2 border-none "
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseFour"
                 aria-expanded="false"
                 aria-controls="collapseFour"
-              >
-                How do I schedule an appointment with a legal service provider?
+                 
+                >
+                Is your legal service platform secure?
               </button>
             </h2>
             <div
               id="collapseFour"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionExample"
+              className="accordion-collapse collapse hide"
+              data-bs-parent="#accordionFAQ"
             >
-              <div class="accordion-body">
-                <strong> </strong>
+              <div className="accordion-body">
+                <strong>
+                Yes,it is completely secure and trustworthy
+                </strong>
               </div>
             </div>
           </div>
+          
+
         </div>
       </div>
-      
-      
-    </div>
   )
 }
 

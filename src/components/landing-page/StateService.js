@@ -1,10 +1,9 @@
 import React from 'react'
 import Delbg from '../../page 1 design images/delbgcut.jpeg'
-import pvads from '../../page 1 design images/pvadscpy.jpeg'
 
 const StateService = () => {
   return (
-    <div className='container-l mt-5 w-100 h-100 overflow-hidden'>
+    <div className='container-l mt-5 mb-5 w-100 h-100 overflow-hidden'>
       <div className="imgcontainer">
         <img className='backimg w-100 position-absolute' src={Delbg} alt="" />
         <div className='w-100 text-center position-relative x-3'>
@@ -107,15 +106,11 @@ const StateService = () => {
                 </div>
                 
             </div>
-           
-            
         </div>
       </div>
       <div className="carousel-item" data-bs-interval="2000">
-
       </div>
       <div className="carousel-item">
-
       </div>
     </div>
     <button className="carousel-control-prev" type="button" data-bs-target="#stateservice" data-bs-slide="prev">
