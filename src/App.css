@@ -3,7 +3,6 @@ body{
   padding: 0;
   font-family: 'Josefin Sans', sans-serif;
 }
-
 :root {
   --unnamed-color-707070: #707070;
   --unnamed-color-fef3e4: #FEF3E4;
@@ -13,7 +12,8 @@ body{
   --unnamed-color-e8e8e8: #E8E8E8;
   --unnamed-color-b9977f: #B9977F;
   --brown: #452B01;
-  }
+   width: 100%; 
+}
   
   .navbar-brand{
     font-family: 'Libre Baskerville', serif;
@@ -162,4 +162,221 @@ body{
 
   .verifico{
     width: 18px;
+  }
+
+
+  /* Service Page-Community */
+  .q{
+    width: 100%;
+  }
+
+  .comm-comp1{
+    margin-left: 2rem;
+    max-width: 100%;
+  }
+  .leads-comp1{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 3rem;
+  }
+  .comm-heading{
+     font-size: 3rem;
+     color: #343a34;
+     font-weight: 300;
+     margin: 0;
+  }
+  .comm-subheading{
+    color: #646464;
+  }
+  .comm-comp{
+    margin-top: 3rem;
+    background-color: var(--unnamed-color-e8e8e8);
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+  .comm-comp2{
+    margin-top: 3rem;
+    background-color: var(--unnamed-color-e8e8e8);
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+  .comm-image{
+    width: 50%;
+    object-fit: cover;
+  }
+  .comm-content{
+    padding: 4.5rem;
+    color: #646464;
+    font-size: 1.55rem;
+    line-height: 3rem;
+    margin: 0;
+    text-align: center;
+    width: 50%;
+  }
+
+  .tool-heading{
+    text-align: center;
+    color: #343a30;
+    font-weight: 300;
+    margin-bottom: 4rem;
+  }
+  .tool-box{
+    max-width: 100%;
+  }
+  .tool-box1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+  
+  }
+  h4{
+    color: #343A40;
+  }
+  .tool-list{
+    list-style: none;
+    justify-content: center;
+  }
+  .tool-image{
+    height: 27rem;
+    border-radius: 1.5rem;
+    width: 20%;
+  }
+  .f{
+    display: flex;
+  }
+  .tools-content{
+    color: #646464;
+    font-size: 1.2rem;
+    font-weight: 300;
+    max-width: 70%;
+  }
+  hr{
+    width: 65%;
+  }
+  h4{
+    color: #343a30;
+  }
+  .form-comp{
+    color: #212529;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFBF6;
+    box-shadow: 0px 0px 25px #00000029;
+    border: 1px solid #E2E2E2;
+    border-radius: 2.5rem;
+  }
+  .left-comp{
+    padding: 2rem;
+  }
+  .signup-heading{
+    color:#452B01;
+  }
+  .signup-image{
+    width: 40%;
+    height: 50rem;
+     border-radius: 0rem 2rem 2rem 0rem;
+  }
+  .form-elements{
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+  }
+  input{
+    padding: 0.75rem;
+    border-radius: 2rem;
+    border: 2px solid var(--unnamed-color-b9977f);
+  }
+  input:focus{
+    outline: none;
+  }
+  .signup-btn{
+    border-radius: 3rem;
+    padding: 0.75rem;
+    background-color:var(--brown);
+    color: var(--yellight);
+    margin-top: 2rem;
+    font-size: 1rem;
+    width: 70%;
+    border-style: none;
+  }
+  .google-btn{  
+      padding: 0.75rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      background-color:var(--brown);
+      color: var(--yellight);
+      border-radius: 2rem;
+      width: 70%;
+      margin-top: 1rem;
+      margin-right: auto;
+      border-style: none;
+  }
+  .signup-btn:focus,.google-btn:focus{
+    border-style: none;
+    outline: none;
+  }
+  @media(max-width:1024px){
+    .comm-content{
+      font-size: 1.3rem;
+      line-height: 2rem;
+    }
+    .tool-box1{
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+    .tool-image{
+      margin-bottom: 4rem;
+      width: 40%;
+    }
+ 
+  }
+  @media(max-width:768px){
+    .comm-comp2{
+      width: 100%;
+    }
+    .comm-content{
+      font-size: 1rem;
+      line-height: 2rem;
+    }
+   .google-btn,.signup-btn{
+    width: 100%;
+   }
+ 
+  }
+  @media(max-width:680px){
+    .comm-comp{
+      display: flex;
+      flex-direction: column;
+    }
+    .comm-comp2{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .comm-image{
+      width: 100%;
+     }
+     .comm-content{
+      width: 100%;
+      padding: 2rem;
+     }
+     .tool-image{
+      margin-bottom: 4rem;
+      width: 60%;
+    }
+    .form-comp{
+      display: flex;
+      flex-direction: column;
+    }
+    .signup-image{
+      display: none;
+    }
+    .google-btn,.signup-btn{
+      width: 100%;
+     }
   }

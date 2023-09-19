@@ -1,11 +1,13 @@
 
 import './App.css';
 import Home from './pages/Home'
+import Service from './pages/Service';
 
 function App() {
   return (
     <div>
-      <Home/>
+      {/* <Home/> */}
+      <Service/>
     </div>
 
   );
