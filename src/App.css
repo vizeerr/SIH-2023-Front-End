@@ -310,9 +310,10 @@ body {
 
 /* Rishav */
 .Works-container {
-  background-color: #E8E8E8;
-  margin-top: 6rem !important;
+  /* margin-top: 6rem !important; */
+  box-shadow: inset 0px 0px 19px #0000001F;
 }
+
 
 .Create-Account h3 {
   font-size: 1.4rem;
@@ -328,27 +329,29 @@ body {
 }
 
 .hero-Service-container {
-  margin-bottom: 6rem;
+  height: 90vh;
+  /* margin-bottom: 6rem; */
 }
+
 
 .hero-Service {
-  position: relative;
+  /* position: relative; */
   text-align: center;
+  background: #452B017D;
 }
 
-.hero-Service img {
-  width: 100%;
-  height: 38.7rem;
-  filter: brightness(0.5);
+.hero-Service video{
+  position: relative;
+  z-index: -2;
 }
 
-.hero-content button {
-  color: #473400;
-  background-color: #BBBBBB;
-  border-radius: 60px;
-  width: 20%;
-  height: 30px;
-  border: none;
+.hero-content .btn-lightbg {
+  height: 40px;
+  width: 22%;
+  background: #ffffff4e !important;
+  backdrop-filter: brightness(4) blur(30px) !important;
+  -webkit-backdrop-filter: brightness(4) blur(30px);
+  font-size: 16px;
 }
 
 .hero-content {
@@ -358,16 +361,21 @@ body {
   transform: translate(-50%, -50%);
 }
 
+
 .hero-content h1 {
-  font-size: 4.6rem;
+  /* font-size: 5.2em; */
+  font-weight: 400;
+  line-height: 1.3em;
   color: #FFFFFF;
   text-shadow: 6px 4px 22px #00000045;
 }
 
+
+
 .hero-content p {
-  font-size: 1.35rem;
   color: #B5B5B5;
   text-shadow: 1px 3px 6px #00000029;
+  font-weight: 300;
 }
 
 .accordion-button {
@@ -389,56 +397,28 @@ body {
 }
 
 .About-container {
-  background-color: #FFFBF6;
+  /* background-color: #FFFBF6; */
 }
 
-.carousel-item-next,
-.carousel-item-prev,
-.carousel-item.active {
-  display: flex;
-  align-items: center;
+.servfeedimg{
+  /* width: 25%; */
 }
 
-.carousel-item-content img {
-  width: 30% !important;
-  border-radius: 16px;
-}
 
-.carousel-caption h5,
-.carousel-caption p {
-  color: #473400;
-}
 
 .carousel-indicators [data-bs-target] {
   background-color: #473400;
 }
 
-.next,
-.previous {
-  filter: invert(1) grayscale(100);
-}
 
-.next {
-  left: 103%;
-  top: 50%;
-  transform: translate(0, -50%);
-}
-
-.previous {
-  left: -7rem;
-  top: 50%;
-  transform: translate(0, -50%);
-}
 
 .vertical-line {
-  border-left: 1px solid #000;
-  height: 8rem;
-  margin: 0 20px;
-  opacity: 0.3;
+  border-left: 2px solid #cbcbcb;
+  height: 11rem;
 }
 
 .App img {
-  width: 25%;
+  width: 20%;
 }
 
 .App h5 {
@@ -447,12 +427,9 @@ body {
 
 
 .Grow button {
-  color: #fff;
-  background-color: #473400;
-  border-radius: 60px;
-  width: 25%;
-  height: 30px;
-  border: none;
+  width: 30%;
+  height: 34px;
+  
 }
 
 

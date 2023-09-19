@@ -13,7 +13,7 @@ const Service = () => {
     <div>
       <Navbar />
       <HeroSection />
-      <JoinUs />
+      {/* <JoinUs /> */}
       <HowItWorks />
       <ServicesSlider />
       <AboutUs />
