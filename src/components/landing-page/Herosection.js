@@ -9,18 +9,18 @@ import expertico from '../../page 1 design images/expertico.png'
 
 const Herosection = () => {
   return (
-    <div className="container-fluid mt-5">
+    <div className="herosection container-fluid ">
       <div className="hero d-flex justify-content-between">
         <div className="leftarea mt-4 ms-5">
             <h1 className="display-1 head-land ">High Quality Legal Services </h1>
             <p className='fs-3 fw-light'>Finding a right Legal Service Provider can be difficult but not anymore</p>
-            <form className="w-75 align-middle d-flex search rounded-pill mt-4 mb-4" role="search">
+            <form className="w-75 align-items-center d-flex search rounded-pill mt-4 mb-4" role="search">
                 <input className="form-control me-2 border-none" type="search" placeholder="Search" aria-label="Search"/>
                 <img className='searchlog' src={searchbtn} alt="" />
             </form>
 
             <div className="searchsuggest d-flex align-items-center">
-                <p className= "fs-5 m-0"> Popular: </p>
+                <p className= "fs-5 m-0 lighttext"> Popular: </p>
                 <div className="badges ms-3">
                     <span className="badge rounded-pill custpopbadge ">Primary</span>
                     <span className="badge rounded-pill custpopbadge">Primary</span>
@@ -38,7 +38,7 @@ const Herosection = () => {
                         <div className="col ">
                         <div className="card-body p-0">
                             <h5 className="card-title">Card title</h5>
-                            <p className="card-text ">This is a wider card with supporting text below as a natural lead-in to.</p>
+                            <p className="card-text lighttext">This is a wider card with supporting text below as a natural lead-in to.</p>
                         </div>
                         </div>
                     </div>
@@ -51,7 +51,7 @@ const Herosection = () => {
                         <div className="col ">
                         <div className="card-body p-0">
                             <h5 className="card-title">Card title</h5>
-                            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to.</p>
+                            <p className="card-text  lighttext">This is a wider card with supporting text below as a natural lead-in to.</p>
                         </div>
                         </div>
                     </div>
@@ -64,7 +64,7 @@ const Herosection = () => {
                         <div className="col ">
                         <div className="card-body p-0">
                             <h5 className="card-title">Card title</h5>
-                            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to.</p>
+                            <p className="card-text  lighttext">This is a wider card with supporting text below as a natural lead-in to.</p>
                         </div>
                         </div>
                     </div>
@@ -77,7 +77,7 @@ const Herosection = () => {
                         <div className="col ">
                         <div className="card-body p-0">
                             <h5 className="card-title">Card title</h5>
-                            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to.</p>
+                            <p className="card-text  lighttext">This is a wider card with supporting text below as a natural lead-in to.</p>
                         </div>
                         </div>
                     </div>

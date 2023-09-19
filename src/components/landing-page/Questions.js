@@ -3,7 +3,7 @@ import "../../App.css"
 
 function Questions() {
   return (
-    <div className="container mt-5">
+    <div className="container mt-5 p-3">
         <h1 className="display-3 mb-5">Frequently Asked Questions</h1>
         <div className="accordion fw-light" id="accordionFAQ">
           <div className="accordion-item  mb-4 acordhead rounded-3">

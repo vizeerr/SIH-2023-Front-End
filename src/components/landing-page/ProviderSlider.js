@@ -9,7 +9,7 @@ import flstar from '../../page 1 design images/icons8-star-50.png'
 
 const ProviderSlider = () => {
   return (
-    <div className='container-fluid mt-5 mb-5'>
+    <div className='container-l mt-5 mb-5 p-0'>
     <div className='w-100 text-center mt-5'>
         <h1 className="display-3 "> Our Top Service Providers</h1>
         <button type="button" className="btn btn-brown float-end me-5"> View More</button>

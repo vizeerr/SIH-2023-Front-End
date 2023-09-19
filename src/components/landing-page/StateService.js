@@ -3,7 +3,7 @@ import Delbg from '../../page 1 design images/delbgcut.jpeg'
 import Delbgthumb from '../../page 1 design images/delbgcutthumb.jpeg'
 const StateService = () => {
   return (
-    <div className='container-l mt-5 mb-5 w-100 h-100 overflow-hidden'>
+    <div className='container-l mt-5 mb-5 w-100 h-100 p-0 overflow-hidden'>
       <div className="imgcontainer">
         <div className='w-100 text-center position-relative x-3'>
             <h1 className="display-3 text-light"> Find Services In Your State</h1>

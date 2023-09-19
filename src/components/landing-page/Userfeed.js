@@ -5,8 +5,8 @@ import flstar from '../../page 1 design images/icons8-star-50.png'
 
 const Userfeed = () => {
   return (
-    <div>
-      <div className='container-l mt-5 mb-5 w-100 h-100 overflow-hidden'>
+    
+      <div className='userfeed p-0 container-l mt-5 mb-5 w-100 h-100 overflow-hidden'>
         <div className='w-100 text-center position-relative x-3'>
             <h1 className="display-3"> What They Are Talking About WakilMart</h1>
             <button type="button" className="btn btn-brown float-end me-5"> View More</button>
@@ -135,8 +135,7 @@ const Userfeed = () => {
     </button>
   </div>
       </div>
-    
-    </div>
+
   )
 }
 
