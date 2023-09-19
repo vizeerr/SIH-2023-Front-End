@@ -7,10 +7,10 @@ const Loginonpage = () => {
     <div className='loginonpage container-l p-0 m-0  w-100 h-100 d-flex flex-nowrap'>
       <div className="row w-100 ">
         <div className="col loginbg" >
-            <div className="container-fluid p-5 positon-relative w-75">
+            <div className="container-fluid p-3 positon-relative w-75">
             
             <div>
-              <h1 className="display-4 "> Signup Here !</h1>
+              <h1 className="display-4 mt-3"> Signup Here !</h1>
               <form>
               <div className="mb-3">
                 <label for="fullname" className="form-label">Full Name</label>
@@ -36,7 +36,7 @@ const Loginonpage = () => {
               <button type="submit" className="btn btn-brown w-25">Sign Up</button>
               </form>
 
-              <div className=' w-75 mt-5'> 
+              <div className=' w-75 mt-3'> 
               <div className='d-flex flex-nowrap align-items-center justify-content-center'>
                 <hr className='w-50 me-2'/>
                 <p className='m-0'>OR</p>
@@ -45,14 +45,15 @@ const Loginonpage = () => {
                 <div className='d-flex mt-4 flex-nowrap align-items-center justify-content-center'>
                 <img style={{width:30+"px"}} src={gico} alt="" />
                 <p className='m-0 p-0 ms-2'> Sign Up With Google</p>
-
+                  
                 </div>
               </div>
             </div>
             </div>
         </div>
-        <div className="col m-0 p-0 text-end w-75">
-          <img className='w-100' src={hplogin} alt="" />
+        <div className="col m-0  text-start w-75 h-100 d-flex align-items-start justify-content-end flex-column loginrbg text-light">
+          <h1 className="display-1 ms-5 mb-2 w-100<">Let's<br/>Get Started<br/>Today !</h1>
+          <button type="submit" className="btn ms-5 mb-5 btn-brown w-25">Sign Up</button>
         </div>
       </div>
 

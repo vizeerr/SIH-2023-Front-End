@@ -9,7 +9,7 @@ import expertico from '../../page 1 design images/expertico.png'
 
 const Herosection = () => {
   return (
-    <div className="container-fluid ">
+    <div className="container-fluid mt-5">
       <div className="hero d-flex justify-content-between">
         <div className="leftarea mt-4 ms-5">
             <h1 className="display-1 head-land ">High Quality Legal Services </h1>

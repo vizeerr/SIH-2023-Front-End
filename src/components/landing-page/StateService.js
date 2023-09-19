@@ -5,7 +5,6 @@ const StateService = () => {
   return (
     <div className='container-l mt-5 mb-5 w-100 h-100 overflow-hidden'>
       <div className="imgcontainer">
-        <img className='backimg w-100 position-absolute' src={Delbgthumb} alt="" />
         <div className='w-100 text-center position-relative x-3'>
             <h1 className="display-3 text-light"> Find Services In Your State</h1>
             <button type="button" className="btn btn-lightbg float-end me-5"> View More</button>
