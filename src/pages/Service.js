@@ -7,6 +7,7 @@ import FAQ from "../components/Service-page/FAQ";
 import AboutUs from "../components/Service-page/AboutUs";
 import DownloadApp from "../components/Service-page/DownloadApp";
 import ServicesSlider from "../components/landing-page/ServicesSlider";
+import Footer from "../components/Footer"
 
 const Service = () => {
   return (
@@ -19,6 +20,7 @@ const Service = () => {
       <AboutUs />
       <FAQ />
       <DownloadApp />
+      <Footer/>
     </div>
   );
 };
