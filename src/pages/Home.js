@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import Herosection from '../components/landing-page/Herosection'
 import Bestpart from '../components/landing-page/Bestpart'
 import ServicesSlider from '../components/landing-page/ServicesSlider'
+import Loginonpage from '../components/landing-page/Loginonpage'
 
 import Jumbo from '../components/landing-page/Jumbo'
 import Questions from '../components/landing-page/Questions'
@@ -25,7 +26,7 @@ const Home = () => {
       
       <ServicesSlider/>
 
-   
+      <Loginonpage/>   
       
      
       {/* <Serviceinfo /> */}
