@@ -20,13 +20,20 @@ const Service = () => {
     <div>
       <Navbar />
       <HeroSection />
-      {/* <JoinUs /> */}
+      <JoinUs />
       <HowItWorks />
       <ServicesSlider />
+      <Community/>
+      <Tools/>
+
       <AboutUs />
+      <LoginForm/>   
+      
       <FAQ />
+
       <DownloadApp />
       <Footer/>
+      
     </div>
   );
 };

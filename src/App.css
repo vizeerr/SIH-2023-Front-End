@@ -557,32 +557,28 @@ border: 1px solid #BDBDBD;
   .comm-subheading{
     color: #646464;
   }
-  .comm-comp{
+  .comm-comp,.comm-comp2{
     margin-top: 3rem;
     background-color: var(--unnamed-color-e8e8e8);
     display: flex;
     align-items: center;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
   }
-  .comm-comp2{
-    margin-top: 3rem;
-    background-color: var(--unnamed-color-e8e8e8);
-    display: flex;
-    align-items: center;
-    margin-bottom: 3rem;
-  }
+   
   .comm-image{
     width: 50%;
     object-fit: cover;
+    height: 60vh;
   }
   .comm-content{
-    padding: 4.5rem;
+    padding: 4rem;
     color: #646464;
-    font-size: 1.55rem;
+    font-size: 1.8rem;
     line-height: 3rem;
     margin: 0;
     text-align: center;
     width: 50%;
+    font-weight: 300;
   }
 
   /************************Service-Page Tools.js**************************/
