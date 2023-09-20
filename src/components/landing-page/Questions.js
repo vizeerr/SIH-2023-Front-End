@@ -3,8 +3,8 @@ import "../../App.css"
 
 function Questions() {
   return (
-    <div className="container-l mt-5 p-5 lightbackground">
-        <h1 className="display-3 mb-5 ms-5 me-5">Frequently Asked Questions</h1>
+    <div className="container-l p-5 lightbackground">
+        <h1 className="display-3 mt-5 mb-5 ms-5 me-5">Frequently Asked Questions</h1>
         <div className="container-l ms-5 me-5">
         <div className="accordion fw-light" id="accordionFAQ">
           <div className="accordion-item  mb-4 acordhead rounded-3">

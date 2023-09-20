@@ -17,7 +17,6 @@ import Serviceinfo from '../components/landing-page/Serviceinfo'
 
 import DownloadApp from '../components/landing-page/DownloadApp'
 
-
 const Home = () => {
   return (
     <div>

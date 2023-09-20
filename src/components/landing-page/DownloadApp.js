@@ -4,10 +4,10 @@ import appleStore from "../../page 1 design images/appleStore.png";
 
 const DownloadApp = () => {
   return (
-    <div className="container-l mt-3 mb-3 p-5 ">
+    <div className="container-l mt-1 mb-1 p-4 ">
       <div className="container mt-5 d-flex justify-content-around align-items-center">
         <div className="Download d-flex flex-column gap-4 align-items-center justify-content-center">
-          <h3 className="d-flex justify-content-center display-6">
+          <h3 className="d-flex justify-content-center display-5">
             Download The App Know
           </h3>
           <div className="App d-flex justify-content-center">

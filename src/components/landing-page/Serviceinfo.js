@@ -8,7 +8,7 @@ import Sshot4 from "../../page 1 design images/Screenshot 2023-09-16 151519.png"
 
 function Serviceinfo() {
   return (
-    <div className="container-l mt-5 mb-5 lightbackground">
+    <div className="container-l lightbackground mt-0 pt-5 pb-5">
       <div className="w-100 text-center">
         <h1 className="display-3 "> Create Documents Quickly and Easily!</h1>
         <button type="button" className="btn btn-brown float-end me-5">
@@ -46,31 +46,31 @@ function Serviceinfo() {
             <div className="d-flex m-auto">
               <div class="card m-4 border-none text-center">
                 <img src={Sshot1} class="card-img-top doctempimg" alt="..."/>
-                <div class="card-body">
+                <div class="card-body lightbackground">
                   <h5 class="card-title">Card title</h5>  
                 </div>
               </div>
               <div class="card m-4 border-none text-center">
                 <img src={Sshot1} class="card-img-top doctempimg" alt="..."/>
-                <div class="card-body">
+                <div class="card-body lightbackground">
                   <h5 class="card-title">Card title</h5>  
                 </div>
               </div>
               <div class="card m-4 border-none text-center">
                 <img src={Sshot1} class="card-img-top doctempimg" alt="..."/>
-                <div class="card-body">
+                <div class="card-body lightbackground">
                   <h5 class="card-title">Card title</h5>  
                 </div>
               </div>
               <div class="card m-4 border-none text-center">
                 <img src={Sshot1} class="card-img-top doctempimg" alt="..."/>
-                <div class="card-body">
+                <div class="card-body lightbackground">
                   <h5 class="card-title">Card title</h5>  
                 </div>
               </div>
               <div class="card m-4 border-none text-center">
                 <img src={Sshot1} class="card-img-top doctempimg" alt="..."/>
-                <div class="card-body">
+                <div class="card-body lightbackground">
                   <h5 class="card-title">Card title</h5>  
                 </div>
               </div>
