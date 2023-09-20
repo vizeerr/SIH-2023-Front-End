@@ -165,7 +165,12 @@ body{
   }
 
 
-  /* Service Page-Community */
+
+
+
+
+
+   /***************** Service Page-Community.js ***************************/
   .q{
     width: 100%;
   }
@@ -217,6 +222,7 @@ body{
     width: 50%;
   }
 
+  /************************Service-Page Tools.js**************************/
   .tool-heading{
     text-align: center;
     color: #343a30;
@@ -257,6 +263,7 @@ body{
   .hr-tag{
     width: 65%;
   }
+  /**********************Service-Page -LoginForm.js***************************************/
   .form-comp{
     color: #212529;
     display: flex;
@@ -317,6 +324,7 @@ body{
     border-style: none;
     outline: none;
   }
+  /***********************Mobile Responsive **************************/
   @media(max-width:1024px){
     .comm-content{
       font-size: 1.3rem;
