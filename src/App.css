@@ -233,7 +233,7 @@ body{
     margin-bottom: 2rem;
   
   }
-  h4{
+  .tools-features{
     color: #343A40;
   }
   .tool-list{
@@ -254,11 +254,8 @@ body{
     font-weight: 300;
     max-width: 70%;
   }
-  hr{
+  .hr-tag{
     width: 65%;
-  }
-  h4{
-    color: #343a30;
   }
   .form-comp{
     color: #212529;
@@ -285,12 +282,12 @@ body{
     display: flex;
     flex-direction: column;
   }
-  input{
+  .input-tag{
     padding: 0.75rem;
     border-radius: 2rem;
     border: 2px solid var(--unnamed-color-b9977f);
   }
-  input:focus{
+  .input-tag:focus{
     outline: none;
   }
   .signup-btn{
