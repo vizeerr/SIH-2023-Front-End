@@ -21,8 +21,14 @@ const Service = () => {
       <JoinUs />
       <HowItWorks />
       <ServicesSlider />
+      <Community/>
+      <Tools/>
+
       <AboutUs />
+      <LoginForm/>   
+      
       <FAQ />
+
       <DownloadApp />
       <Footer />
     </div>

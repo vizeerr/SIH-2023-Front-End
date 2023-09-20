@@ -1,5 +1,5 @@
 import React from 'react'
-import commimage from "../servicepageimages/commimage.jpg"
+import commimage from "../../service page images/pexels-pavel-danilyuk-6340688.jpg"
 function Community() {
   return (
     <div className='q'>
