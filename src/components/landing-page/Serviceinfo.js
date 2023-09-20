@@ -1,21 +1,23 @@
 import React from "react";
 import "../../App.css";
 
-import Screenshot from "../../page 1 design images/Screenshot.png";
-import Screenshot1 from "../../page 1 design images/Screenshot1.png";
+import Sshot1 from "../../page 1 design images/Screenshot 2023-09-16 150112.png";
+import Sshot2 from "../../page 1 design images/Screenshot 2023-09-16 151438.png";
+import Sshot3 from "../../page 1 design images/Screenshot 2023-09-16 151501.png";
+import Sshot4 from "../../page 1 design images/Screenshot 2023-09-16 151519.png";
+
 function Serviceinfo() {
   return (
-    <div className="lg container-fluid p-5 my-5 bg #f0f0f0">
-      <div className="w-100 text-center mt-5">
+    <div className="container-l mt-5 mb-5">
+      <div className="w-100 text-center">
         <h1 className="display-3 "> Create Documents Quickly and Easily!</h1>
         <button type="button" className="btn btn-brown float-end me-5">
-          {" "}
           View More
         </button>
       </div>
       <div
         id="serviceinfo"
-        className="carousel carousel-dark slide mt-5 w-100 "
+        className="carousel carousel-dark slide w-100 "
       >
         <div className="carousel-indicators  ">
           <button
@@ -40,12 +42,46 @@ function Serviceinfo() {
           ></button>
         </div>
         <div className="container carousel-inner carol-serv ">
-          <div className="carousel-item active" data-bs-interval="10000">
+          <div className="carousel-item active mb-4" data-bs-interval="10000">
+            <div className="d-flex m-auto">
+              <div class="card m-4 border-none text-center">
+                <img src={Sshot1} class="card-img-top doctempimg" alt="..."/>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>  
+                </div>
+              </div>
+              <div class="card m-4 border-none text-center">
+                <img src={Sshot1} class="card-img-top doctempimg" alt="..."/>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>  
+                </div>
+              </div>
+              <div class="card m-4 border-none text-center">
+                <img src={Sshot1} class="card-img-top doctempimg" alt="..."/>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>  
+                </div>
+              </div>
+              <div class="card m-4 border-none text-center">
+                <img src={Sshot1} class="card-img-top doctempimg" alt="..."/>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>  
+                </div>
+              </div>
+              <div class="card m-4 border-none text-center">
+                <img src={Sshot1} class="card-img-top doctempimg" alt="..."/>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="carousel-item " data-bs-interval="5000">
             <div className="d-flex">
               <div className="wrapper p-5">
                 <div className="item ">
                   <div className="img-area">
-                    <img src={Screenshot1} alt="" />
+                    <img src={Sshot1} alt="" />
                   </div>
 
                   <p>Affidavit for Year Gap</p>
@@ -53,32 +89,32 @@ function Serviceinfo() {
 
                 <div className="item ">
                   <div className="img-area">
-                    <img src={Screenshot} alt="" />
+                    <img src={Sshot2} alt="" />
                   </div>
                   <p>Affidavit for Regular Bail</p>
                 </div>
 
                 <div className="item">
                   <div className="img-area">
-                    <img src={Screenshot} alt="" />
+                    <img src={Sshot2} alt="" />
                   </div>
                   <p>Affidavit for Change of Name</p>
                 </div>
                 <div className="item">
                   <div className="img-area">
-                    <img src={Screenshot1} alt="" />
+                    <img src={Sshot1} alt="" />
                   </div>
                   <p>Divorce Petition</p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="carousel-item active" data-bs-interval="10000">
+          <div className="carousel-item " data-bs-interval="2000">
             <div className="d-flex">
               <div className="wrapper p-5">
                 <div className="item ">
                   <div className="img-area">
-                    <img src={Screenshot1} alt="" />
+                    <img src={Sshot1} alt="" />
                   </div>
 
                   <p>Affidavit for Year Gap</p>
@@ -86,53 +122,20 @@ function Serviceinfo() {
 
                 <div className="item ">
                   <div className="img-area">
-                    <img src={Screenshot} alt="" />
+                    <img src={Sshot2} alt="" />
                   </div>
                   <p>Affidavit for Regular Bail</p>
                 </div>
 
                 <div className="item">
                   <div className="img-area">
-                    <img src={Screenshot} alt="" />
+                    <img src={Sshot2} alt="" />
                   </div>
                   <p>Affidavit for Change of Name</p>
                 </div>
                 <div className="item">
                   <div className="img-area">
-                    <img src={Screenshot1} alt="" />
-                  </div>
-                  <p>Divorce Petition</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="carousel-item active" data-bs-interval="10000">
-            <div className="d-flex">
-              <div className="wrapper p-5">
-                <div className="item ">
-                  <div className="img-area">
-                    <img src={Screenshot1} alt="" />
-                  </div>
-
-                  <p>Affidavit for Year Gap</p>
-                </div>
-
-                <div className="item ">
-                  <div className="img-area">
-                    <img src={Screenshot} alt="" />
-                  </div>
-                  <p>Affidavit for Regular Bail</p>
-                </div>
-
-                <div className="item">
-                  <div className="img-area">
-                    <img src={Screenshot} alt="" />
-                  </div>
-                  <p>Affidavit for Change of Name</p>
-                </div>
-                <div className="item">
-                  <div className="img-area">
-                    <img src={Screenshot1} alt="" />
+                    <img src={Sshot1} alt="" />
                   </div>
                   <p>Divorce Petition</p>
                 </div>
