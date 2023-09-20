@@ -9,19 +9,19 @@ import expertico from '../../page 1 design images/expertico.png'
 
 const Herosection = () => {
   return (
-    <div className="container-fluid mb-5">
+    <div className="herosection container-fluid ">
       <div className="hero d-flex justify-content-between">
-        <div className="leftarea mt-4">
+        <div className="leftarea mt-4 ms-5">
             <h1 className="display-1 head-land ">High Quality Legal Services </h1>
-            <p className='fs-1 fw-light'>Finding a right Legal Service Provider can be difficult but not anymore</p>
-            <form className="w-75 align-middle d-flex search rounded-pill mt-4 mb-4" role="search">
+            <p className='fs-3 fw-light'>Finding a right Legal Service Provider can be difficult but not anymore</p>
+            <form className="w-75 align-items-center d-flex search rounded-pill mt-4 mb-4" role="search">
                 <input className="form-control me-2 border-none" type="search" placeholder="Search" aria-label="Search"/>
                 <img className='searchlog' src={searchbtn} alt="" />
             </form>
 
-            <div className="searchsuggest d-flex align-middle">
-                <p className= "fs-5 m-0"> Popular: </p>
-                <div className="badges ">
+            <div className="searchsuggest d-flex align-items-center">
+                <p className= "fs-5 m-0 lighttext"> Popular: </p>
+                <div className="badges ms-3">
                     <span className="badge rounded-pill custpopbadge ">Primary</span>
                     <span className="badge rounded-pill custpopbadge">Primary</span>
                     <span className="badge rounded-pill custpopbadge">Primary</span>
@@ -29,8 +29,8 @@ const Herosection = () => {
 
                 </div>
             </div>
-            <div className=" showtabs d-flex justify-content-between flex-wrap">
-                <div className="card border-none mt-5">
+            <div className=" showtabs d-flex justify-content-between flex-wrap mt-3">
+                <div className="card border-none mt-4">
                     <div className="row d-flex justify-content-between align-middle ">
                         <div className="col-md-2 p-0">
                             <img src={convico}  alt="..."/>
@@ -38,12 +38,12 @@ const Herosection = () => {
                         <div className="col ">
                         <div className="card-body p-0">
                             <h5 className="card-title">Card title</h5>
-                            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to.</p>
+                            <p className="card-text lighttext">This is a wider card with supporting text below as a natural lead-in to.</p>
                         </div>
                         </div>
                     </div>
                 </div>
-                <div className="card border-none mt-5">
+                <div className="card border-none mt-4">
                     <div className="row d-flex justify-content-between align-middle ">
                         <div className="col-md-2 p-0">
                             <img src={expertico} alt="..."/>
@@ -51,12 +51,12 @@ const Herosection = () => {
                         <div className="col ">
                         <div className="card-body p-0">
                             <h5 className="card-title">Card title</h5>
-                            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to.</p>
+                            <p className="card-text  lighttext">This is a wider card with supporting text below as a natural lead-in to.</p>
                         </div>
                         </div>
                     </div>
                 </div>
-                <div className="card border-none mt-5">
+                <div className="card border-none mt-4">
                     <div className="row d-flex justify-content-between align-middle ">
                         <div className="col-md-2 p-0">
                             <img src={transpico} alt="..."/>
@@ -64,12 +64,12 @@ const Herosection = () => {
                         <div className="col ">
                         <div className="card-body p-0">
                             <h5 className="card-title">Card title</h5>
-                            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to.</p>
+                            <p className="card-text  lighttext">This is a wider card with supporting text below as a natural lead-in to.</p>
                         </div>
                         </div>
                     </div>
                 </div>
-                <div className="card border-none mt-5">
+                <div className="card border-none mt-4">
                     <div className="row d-flex justify-content-between align-middle ">
                         <div className="col-md-2 p-0">
                             <img src={legalico} alt="..."/>
@@ -77,7 +77,7 @@ const Herosection = () => {
                         <div className="col ">
                         <div className="card-body p-0">
                             <h5 className="card-title">Card title</h5>
-                            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to.</p>
+                            <p className="card-text  lighttext">This is a wider card with supporting text below as a natural lead-in to.</p>
                         </div>
                         </div>
                     </div>
