@@ -9,6 +9,12 @@ import DownloadApp from "../components/Service-page/DownloadApp";
 import ServicesSlider from "../components/landing-page/ServicesSlider";
 import Footer from "../components/Footer"
 
+
+import Community from '../components/Service-page/Community'
+import Tools from '../components/Service-page/Tools'
+import LoginForm from '../components/Service-page/LoginForm'
+
+
 const Service = () => {
   return (
     <div>
@@ -26,3 +32,4 @@ const Service = () => {
 };
 
 export default Service;
+
