@@ -239,7 +239,7 @@ body{
     margin-bottom: 2rem;
   
   }
-  .tools-features{
+  h4{
     color: #343A40;
   }
   .tool-list{
@@ -260,10 +260,16 @@ body{
     font-weight: 300;
     max-width: 70%;
   }
-  .hr-tag{
+  hr{
     width: 65%;
   }
+<<<<<<< HEAD
   /**********************Service-Page -LoginForm.js***************************************/
+=======
+  h4{
+    color: #343a30;
+  }
+>>>>>>> parent of 9607163 (classname changed)
   .form-comp{
     color: #212529;
     display: flex;
@@ -289,12 +295,12 @@ body{
     display: flex;
     flex-direction: column;
   }
-  .input-tag{
+  input{
     padding: 0.75rem;
     border-radius: 2rem;
     border: 2px solid var(--unnamed-color-b9977f);
   }
-  .input-tag:focus{
+  input:focus{
     outline: none;
   }
   .signup-btn{
