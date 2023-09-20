@@ -11,11 +11,11 @@ const JoinUs = () => {
             <div className="card p-3">
               <img
                 src={expand}
-                className="card-img-top m-auto rounded"
+                className="w-100 card-img-top rounded"
                 alt="..."
               />
-              <div className="card-body">
-                <h5 className="card-title">Expand Your Reach</h5>
+              <div className="Join-content card-body">
+                <h5 className="mt-3 card-title">Expand Your Reach</h5>
                 <p className="card-text">
                   Access a broader client base and increase your visibility in
                   the legal community.
@@ -25,11 +25,11 @@ const JoinUs = () => {
             <div className="card p-3">
               <img
                 src={expand}
-                className="card-img-top m-auto rounded"
+                className="w-100 card-img-top rounded"
                 alt="..."
               />
-              <div className="card-body">
-                <h5 className="card-title">Expand Your Reach</h5>
+              <div className="Join-content card-body">
+                <h5 className="mt-3 card-title">Expand Your Reach</h5>
                 <p className="card-text">
                   Access a broader client base and increase your visibility in
                   the legal community.
@@ -39,11 +39,11 @@ const JoinUs = () => {
             <div className="card p-3">
               <img
                 src={expand}
-                className="card-img-top m-auto rounded"
+                className="w-100 card-img-top rounded"
                 alt="..."
               />
-              <div className="card-body">
-                <h5 className="card-title">Expand Your Reach</h5>
+              <div className="Join-content card-body">
+                <h5 className="mt-3 card-title">Expand Your Reach</h5>
                 <p className="card-text">
                   Access a broader client base and increase your visibility in
                   the legal community.
@@ -53,11 +53,11 @@ const JoinUs = () => {
             <div className="card p-3">
               <img
                 src={expand}
-                className="card-img-top m-auto rounded"
+                className="w-100 card-img-top rounded"
                 alt="..."
               />
-              <div className="card-body">
-                <h5 className="card-title">Expand Your Reach</h5>
+              <div className="Join-content card-body">
+                <h5 className="mt-3 card-title">Expand Your Reach</h5>
                 <p className="card-text">
                   Access a broader client base and increase your visibility in
                   the legal community.

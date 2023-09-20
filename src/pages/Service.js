@@ -7,13 +7,11 @@ import FAQ from "../components/Service-page/FAQ";
 import AboutUs from "../components/Service-page/AboutUs";
 import DownloadApp from "../components/Service-page/DownloadApp";
 import ServicesSlider from "../components/landing-page/ServicesSlider";
-import Footer from "../components/Footer"
+import Footer from "../components/Footer";
 
-
-import Community from '../components/Service-page/Community'
-import Tools from '../components/Service-page/Tools'
-import LoginForm from '../components/Service-page/LoginForm'
-
+import Community from "../components/Service-page/Community";
+import Tools from "../components/Service-page/Tools";
+import LoginForm from "../components/Service-page/LoginForm";
 
 const Service = () => {
   return (
@@ -32,11 +30,9 @@ const Service = () => {
       <FAQ />
 
       <DownloadApp />
-      <Footer/>
-      
+      <Footer />
     </div>
   );
 };
 
 export default Service;
-
