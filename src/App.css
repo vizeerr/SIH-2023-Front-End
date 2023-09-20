@@ -517,4 +517,61 @@ body {
   color: aqua;
 }
 
- 
+.lg {
+  background: #f0f0f0;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 47px;
+}
+
+.lg .img-area {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 17px #00000026;
+  border: 1px solid #bdbdbd;
+}
+.lg .img-area img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 1px solid #bdbdbd;
+}
+.lg .item {
+  text-align: center;
+  display: block;
+  margin-bottom: 1px;
+  float: left;
+  position: relative;
+  width: 190px;
+  height: 280px;
+}
+
+.lg p {
+  /* UI Properties */
+  color: var(--unnamed-color-452b01);
+  text-align: center;
+  font: normal normal normal Josefin Sans;
+  font-size: small;
+  letter-spacing: 0px;
+  color: #452b01;
+  opacity: 1;
+}
+
+.lg .carousel-control-prev-icon,
+.lg .carousel-control-next-icon {
+  position: absolute;
+  bottom: 2em;
+  left: 0px;
+}
