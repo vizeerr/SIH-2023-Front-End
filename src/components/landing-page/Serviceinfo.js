@@ -8,7 +8,7 @@ import Sshot4 from "../../page 1 design images/Screenshot 2023-09-16 151519.png"
 
 function Serviceinfo() {
   return (
-    <div className="container-l mt-5 mb-5">
+    <div className="container-l mt-5 mb-5 lightbackground">
       <div className="w-100 text-center">
         <h1 className="display-3 "> Create Documents Quickly and Easily!</h1>
         <button type="button" className="btn btn-brown float-end me-5">
