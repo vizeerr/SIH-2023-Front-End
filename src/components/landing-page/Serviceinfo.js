@@ -3,8 +3,8 @@ import "../../App.css";
 
 import Sshot1 from "../../page 1 design images/Screenshot 2023-09-16 150112.png";
 import Sshot2 from "../../page 1 design images/Screenshot 2023-09-16 151438.png";
-import Sshot3 from "../../page 1 design images/Screenshot 2023-09-16 151501.png";
-import Sshot4 from "../../page 1 design images/Screenshot 2023-09-16 151519.png";
+// import Sshot3 from "../../page 1 design images/Screenshot 2023-09-16 151501.png";
+// import Sshot4 from "../../page 1 design images/Screenshot 2023-09-16 151519.png";
 
 function Serviceinfo() {
   return (
