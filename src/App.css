@@ -99,9 +99,9 @@ body {
   margin-right: 20px;
 }
 
-.leftarea h1 {
-  /* font-size: 5.5em; */
-}
+/*.leftarea h1 {
+   font-size: 5.5em; 
+}*/
 
 .showtabs .card {
   width: 45%;
@@ -410,13 +410,13 @@ body {
 }
 
 
-.About-container {
-  /* background-color: #FFFBF6; */
-}
+/*.About-container {
+   background-color: #FFFBF6; 
+}*/
 
-.servfeedimg {
-  /* width: 25%; */
-}
+/*.servfeedimg {
+   width: 25%; 
+}*/
 
 
 
@@ -493,36 +493,23 @@ body {
 #serviceinfo .carol-serv {
   bottom: 0;
 }
-.info h3 {
-  /* UI Properties */
-  color: var(--unnamed-color-452b01);
-  text-align: left;
-  font: normal normal normal Josefin Sans;
-  font-size: large;
-  letter-spacing: 0px;
-  color: #452b01;
-  opacity: 1;
-}
-.info .price {
-  margin: 0;
-  font-size: 30px;
-  font-weight: bold;
-  color: aqua;
-}
 
-.lg {
-  background: #f0f0f0;
-  height: fit-content;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
 
 #serviceinfo .carousel-control-next,
 #serviceinfo .carousel-control-prev {
   bottom: 4em;
   margin-top: 0;
+}
+#serviceinfo h5{
+  color: var(--unnamed-color-452b01);
+  text-align: center;
+  font: normal normal normal Josefin Sans;
+  font-size: small;
+  letter-spacing: 0px;
+  color: #452b01;
+  opacity: 1;
+  
+
 }
 
 /* Madhav */
@@ -539,7 +526,7 @@ body {
   .leads-comp1{
     display: flex;
     flex-direction: column;
-    align-items: end;
+    align-items: flex-end;
     margin-right: 3rem;
   }
   .comm-heading{

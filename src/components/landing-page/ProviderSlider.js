@@ -32,14 +32,14 @@ const ProviderSlider = () => {
                 <div className="card-body">
                 <div className='d-flex m-0 mb-2 justify-content-between align-items-center'>
                   <div className='d-flex align-items-center'>
-                      <p className='m-0 lighttext sm-13'>Adv Shami Gautam </p>
+                      <p className='m-0 lighttext sm-13'>Adv Shami Khan </p>
                       <img className = 'verifico ms-2 m-0' src={verifico}  alt=""/>
                   </div>
                   <div>
                   <p className='m-0 lighttext sm-13'>Level 3+</p>
                   </div>
                 </div>
-                    <h4 className="card-title">Criminal Lawyer</h4>
+                    <h4 className="card-title">CriminalLawyer</h4>
                     <div className='locprovider d-flex w-100 align-item-center '>
                       <img src={locoico} className = 'verifico' alt="" />
                       <p className='d-flex sm-13 lighttext  ms-2 '> High Court, Delhi </p>
@@ -109,7 +109,7 @@ const ProviderSlider = () => {
                   <p className='m-0 lighttext sm-13'>Level 3</p>
                   </div>
                 </div>
-                    <h4 className="card-title">Corporate Lawyer</h4>
+                    <h4 className="card-title">FamilyLawyer</h4>
                     <div className='locprovider d-flex w-100 align-item-center '>
                       <img src={locoico} className = 'verifico' alt="" />
                       <p className='d-flex sm-13 lighttext  ms-2 '> High Court, Delhi </p>
@@ -144,7 +144,7 @@ const ProviderSlider = () => {
                   <p className='m-0 lighttext sm-13'>Level 3+</p>
                   </div>
                 </div>
-                    <h4 className="card-title">Civil Litigation Lawyer</h4>
+                    <h4 className="card-title">CivilLawyer</h4>
                     <div className='locprovider d-flex w-100 align-item-center '>
                       <img src={locoico} className = 'verifico' alt="" />
                       <p className='d-flex sm-13 lighttext  ms-2 '> High Court, Delhi </p>
@@ -176,19 +176,19 @@ const ProviderSlider = () => {
                 <div className="card-body">
                 <div className='d-flex m-0 mb-2 justify-content-between align-items-center'>
                   <div className='d-flex align-items-center'>
-                      <p className='m-0 lighttext sm-13'>Adv Shami Gautam </p>
+                      <p className='m-0 lighttext sm-13'>Adv Shami Khan</p>
                       <img className = 'verifico ms-2 m-0' src={verifico}  alt=""/>
                   </div>
                   <div>
                   <p className='m-0 lighttext sm-13'>Level 3+</p>
                   </div>
                 </div>
-                    <h4 className="card-title">Criminal Lawyer</h4>
+                    <h4 className="card-title">CriminalLawyer</h4>
                     <div className='locprovider d-flex w-100 align-item-center '>
                       <img src={locoico} className = 'verifico' alt="" />
                       <p className='d-flex sm-13 lighttext  ms-2 '> High Court, Delhi </p>
                     </div>
-                    <p className="card-text lighttext ">20+ Yr of Experience Newer Lost Any Case till know. Flexible Charge free of cost consulting</p>
+                    <p className="card-text lighttext ">20+ Yr of Experience Never Lost Any Case till know. Flexible Charge free of cost consulting</p>
                     {/* <Link to="/"> */}
                     <div className='d-flex justify-content-between w-100'>
                       <button type="button " className="btn btn-brown w-75 sm-13 ">Contact Me</button>
@@ -246,14 +246,14 @@ const ProviderSlider = () => {
                 <div className="card-body">
                 <div className='d-flex m-0 mb-2 justify-content-between align-items-center'>
                   <div className='d-flex align-items-center'>
-                      <p className='m-0 lighttext sm-13'>Adv Suksham Gupta </p>
+                      <p className='m-0 lighttext sm-13'>Adv Suksham  </p>
                       <img className = 'verifico ms-2 m-0' src={verifico}  alt=""/>
                   </div>
                   <div>
                   <p className='m-0 lighttext sm-13'>Level 3</p>
                   </div>
                 </div>
-                    <h4 className="card-title">Criminal Lawyer</h4>
+                    <h4 className="card-title">FamilyLawyer</h4>
                     <div className='locprovider d-flex w-100 align-item-center '>
                       <img src={locoico} className = 'verifico' alt="" />
                       <p className='d-flex sm-13 lighttext  ms-2 '> High Court, Delhi </p>
@@ -288,7 +288,7 @@ const ProviderSlider = () => {
                   <p className='m-0 lighttext sm-13'>Level 3+</p>
                   </div>
                 </div>
-                    <h4 className="card-title">Criminal Lawyer</h4>
+                    <h4 className="card-title">CivilLawyer</h4>
                     <div className='locprovider d-flex w-100 align-item-center '>
                       <img src={locoico} className = 'verifico' alt="" />
                       <p className='d-flex sm-13 lighttext  ms-2 '> High Court, Delhi </p>
@@ -322,14 +322,14 @@ const ProviderSlider = () => {
                 <div className="card-body">
                 <div className='d-flex m-0 mb-2 justify-content-between align-items-center'>
                   <div className='d-flex align-items-center'>
-                      <p className='m-0 lighttext sm-13'>Adv Shami Gautam </p>
+                      <p className='m-0 lighttext sm-13'>Adv Shami Khan </p>
                       <img className = 'verifico ms-2 m-0' src={verifico}  alt=""/>
                   </div>
                   <div>
                   <p className='m-0 lighttext sm-13'>Level 3+</p>
                   </div>
                 </div>
-                    <h4 className="card-title">Criminal Lawyer</h4>
+                    <h4 className="card-title">CriminalLawyer</h4>
                     <div className='locprovider d-flex w-100 align-item-center '>
                       <img src={locoico} className = 'verifico' alt="" />
                       <p className='d-flex sm-13 lighttext  ms-2 '> High Court, Delhi </p>
@@ -392,14 +392,14 @@ const ProviderSlider = () => {
                 <div className="card-body">
                 <div className='d-flex m-0 mb-2 justify-content-between align-items-center'>
                   <div className='d-flex align-items-center'>
-                      <p className='m-0 lighttext sm-13'>Adv Suksham Gupta </p>
+                      <p className='m-0 lighttext sm-13'>Adv Suksham  </p>
                       <img className = 'verifico ms-2 m-0' src={verifico}  alt=""/>
                   </div>
                   <div>
                   <p className='m-0 lighttext sm-13'>Level 3</p>
                   </div>
                 </div>
-                    <h4 className="card-title">Criminal Lawyer</h4>
+                    <h4 className="card-title">FamilyLawyer</h4>
                     <div className='locprovider d-flex w-100 align-item-center '>
                       <img src={locoico} className = 'verifico' alt="" />
                       <p className='d-flex sm-13 lighttext  ms-2 '> High Court, Delhi </p>
@@ -434,7 +434,7 @@ const ProviderSlider = () => {
                   <p className='m-0 lighttext sm-13'>Level 3+</p>
                   </div>
                 </div>
-                    <h4 className="card-title">Criminal Lawyer</h4>
+                    <h4 className="card-title">CivilLawyer</h4>
                     <div className='locprovider d-flex w-100 align-item-center '>
                       <img src={locoico} className = 'verifico' alt="" />
                       <p className='d-flex sm-13 lighttext  ms-2 '> High Court, Delhi </p>

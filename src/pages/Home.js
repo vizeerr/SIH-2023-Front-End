@@ -25,8 +25,8 @@ const Home = () => {
       <Jumbo />
       <Bestpart/>
       <ServicesSlider/>
-      <Loginonpage/>   
-      <Userfeed/>
+       
+      
       
      
 

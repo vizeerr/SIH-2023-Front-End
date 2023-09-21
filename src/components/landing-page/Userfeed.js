@@ -5,10 +5,39 @@ import flstar from "../../page 1 design images/icons8-star-50.png";
 
 const Userfeed = () => {
   return (
-  <div className='userfeed p-0 pt-5 pb-5 container-l w-100 h-100 overflow-hidden'>
-        <div className='w-100 text-center position-relative x-3'>
-            <h1 className="display-3"> What They Are Talking About WakilMart</h1>
-            <button type="button" className="btn btn-brown float-end me-5"> View More</button>
+    <div className="userfeed p-0 container-l mt-5 mb-5 w-100 h-100 overflow-hidden">
+      <div className="w-100 text-center position-relative x-3">
+        <h1 className="display-3"> What They Are Talking About WakilMart</h1>
+        <button type="button" className="btn btn-brown float-end me-5">
+          {" "}
+          View More
+        </button>
+      </div>
+      <div
+        id="userfeedback"
+        className=" carousel carousel-dark slide mt-5 w-100"
+      >
+        <div className="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#userfeedback"
+            data-bs-slide-to="0"
+            className="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#userfeedback"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#userfeedback"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
         </div>
         <div className="container carousel-inner carol-provid">
           <div className="carousel-item mb-5 active" data-bs-interval="10000">
