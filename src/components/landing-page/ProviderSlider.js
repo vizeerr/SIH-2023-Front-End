@@ -11,7 +11,7 @@ import lawyer2 from '../../page 1 design images/lawyer2.jpeg'
 
 const ProviderSlider = () => {
   return (
-    <div className='container-l mt-5 mb-5 p-0'>
+    <div className='container-l mt-5 mb-5 p-0 pt-5 pb-5'>
     <div className='w-100 text-center mt-5'>
         <h1 className="display-3 "> Our Top Service Providers</h1>
         <button type="button" className="btn btn-brown float-end me-5"> View More</button>

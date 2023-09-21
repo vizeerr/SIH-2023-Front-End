@@ -3,7 +3,7 @@ import bestimg from '../../page 1 design images/bestimg.jpeg'
 import bribe from '../../page 1 design images/icons8-bribery-100.png'
 const Bestpart = () => {
   return (
-    <div className='container-l mt-5 mb-5 h-100'>
+    <div className='container-l mt-5 mb-5 pt-5 pb-5 h-100'>
         <h1 className="display-3 text-center"> The best part? Eveything</h1>
         <div className="container text-center mt-5">
             <div className="row align-items-center">
