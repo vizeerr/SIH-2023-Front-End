@@ -6,20 +6,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import TranslateComponent from "./components/TranslateComponent";
 
 function App() {
-  async function query(data) {
-    const response = await fetch(API_URL, {
-      method: "POST",
-      headers: {
-        Authorization: "Bearer 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",
-        "Content-Type": "application/json", // Specify content type
-      },
-      body: JSON.stringify({ inputs: data }), // Wrap data in an object
-    });
-
-    const result = await response.json();
-    return JSON.stringify(result);
-
-  }
+  
+  
   return (
     <>
         <Router>
