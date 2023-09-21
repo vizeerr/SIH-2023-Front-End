@@ -87,6 +87,7 @@ body {
 .search input:active,
 .search input:focus {
   border: none;
+  box-shadow: 0 0 0 0.05rem rgb(69, 43, 1);
 }
 
 .border-none {
@@ -258,6 +259,12 @@ body {
   border: 2px solid var(--searchcol);
   width: 75%;
   background-color: transparent;
+}
+
+.loginonpage input:focus {
+  border: none;
+  box-shadow: 0 0 0 2px rgb(69, 43, 1);
+  transition: all 0.5s ease-in-out;
 }
 
 .loginbg {
