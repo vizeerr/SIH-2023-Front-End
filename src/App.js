@@ -6,7 +6,6 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import TranslateComponent from "./components/TranslateComponent";
 
 function App() {
-  
   return (
     <>
         <Router>

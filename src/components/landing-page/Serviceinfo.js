@@ -9,7 +9,7 @@ import Sshot2 from "../../page 1 design images/Screenshot 2023-09-16 151438.png"
 function Serviceinfo() {
   return (
     <div className="container-l lightbackground mt-0 pt-5 pb-5">
-      <div className="w-100 text-center">
+      <div className="w-100 text-center mt-5">
         <h1 className="display-3 "> Create Documents Quickly and Easily!</h1>
         <button type="button" className="btn btn-brown float-end me-5">
           View More
@@ -42,107 +42,114 @@ function Serviceinfo() {
           ></button>
         </div>
         <div className="container carousel-inner carol-serv ">
-          <div className="carousel-item active mb-4" data-bs-interval="10000">
+          <div className="carousel-item active mb-4 mb-5" data-bs-interval="10000">
             <div className="d-flex m-auto">
-              <div class="card m-4 border-none text-center">
+              <div class="card m-4 border-none text-center ">
                 <img src={Sshot1} class="card-img-top doctempimg" alt="..."/>
                 <div class="card-body lightbackground">
-                  <h5 class="card-title">Card title</h5>  
+                  <h5 class="card-title">Affidavit for name change</h5>  
                 </div>
               </div>
               <div class="card m-4 border-none text-center">
-                <img src={Sshot1} class="card-img-top doctempimg" alt="..."/>
+                <img src={Sshot2} class="card-img-top doctempimg" alt="..."/>
                 <div class="card-body lightbackground">
-                  <h5 class="card-title">Card title</h5>  
-                </div>
-              </div>
-              <div class="card m-4 border-none text-center">
-                <img src={Sshot1} class="card-img-top doctempimg" alt="..."/>
-                <div class="card-body lightbackground">
-                  <h5 class="card-title">Card title</h5>  
+                  <h5 class="card-title">Affidavit for death certificate</h5>  
                 </div>
               </div>
               <div class="card m-4 border-none text-center">
                 <img src={Sshot1} class="card-img-top doctempimg" alt="..."/>
                 <div class="card-body lightbackground">
-                  <h5 class="card-title">Card title</h5>  
+                  <h5 class="card-title">Affidavit for birth proof</h5>  
                 </div>
               </div>
               <div class="card m-4 border-none text-center">
                 <img src={Sshot1} class="card-img-top doctempimg" alt="..."/>
                 <div class="card-body lightbackground">
-                  <h5 class="card-title">Card title</h5>  
+                  <h5 class="card-title">Affidavit for duplicate marksheet</h5>  
                 </div>
               </div>
-            </div>
-          </div>
-          <div className="carousel-item " data-bs-interval="5000">
-            <div className="d-flex">
-              <div className="wrapper p-5">
-                <div className="item ">
-                  <div className="img-area">
-                    <img src={Sshot1} alt="" />
-                  </div>
-
-                  <p>Affidavit for Year Gap</p>
-                </div>
-
-                <div className="item ">
-                  <div className="img-area">
-                    <img src={Sshot2} alt="" />
-                  </div>
-                  <p>Affidavit for Regular Bail</p>
-                </div>
-
-                <div className="item">
-                  <div className="img-area">
-                    <img src={Sshot2} alt="" />
-                  </div>
-                  <p>Affidavit for Change of Name</p>
-                </div>
-                <div className="item">
-                  <div className="img-area">
-                    <img src={Sshot1} alt="" />
-                  </div>
-                  <p>Divorce Petition</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="carousel-item " data-bs-interval="2000">
-            <div className="d-flex">
-              <div className="wrapper p-5">
-                <div className="item ">
-                  <div className="img-area">
-                    <img src={Sshot1} alt="" />
-                  </div>
-
-                  <p>Affidavit for Year Gap</p>
-                </div>
-
-                <div className="item ">
-                  <div className="img-area">
-                    <img src={Sshot2} alt="" />
-                  </div>
-                  <p>Affidavit for Regular Bail</p>
-                </div>
-
-                <div className="item">
-                  <div className="img-area">
-                    <img src={Sshot2} alt="" />
-                  </div>
-                  <p>Affidavit for Change of Name</p>
-                </div>
-                <div className="item">
-                  <div className="img-area">
-                    <img src={Sshot1} alt="" />
-                  </div>
-                  <p>Divorce Petition</p>
+              <div class="card m-4 border-none text-center">
+                <img src={Sshot1} class="card-img-top doctempimg" alt="..."/>
+                <div class="card-body lightbackground">
+                  <h5 class="card-title">Affidavit for income certificate </h5>  
                 </div>
               </div>
             </div>
           </div>
 
+          <div className="carousel-item  mb-4 mb-5" data-bs-interval="10000">
+            <div className="d-flex m-auto">
+              <div class="card m-4 border-none text-center ">
+                <img src={Sshot1} class="card-img-top doctempimg" alt="..."/>
+                <div class="card-body lightbackground">
+                  <h5 class="card-title">Affidavit for ration card</h5>  
+                </div>
+              </div>
+              <div class="card m-4 border-none text-center">
+                <img src={Sshot2} class="card-img-top doctempimg" alt="..."/>
+                <div class="card-body lightbackground">
+                  <h5 class="card-title">Affidavi for fire noc</h5>  
+                </div>
+              </div>
+              <div class="card m-4 border-none text-center">
+                <img src={Sshot1} class="card-img-top doctempimg" alt="..."/>
+                <div class="card-body lightbackground">
+                  <h5 class="card-title">Divorce Petition</h5>  
+                </div>
+              </div>
+              <div class="card m-4 border-none text-center">
+                <img src={Sshot1} class="card-img-top doctempimg" alt="..."/>
+                <div class="card-body lightbackground">
+                  <h5 class="card-title">Affidavit for year gap </h5>  
+                </div>
+              </div>
+              <div class="card m-4 border-none text-center">
+                <img src={Sshot1} class="card-img-top doctempimg" alt="..."/>
+                <div class="card-body lightbackground">
+                  <h5 class="card-title">Affidavit for rc transfer</h5>  
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="carousel-item  mb-4 mb-5" data-bs-interval="10000">
+            <div className="d-flex m-auto">
+              <div class="card m-4 border-none text-center ">
+                <img src={Sshot1} class="card-img-top doctempimg" alt="..."/>
+                <div class="card-body lightbackground">
+                  <h5 class="card-title">Affidavit for Bail</h5>  
+                </div>
+              </div>
+              <div class="card m-4 border-none text-center">
+                <img src={Sshot2} class="card-img-top doctempimg" alt="..."/>
+                <div class="card-body lightbackground">
+                  <h5 class="card-title">Affidavit for visa</h5>  
+                </div>
+              </div>
+              <div class="card m-4 border-none text-center">
+                <img src={Sshot1} class="card-img-top doctempimg" alt="..."/>
+                <div class="card-body lightbackground">
+                  <h5 class="card-title">Affidavit for license</h5>  
+                </div>
+              </div>
+              <div class="card m-4 border-none text-center">
+                <img src={Sshot1} class="card-img-top doctempimg" alt="..."/>
+                <div class="card-body lightbackground">
+                  <h5 class="card-title">Affidavit for undertaking</h5>  
+                </div>
+              </div>
+              <div class="card m-4 border-none text-center">
+                <img src={Sshot1} class="card-img-top doctempimg" alt="..."/>
+                <div class="card-body lightbackground">
+                  <h5 class="card-title">Affidavit for gap year</h5>  
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          
           <button
             className="carousel-control-prev"
             type="button"
@@ -151,6 +158,7 @@ function Serviceinfo() {
           >
             <span
               className="carousel-control-prev-icon"
+              
               aria-hidden="true"
             ></span>
 
@@ -164,13 +172,16 @@ function Serviceinfo() {
           >
             <span
               className="carousel-control-next-icon"
+              
               aria-hidden="true"
             ></span>
 
             <span className="visually-hidden">Next</span>
           </button>
-        </div>
-      </div>
+          </div>
+          </div>
+        
+      
     </div>
   );
 }
