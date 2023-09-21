@@ -14,29 +14,29 @@ const Bestpart = () => {
                             <div className="card pt-3 pb-3 mb-4 me-5">
                             <img src={bribe} className="card-img-top m-auto" alt="..."/>
                             <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <h5 className="card-title">Stick to your budget</h5>
+                                <p className="card-text">Find the right Legal service for every price point. No hourly rates, just project-based pricing.</p>
                             </div>
                             </div>
                             <div className="card pt-3 pb-3 mb-4 ms-4">
                             <img src={bribe} className="card-img-top m-auto" alt="..."/>
                             <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <h5 className="card-title">Verified Service Provider</h5>
+                                <p className="card-text">Find the right Legal service for every price point. No hourly rates, just project-based pricing.</p>
                             </div>
                             </div>
                             <div className="card pt-3 pb-3 mt-4 me-5 ">
                             <img src={bribe} className="card-img-top m-auto" alt="..."/>
                             <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <h5 className="card-title">Get Quality Services</h5>
+                                <p className="card-text">Find the right Legal service for every price point. No hourly rates, just project-based pricing.</p>
                             </div>
                             </div>
                             <div className="card pt-3 pb-3 mt-4 ms-4 ">
                             <img src={bribe} className="card-img-top m-auto" alt="..."/>
                             <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <h5 className="card-title">Support & Feedback</h5>
+                                <p className="card-text">Find the right Legal service for every price point. No hourly rates, just project-based pricing.</p>
                             </div>
                             </div>
 

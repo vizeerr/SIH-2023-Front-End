@@ -25,8 +25,8 @@ const ServicesSlider = () => {
             <div className="card m-auto">
                 <img src={orgico} className="card-img-top w-25 ms-3 mt-3" alt="..."/>
                 <div className="card-body mx-3 text-start">
-                    <h2 className="card-title">Card title</h2>
-                    <p className="card-text lighttext fs-6 lh-lg">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h2 className="card-title">Law Firms</h2>
+                    <p className="card-text lighttext fs-6 lh-lg">One or more attorneys who work together to provide legal services.Handel litigation,corporate law,real family,family law and etc.</p>
                 </div>
             </div>
             <img src={famlawimg} className="card-img-bottom z-1 " alt="..."/>
@@ -35,8 +35,8 @@ const ServicesSlider = () => {
             <div className="card m-auto">
                 <img src={orgico} className="card-img-top w-25 ms-3 mt-3" alt="..."/>
                 <div className="card-body mx-3 text-start">
-                    <h2 className="card-title">Card title</h2>
-                    <p className="card-text lighttext fs-6 lh-lg">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h2 className="card-title">Solo Practitioners</h2>
+                    <p className="card-text lighttext fs-6 lh-lg">Individual attorneys who operate their own legal practices independently.Handel specific areas such as personal injury.</p>
                 </div>
             </div>
             <img src={famlawimg} className="card-img-bottom z-1 " alt="..."/>
@@ -45,8 +45,8 @@ const ServicesSlider = () => {
             <div className="card m-auto">
                 <img src={orgico} className="card-img-top w-25 ms-3 mt-3" alt="..."/>
                 <div className="card-body mx-3 text-start">
-                    <h2 className="card-title">Card title</h2>
-                    <p className="card-text lighttext fs-6 lh-lg">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h2 className="card-title">Legal Consultants</h2>
+                    <p className="card-text lighttext fs-6 lh-lg">Experts in specific area of law who provide advice and guidance to business and individuals.</p>
                 </div>
             </div>
             <img src={famlawimg} className="card-img-bottom z-1 " alt="..."/>
@@ -61,8 +61,8 @@ const ServicesSlider = () => {
             <div className="card m-auto">
                 <img src={orgico} className="card-img-top w-25 ms-3 mt-3" alt="..."/>
                 <div className="card-body mx-3 text-start">
-                    <h2 className="card-title">Card title</h2>
-                    <p className="card-text lighttext fs-6 lh-lg">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h2 className="card-title">Mediators</h2>
+                    <p className="card-text lighttext fs-6 lh-lg">A mediator is a trained professional who acts as a neutral facilitator during the mediation process.</p>
                 </div>
             </div>
             <img src={famlawimg} className="card-img-bottom z-1 " alt="..."/>
@@ -71,8 +71,8 @@ const ServicesSlider = () => {
             <div className="card m-auto">
                 <img src={orgico} className="card-img-top w-25 ms-3 mt-3" alt="..."/>
                 <div className="card-body mx-3 text-start">
-                    <h2 className="card-title">Card title</h2>
-                    <p className="card-text lighttext fs-6 lh-lg">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h2 className="card-title">Notaries</h2>
+                    <p className="card-text lighttext fs-6 lh-lg">A notary is a publicly commissioned official who serves as an impartial witness to the signing of a legal document.</p>
                 </div>
             </div>
             <img src={famlawimg} className="card-img-bottom z-1 " alt="..."/>
@@ -81,8 +81,8 @@ const ServicesSlider = () => {
             <div className="card m-auto">
                 <img src={orgico} className="card-img-top w-25 ms-3 mt-3" alt="..."/>
                 <div className="card-body mx-3 text-start">
-                    <h2 className="card-title">Card title</h2>
-                    <p className="card-text lighttext fs-6 lh-lg">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h2 className="card-title">Document Writers</h2>
+                    <p className="card-text lighttext fs-6 lh-lg">A legal writer creates contracts, agreements, memoranda, and other documents that need legal terminology.</p>
                 </div>
             </div>
             <img src={famlawimg} className="card-img-bottom z-1 " alt="..."/>
@@ -97,8 +97,8 @@ const ServicesSlider = () => {
             <div className="card m-auto">
                 <img src={orgico} className="card-img-top w-25 ms-3 mt-3" alt="..."/>
                 <div className="card-body mx-3 text-start">
-                    <h2 className="card-title">Card title</h2>
-                    <p className="card-text lighttext fs-6 lh-lg">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h2 className="card-title">Arbitrators</h2>
+                    <p className="card-text lighttext fs-6 lh-lg">A person chosen to decide a dispute or settle differences, especially one formally empowered to examine the facts and decide the issue.</p>
                 </div>
             </div>
             <img src={famlawimg} className="card-img-bottom z-1 " alt="..."/>
@@ -107,8 +107,8 @@ const ServicesSlider = () => {
             <div className="card m-auto">
                 <img src={orgico} className="card-img-top w-25 ms-3 mt-3" alt="..."/>
                 <div className="card-body mx-3 text-start">
-                    <h2 className="card-title">Card title</h2>
-                    <p className="card-text lighttext fs-6 lh-lg">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h2 className="card-title">Lawyer</h2>
+                    <p className="card-text lighttext fs-6 lh-lg">A person whose profession is to represent clients in a court of law or to advise or act for clients in other legal matters.</p>
                 </div>
             </div>
             <img src={famlawimg} className="card-img-bottom z-1 " alt="..."/>
@@ -117,8 +117,8 @@ const ServicesSlider = () => {
             <div className="card m-auto">
                 <img src={orgico} className="card-img-top w-25 ms-3 mt-3" alt="..."/>
                 <div className="card-body mx-3 text-start">
-                    <h2 className="card-title">Card title</h2>
-                    <p className="card-text lighttext fs-6 lh-lg">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h2 className="card-title">Attorney</h2>
+                    <p className="card-text lighttext fs-6 lh-lg">A person who has the legal right to act for someone else: You may appoint an attorney to act on your behalf.</p>
                 </div>
             </div>
             <img src={famlawimg} className="card-img-bottom z-1 " alt="..."/>

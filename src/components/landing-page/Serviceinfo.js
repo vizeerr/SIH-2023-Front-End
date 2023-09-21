@@ -5,9 +5,10 @@ import Screenshot from "../../page 1 design images/Screenshot.png";
 import Screenshot1 from "../../page 1 design images/Screenshot1.png";
 function Serviceinfo() {
   return (
-    <div className="lg container-fluid p-5 my-5 bg #f0f0f0">
-      <div className="w-100 text-center mt-5">
-        <h1 className="display-3 "> Create Documents Quickly and Easily!</h1>
+    <div className="lg container-fluid  p-5 my-5  bg #f0f0f0          
+">
+      <div className=" w-100 text-center mt-5">
+        <h1 className="display-5 "> Create Legal Documents Quickly and Easily!</h1>
         <button type="button" className="btn btn-brown float-end me-5">
           {" "}
           View More
@@ -40,9 +41,9 @@ function Serviceinfo() {
           ></button>
         </div>
         <div className="container carousel-inner carol-serv ">
-          <div className="carousel-item active" data-bs-interval="10000">
+          <div className="carousel-item active mb-5" data-bs-interval="10000">
             <div className="d-flex">
-              <div className="wrapper p-5">
+              <div className="wrapper p-5 ">
                 <div className="item ">
                   <div className="img-area">
                     <img src={Screenshot1} alt="" />
@@ -73,7 +74,7 @@ function Serviceinfo() {
               </div>
             </div>
           </div>
-          <div className="carousel-item active" data-bs-interval="10000">
+          <div className="carousel-item  " data-bs-interval="20000">
             <div className="d-flex">
               <div className="wrapper p-5">
                 <div className="item ">
@@ -81,64 +82,67 @@ function Serviceinfo() {
                     <img src={Screenshot1} alt="" />
                   </div>
 
-                  <p>Affidavit for Year Gap</p>
+                  <p>Affidavit for Antiragging</p>
                 </div>
 
                 <div className="item ">
                   <div className="img-area">
                     <img src={Screenshot} alt="" />
                   </div>
-                  <p>Affidavit for Regular Bail</p>
+                  <p>Affidavit for name correction</p>
                 </div>
 
                 <div className="item">
                   <div className="img-area">
                     <img src={Screenshot} alt="" />
                   </div>
-                  <p>Affidavit for Change of Name</p>
+                  <p>Affidavit for caste certificate</p>
                 </div>
                 <div className="item">
                   <div className="img-area">
                     <img src={Screenshot1} alt="" />
                   </div>
-                  <p>Divorce Petition</p>
+                  <p>Affidavit for study gap</p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="carousel-item active" data-bs-interval="10000">
+          <div className="carousel-item " data-bs-interval="20000">
             <div className="d-flex">
-              <div className="wrapper p-5">
+              <div className="wrapper p-5  ">
                 <div className="item ">
                   <div className="img-area">
                     <img src={Screenshot1} alt="" />
                   </div>
 
-                  <p>Affidavit for Year Gap</p>
+                  <p>Affidavit for Writ Petition</p>
                 </div>
 
                 <div className="item ">
                   <div className="img-area">
                     <img src={Screenshot} alt="" />
                   </div>
-                  <p>Affidavit for Regular Bail</p>
+                  <p>Affidavit for trade license </p>
                 </div>
 
                 <div className="item">
                   <div className="img-area">
                     <img src={Screenshot} alt="" />
                   </div>
-                  <p>Affidavit for Change of Name</p>
+                  <p>Affidavit for trademark</p>
                 </div>
                 <div className="item">
                   <div className="img-area">
                     <img src={Screenshot1} alt="" />
                   </div>
-                  <p>Divorce Petition</p>
+                  <p>Affidavit for death certificate</p>
                 </div>
               </div>
             </div>
           </div>
+          
+          
+          
 
           <button
             className="carousel-control-prev"
@@ -148,6 +152,7 @@ function Serviceinfo() {
           >
             <span
               className="carousel-control-prev-icon"
+              
               aria-hidden="true"
             ></span>
 
@@ -161,15 +166,18 @@ function Serviceinfo() {
           >
             <span
               className="carousel-control-next-icon"
+              
               aria-hidden="true"
             ></span>
 
             <span className="visually-hidden">Next</span>
           </button>
-        </div>
-      </div>
+          </div>
+          </div>
+        
+      
     </div>
   );
-}
+};
 
 export default Serviceinfo;

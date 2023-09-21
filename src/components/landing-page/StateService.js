@@ -1,6 +1,14 @@
 import React from 'react'
-import Delbg from '../../page 1 design images/delbgcut.jpeg'
-import Delbgthumb from '../../page 1 design images/delbgcutthumb.jpeg'
+
+import uttar from '../../page 1 design images/uttar.jpeg'
+import hima from '../../page 1 design images/hima.jpeg'
+import raj from '../../page 1 design images/raj.jpeg'
+import kerla from '../../page 1 design images/kerla.jpeg'
+import delhi from '../../page 1 design images/delhi.jpeg'
+import guja from '../../page 1 design images/guja.jpeg'
+
+
+
 const StateService = () => {
   return (
     <div className='container-l mt-5 mb-5 w-100 h-100 p-0 overflow-hidden'>
@@ -21,7 +29,7 @@ const StateService = () => {
         <div className="d-flex flex-wrap">
             <div className='d-flex flex-nowrap mb-3 mt-5'>
                 <div className="card border-none bg-transparent text-light" >
-                    <img src={Delbg} className="card-img-top rounded-4 stateimg" alt="..."/>
+                    <img src={delhi} className="card-img-top rounded-4 stateimg" alt="..."/>
                     <div className="card-body">
                         <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
                         <h3 className="card-title">Maharashtra</h3>
@@ -31,30 +39,30 @@ const StateService = () => {
                     </div>
                 </div>
                 <div className="card border-none bg-transparent text-light" >
-                    <img src={Delbg} className="card-img-top rounded-4 stateimg " alt="..."/>
+                    <img src={hima} className="card-img-top rounded-4 stateimg " alt="..."/>
                     <div className="card-body">
                         <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
-                        <h3 className="card-title">Maharashtra</h3>
+                        <h3 className="card-title">Himachal Pradesh</h3>
                         {/* <Link to="/"> */}
                         <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
                         {/* </Link> */}
                     </div>
                 </div>
                 <div className="card border-none bg-transparent text-light" >
-                    <img src={Delbg} className="card-img-top rounded-4 stateimg" alt="..."/>
+                    <img src={uttar} className="card-img-top rounded-4 stateimg" alt="..."/>
                     <div className="card-body">
                         <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
-                        <h3 className="card-title">Maharashtra</h3>
+                        <h3 className="card-title">Uttar Pradesh</h3>
                         {/* <Link to="/"> */}
                         <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
                         {/* </Link> */}
                     </div>
                 </div>
                 <div className="card border-none bg-transparent text-light" >
-                    <img src={Delbg} className="card-img-top rounded-4 stateimg" alt="..."/>
+                    <img src={guja} className="card-img-top rounded-4 stateimg" alt="..."/>
                     <div className="card-body">
                         <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
-                        <h3 className="card-title">Maharashtra</h3>
+                        <h3 className="card-title">Gujarat</h3>
                         {/* <Link to="/"> */}
                         <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
                         {/* </Link> */}
@@ -64,37 +72,37 @@ const StateService = () => {
             </div>
             <div className='d-flex flex-nowrap mt-3'>
                 <div className="card border-none bg-transparent text-light" >
-                    <img src={Delbg} className="card-img-top rounded-4 stateimg" alt="..."/>
+                    <img src={raj} className="card-img-top rounded-4 stateimg" alt="..."/>
                     <div className="card-body">
                         <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
-                        <h3 className="card-title">Maharashtra</h3>
+                        <h3 className="card-title">Rajasthan</h3>
                         {/* <Link to="/"> */}
                         <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
                         {/* </Link> */}
                     </div>
                 </div>
                 <div className="card border-none bg-transparent text-light" >
-                    <img src={Delbg} className="card-img-top rounded-4 stateimg " alt="..."/>
+                    <img src={kerla} className="card-img-top rounded-4 stateimg " alt="..."/>
                     <div className="card-body">
                         <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
-                        <h3 className="card-title">Maharashtra</h3>
+                        <h3 className="card-title">Kerala</h3>
                         {/* <Link to="/"> */}
                         <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
                         {/* </Link> */}
                     </div>
                 </div>
                 <div className="card border-none bg-transparent text-light" >
-                    <img src={Delbg} className="card-img-top rounded-4 stateimg" alt="..."/>
+                    <img src={delhi} className="card-img-top rounded-4 stateimg" alt="..."/>
                     <div className="card-body">
                         <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
-                        <h3 className="card-title">Maharashtra</h3>
+                        <h3 className="card-title">Delhi</h3>
                         {/* <Link to="/"> */}
                         <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
                         {/* </Link> */}
                     </div>
                 </div>
                 <div className="card border-none bg-transparent text-light" >
-                    <img src={Delbg} className="card-img-top rounded-4 stateimg" alt="..."/>
+                    <img src={delhi} className="card-img-top rounded-4 stateimg" alt="..."/>
                     <div className="card-body">
                         <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
                         <h3 className="card-title">Maharashtra</h3>
@@ -108,8 +116,185 @@ const StateService = () => {
         </div>
       </div>
       <div className="carousel-item" data-bs-interval="2000">
+        <div className="d-flex flex-wrap">
+            <div className='d-flex flex-nowrap mb-3 mt-5'>
+                <div className="card border-none bg-transparent text-light" >
+                    <img src={delhi} className="card-img-top rounded-4 stateimg" alt="..."/>
+                    <div className="card-body">
+                        <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
+                        <h3 className="card-title">Maharashtra</h3>
+                        {/* <Link to="/"> */}
+                        <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
+                        {/* </Link> */}
+                    </div>
+                </div>
+                <div className="card border-none bg-transparent text-light" >
+                    <img src={hima} className="card-img-top rounded-4 stateimg " alt="..."/>
+                    <div className="card-body">
+                        <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
+                        <h3 className="card-title">Himachal Pradesh</h3>
+                        {/* <Link to="/"> */}
+                        <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
+                        {/* </Link> */}
+                    </div>
+                </div>
+                <div className="card border-none bg-transparent text-light" >
+                    <img src={uttar} className="card-img-top rounded-4 stateimg" alt="..."/>
+                    <div className="card-body">
+                        <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
+                        <h3 className="card-title">Uttar Pradesh</h3>
+                        {/* <Link to="/"> */}
+                        <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
+                        {/* </Link> */}
+                    </div>
+                </div>
+                <div className="card border-none bg-transparent text-light" >
+                    <img src={guja} className="card-img-top rounded-4 stateimg" alt="..."/>
+                    <div className="card-body">
+                        <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
+                        <h3 className="card-title">Gujarat</h3>
+                        {/* <Link to="/"> */}
+                        <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
+                        {/* </Link> */}
+                    </div>
+                </div>
+                
+            </div>
+            <div className='d-flex flex-nowrap mt-3'>
+                <div className="card border-none bg-transparent text-light" >
+                    <img src={raj} className="card-img-top rounded-4 stateimg" alt="..."/>
+                    <div className="card-body">
+                        <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
+                        <h3 className="card-title">Rajasthan</h3>
+                        {/* <Link to="/"> */}
+                        <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
+                        {/* </Link> */}
+                    </div>
+                </div>
+                <div className="card border-none bg-transparent text-light" >
+                    <img src={kerla} className="card-img-top rounded-4 stateimg " alt="..."/>
+                    <div className="card-body">
+                        <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
+                        <h3 className="card-title">Kerala</h3>
+                        {/* <Link to="/"> */}
+                        <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
+                        {/* </Link> */}
+                    </div>
+                </div>
+                <div className="card border-none bg-transparent text-light" >
+                    <img src={delhi} className="card-img-top rounded-4 stateimg" alt="..."/>
+                    <div className="card-body">
+                        <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
+                        <h3 className="card-title">Delhi</h3>
+                        {/* <Link to="/"> */}
+                        <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
+                        {/* </Link> */}
+                    </div>
+                </div>
+                <div className="card border-none bg-transparent text-light" >
+                    <img src={delhi} className="card-img-top rounded-4 stateimg" alt="..."/>
+                    <div className="card-body">
+                        <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
+                        <h3 className="card-title">Maharashtra</h3>
+                        {/* <Link to="/"> */}
+                        <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
+                        {/* </Link> */}
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
       </div>
       <div className="carousel-item">
+        <div className="d-flex flex-wrap">
+            <div className='d-flex flex-nowrap mb-3 mt-5'>
+                <div className="card border-none bg-transparent text-light" >
+                    <img src={delhi} className="card-img-top rounded-4 stateimg" alt="..."/>
+                    <div className="card-body">
+                        <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
+                        <h3 className="card-title">Maharashtra</h3>
+                        {/* <Link to="/"> */}
+                        <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
+                        {/* </Link> */}
+                    </div>
+                </div>
+                <div className="card border-none bg-transparent text-light" >
+                    <img src={hima} className="card-img-top rounded-4 stateimg " alt="..."/>
+                    <div className="card-body">
+                        <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
+                        <h3 className="card-title">Himachal Pradesh</h3>
+                        {/* <Link to="/"> */}
+                        <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
+                        {/* </Link> */}
+                    </div>
+                </div>
+                <div className="card border-none bg-transparent text-light" >
+                    <img src={uttar} className="card-img-top rounded-4 stateimg" alt="..."/>
+                    <div className="card-body">
+                        <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
+                        <h3 className="card-title">Uttar Pradesh</h3>
+                        {/* <Link to="/"> */}
+                        <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
+                        {/* </Link> */}
+                    </div>
+                </div>
+                <div className="card border-none bg-transparent text-light" >
+                    <img src={guja} className="card-img-top rounded-4 stateimg" alt="..."/>
+                    <div className="card-body">
+                        <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
+                        <h3 className="card-title">Gujarat</h3>
+                        {/* <Link to="/"> */}
+                        <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
+                        {/* </Link> */}
+                    </div>
+                </div>
+                
+            </div>
+            <div className='d-flex flex-nowrap mt-3'>
+                <div className="card border-none bg-transparent text-light" >
+                    <img src={raj} className="card-img-top rounded-4 stateimg" alt="..."/>
+                    <div className="card-body">
+                        <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
+                        <h3 className="card-title">Rajasthan</h3>
+                        {/* <Link to="/"> */}
+                        <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
+                        {/* </Link> */}
+                    </div>
+                </div>
+                <div className="card border-none bg-transparent text-light" >
+                    <img src={kerla} className="card-img-top rounded-4 stateimg " alt="..."/>
+                    <div className="card-body">
+                        <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
+                        <h3 className="card-title">Kerala</h3>
+                        {/* <Link to="/"> */}
+                        <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
+                        {/* </Link> */}
+                    </div>
+                </div>
+                <div className="card border-none bg-transparent text-light" >
+                    <img src={delhi} className="card-img-top rounded-4 stateimg" alt="..."/>
+                    <div className="card-body">
+                        <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
+                        <h3 className="card-title">Delhi</h3>
+                        {/* <Link to="/"> */}
+                        <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
+                        {/* </Link> */}
+                    </div>
+                </div>
+                <div className="card border-none bg-transparent text-light" >
+                    <img src={delhi} className="card-img-top rounded-4 stateimg" alt="..."/>
+                    <div className="card-body">
+                        <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
+                        <h3 className="card-title">Maharashtra</h3>
+                        {/* <Link to="/"> */}
+                        <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
+                        {/* </Link> */}
+                    </div>
+                </div>
+                
+            </div>
+        </div>
       </div>
     </div>
     <button className="carousel-control-prev" type="button" data-bs-target="#stateservice" data-bs-slide="prev">

@@ -18,7 +18,7 @@ import Footer from '../components/Footer'
 
 import Jumbo from '../components/landing-page/Jumbo'
 import Questions from '../components/landing-page/Questions'
-// import Serviceinfo from '../components/landing-page/Serviceinfo'
+ import Serviceinfo from '../components/landing-page/Serviceinfo'
 
 
 
@@ -38,7 +38,7 @@ const Home = () => {
       <Userfeed/>
       
      
-      {/* <Serviceinfo /> */}
+       <Serviceinfo /> 
 
       <ProviderSlider/>
       <StateService/>

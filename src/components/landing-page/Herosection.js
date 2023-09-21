@@ -22,10 +22,10 @@ const Herosection = () => {
             <div className="searchsuggest d-flex align-items-center">
                 <p className= "fs-5 m-0 lighttext"> Popular: </p>
                 <div className="badges ms-3">
-                    <span className="badge rounded-pill custpopbadge ">Primary</span>
-                    <span className="badge rounded-pill custpopbadge">Primary</span>
-                    <span className="badge rounded-pill custpopbadge">Primary</span>
-                    <span className="badge rounded-pill custpopbadge">Primary</span>
+                    <span className="badge rounded-pill custpopbadge ">Divorce Lawyer</span>
+                    <span className="badge rounded-pill custpopbadge">Notaries</span>
+                    <span className="badge rounded-pill custpopbadge">Consultant</span>
+                    
 
                 </div>
             </div>
@@ -37,8 +37,8 @@ const Herosection = () => {
                         </div>
                         <div className="col ">
                         <div className="card-body p-0">
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text lighttext">This is a wider card with supporting text below as a natural lead-in to.</p>
+                            <h5 className="card-title">Legal</h5>
+                            <p className="card-text lighttext">Find the right Legal service for every price point. No hourly rates,</p>
                         </div>
                         </div>
                     </div>
@@ -50,8 +50,8 @@ const Herosection = () => {
                         </div>
                         <div className="col ">
                         <div className="card-body p-0">
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text  lighttext">This is a wider card with supporting text below as a natural lead-in to.</p>
+                            <h5 className="card-title">Expertise</h5>
+                            <p className="card-text  lighttext">We partner with experienced legal service providers who are experts in their fields.</p>
                         </div>
                         </div>
                     </div>
@@ -63,8 +63,8 @@ const Herosection = () => {
                         </div>
                         <div className="col ">
                         <div className="card-body p-0">
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text  lighttext">This is a wider card with supporting text below as a natural lead-in to.</p>
+                            <h5 className="card-title">Transparency</h5>
+                            <p className="card-text  lighttext">Our platform ensures clear pricing, reviews, and ratings, so you can make informed decisions.</p>
                         </div>
                         </div>
                     </div>
@@ -76,8 +76,8 @@ const Herosection = () => {
                         </div>
                         <div className="col ">
                         <div className="card-body p-0">
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text  lighttext">This is a wider card with supporting text below as a natural lead-in to.</p>
+                            <h5 className="card-title">Convenience</h5>
+                            <p className="card-text  lighttext">Finding the right expert and scheduling consultations is now quick and straightforward.</p>
                         </div>
                         </div>
                     </div>
