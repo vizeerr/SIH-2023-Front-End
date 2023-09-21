@@ -11,7 +11,7 @@ const Herosection = () => {
   return (
     <div className="herosection container-fluid ">
       <div className="hero d-flex justify-content-between">
-        <div className="leftarea mt-4 ms-5">
+        <div className="leftarea mt-0 ms-5">
             <h1 className="display-1 head-land ">High Quality Legal Services </h1>
             <p className='fs-3 fw-light'>Finding a right Legal Service Provider can be difficult but not anymore</p>
             <form className="w-75 align-items-center d-flex search rounded-pill mt-4 mb-4" role="search">
