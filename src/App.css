@@ -87,6 +87,7 @@ body {
 .search input:active,
 .search input:focus {
   border: none;
+  box-shadow: 0 0 0 0.05rem rgb(69, 43, 1);
 }
 
 .border-none {
@@ -129,7 +130,7 @@ body {
   width: 42%;
   border-radius: 20px;
   box-shadow: 0px 0px 25px #00000021;
-    border: 1px solid #e9e9e9;
+  border: 1px solid #e9e9e9;
 }
 
 .infotab .card .card-title {
@@ -146,7 +147,6 @@ body {
 
 .lgbag {
   background: var(--lgbag);
-  height: 100vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -261,6 +261,12 @@ body {
   background-color: transparent;
 }
 
+.loginonpage input:focus {
+  border: none;
+  box-shadow: 0 0 0 2px rgb(69, 43, 1);
+  transition: all 0.5s ease-in-out;
+}
+
 .loginbg {
   position: relative;
 }
@@ -361,7 +367,7 @@ body {
 }
 
 .hero-Service-container {
-  height: 90vh;
+  height: 92vh;
   /* margin-bottom: 6rem; */
 }
 
@@ -487,10 +493,12 @@ body {
   border: 1px solid #707070;
   opacity: 1;
 }
+
 .doctempimg {
   box-shadow: 0px 0px 17px #00000026;
   border: 1px solid #BDBDBD;
 }
+
 #serviceinfo .carol-serv {
   bottom: 0;
 }
@@ -501,7 +509,8 @@ body {
   bottom: 4em;
   margin-top: 0;
 }
-#serviceinfo h5{
+
+#serviceinfo h5 {
   color: var(--unnamed-color-452b01);
   text-align: center;
   font: normal normal normal Josefin Sans;
@@ -509,224 +518,265 @@ body {
   letter-spacing: 0px;
   color: #452b01;
   opacity: 1;
-  
+
 
 }
 
 /* Madhav */
 /************************CSS BY MADHAV -Service Page****************************/
-   /***************** Service Page-Community.js ***************************/
-   .q{
+/***************** Service Page-Community.js ***************************/
+.q {
+  width: 100%;
+}
+
+.comm-comp1 {
+  margin-left: 2rem;
+  max-width: 100%;
+}
+
+.leads-comp1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 3rem;
+}
+
+.comm-heading {
+  font-size: 3rem;
+  color: #343a34;
+  font-weight: 300;
+  margin: 0;
+}
+
+.comm-subheading {
+  color: #646464;
+}
+
+.comm-comp,
+.comm-comp2 {
+  margin-top: 3rem;
+  background-color: var(--unnamed-color-e8e8e8);
+  display: flex;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.comm-image {
+  width: 50%;
+  object-fit: cover;
+  height: 60vh;
+}
+
+.comm-content {
+  padding: 4rem;
+  color: #646464;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  margin: 0;
+  text-align: center;
+  width: 50%;
+  font-weight: 300;
+}
+
+/************************Service-Page Tools.js**************************/
+.tool-heading {
+  text-align: center;
+  color: #343a30;
+  font-weight: 300;
+  margin-bottom: 4rem;
+}
+
+.tool-box {
+  max-width: 100%;
+}
+
+.tool-box1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+
+}
+
+.tool-list {
+  list-style: none;
+  justify-content: center;
+}
+
+.tool-image {
+  height: 27rem;
+  border-radius: 1.5rem;
+}
+
+.f {
+  display: flex;
+}
+
+.f img {
+  margin-top: -0.8rem;
+}
+
+.tools-content {
+  color: #646464;
+  font-size: 1.2rem;
+  font-weight: 300;
+  max-width: 70%;
+}
+
+.hr-tag {
+  width: 64%;
+}
+
+/**********************Service-Page -LoginForm.js***************************************/
+
+.tools-features {
+  color: #343a30;
+}
+
+.form-comp {
+  color: #212529;
+  display: flex;
+  justify-content: space-between;
+  background-color: #FFFBF6;
+  box-shadow: 0px 0px 25px #00000029;
+  border: 1px solid #E2E2E2;
+  border-radius: 2.5rem;
+}
+
+.left-comp {
+  padding: 2rem;
+}
+
+.signup-heading {
+  color: #452B01;
+}
+
+.signup-image {
+  width: 40%;
+  height: 50rem;
+  border-radius: 0rem 2rem 2rem 0rem;
+}
+
+.form-elements {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-tag {
+  padding: 0.75rem;
+  border-radius: 2rem;
+  border: 2px solid var(--unnamed-color-b9977f);
+}
+
+.input-tag:focus {
+  outline: none;
+}
+
+.signup-btn {
+  border-radius: 3rem;
+  padding: 0.75rem;
+  background-color: var(--brown);
+  color: var(--yellight);
+  margin-top: 2rem;
+  font-size: 1rem;
+  width: 70%;
+  border-style: none;
+}
+
+.google-btn {
+  padding: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: var(--brown);
+  color: var(--yellight);
+  border-radius: 2rem;
+  width: 70%;
+  margin-top: 1rem;
+  margin-right: auto;
+  border-style: none;
+}
+
+.signup-btn:focus,
+.google-btn:focus {
+  border-style: none;
+  outline: none;
+}
+
+/***********************Mobile Responsive **************************/
+@media(max-width:1024px) {
+  .comm-content {
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+
+  .tool-box1 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .tool-image {
+    margin-bottom: 4rem;
+    width: 40%;
+  }
+
+}
+
+@media(max-width:768px) {
+  .comm-comp2 {
     width: 100%;
   }
 
-  .comm-comp1{
-    margin-left: 2rem;
-    max-width: 100%;
+  .comm-content {
+    font-size: 1rem;
+    line-height: 2rem;
   }
-  .leads-comp1{
+
+  .google-btn,
+  .signup-btn {
+    width: 100%;
+  }
+
+}
+
+@media(max-width:680px) {
+  .comm-comp {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    margin-right: 3rem;
   }
-  .comm-heading{
-     font-size: 3rem;
-     color: #343a34;
-     font-weight: 300;
-     margin: 0;
-  }
-  .comm-subheading{
-    color: #646464;
-  }
-  .comm-comp,.comm-comp2{
-    margin-top: 3rem;
-    background-color: var(--unnamed-color-e8e8e8);
+
+  .comm-comp2 {
     display: flex;
-    align-items: center;
-    margin-bottom: 5rem;
-  }
-   
-  .comm-image{
-    width: 50%;
-    object-fit: cover;
-    height: 60vh;
-  }
-  .comm-content{
-    padding: 4rem;
-    color: #646464;
-    font-size: 1.8rem;
-    line-height: 3rem;
-    margin: 0;
-    text-align: center;
-    width: 50%;
-    font-weight: 300;
+    flex-direction: column-reverse;
   }
 
-  /************************Service-Page Tools.js**************************/
-  .tool-heading{
-    text-align: center;
-    color: #343a30;
-    font-weight: 300;
-    margin-bottom: 4rem;
-  }
-  .tool-box{
-    max-width: 100%;
-  }
-  .tool-box1{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-bottom: 2rem;
-  
+  .comm-image {
+    width: 100%;
   }
 
-  .tool-list{
-    list-style: none;
-    justify-content: center;
-  }
-  .tool-image{
-    height: 27rem;
-    border-radius: 1.5rem;
-    width: 20%;
-  }
-  .f{
-    display: flex;
-  }
-  .tools-content{
-    color: #646464;
-    font-size: 1.2rem;
-    font-weight: 300;
-    max-width: 70%;
-  }
-  .hr-tag{
-    width: 65%;
-  }
-
-  /**********************Service-Page -LoginForm.js***************************************/
-
-  .tools-features{
-    color: #343a30;
-  }
-
-  .form-comp{
-    color: #212529;
-    display: flex;
-    justify-content: space-between;
-    background-color: #FFFBF6;
-    box-shadow: 0px 0px 25px #00000029;
-    border: 1px solid #E2E2E2;
-    border-radius: 2.5rem;
-  }
-  .left-comp{
+  .comm-content {
+    width: 100%;
     padding: 2rem;
   }
-  .signup-heading{
-    color:#452B01;
+
+  .tool-image {
+    margin-bottom: 4rem;
+    width: 60%;
   }
-  .signup-image{
-    width: 40%;
-    height: 50rem;
-     border-radius: 0rem 2rem 2rem 0rem;
-  }
-  .form-elements{
-    padding-top: 3rem;
+
+  .form-comp {
     display: flex;
     flex-direction: column;
   }
-  .input-tag{
-    padding: 0.75rem;
-    border-radius: 2rem;
-    border: 2px solid var(--unnamed-color-b9977f);
+
+  .signup-image {
+    display: none;
   }
-  .input-tag:focus{
-    outline: none;
-  }
-  .signup-btn{
-    border-radius: 3rem;
-    padding: 0.75rem;
-    background-color:var(--brown);
-    color: var(--yellight);
-    margin-top: 2rem;
-    font-size: 1rem;
-    width: 70%;
-    border-style: none;
-  }
-  .google-btn{  
-      padding: 0.75rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-evenly;
-      background-color:var(--brown);
-      color: var(--yellight);
-      border-radius: 2rem;
-      width: 70%;
-      margin-top: 1rem;
-      margin-right: auto;
-      border-style: none;
-  }
-  .signup-btn:focus,.google-btn:focus{
-    border-style: none;
-    outline: none;
-  }
-  /***********************Mobile Responsive **************************/
-  @media(max-width:1024px){
-    .comm-content{
-      font-size: 1.3rem;
-      line-height: 2rem;
-    }
-    .tool-box1{
-      display: flex;
-      flex-direction: column-reverse;
-      align-items: center;
-    }
-    .tool-image{
-      margin-bottom: 4rem;
-      width: 40%;
-    }
- 
-  }
-  @media(max-width:768px){
-    .comm-comp2{
-      width: 100%;
-    }
-    .comm-content{
-      font-size: 1rem;
-      line-height: 2rem;
-    }
-   .google-btn,.signup-btn{
+
+  .google-btn,
+  .signup-btn {
     width: 100%;
-   }
- 
   }
-  @media(max-width:680px){
-    .comm-comp{
-      display: flex;
-      flex-direction: column;
-    }
-    .comm-comp2{
-      display: flex;
-      flex-direction: column-reverse;
-    }
-    .comm-image{
-      width: 100%;
-     }
-     .comm-content{
-      width: 100%;
-      padding: 2rem;
-     }
-     .tool-image{
-      margin-bottom: 4rem;
-      width: 60%;
-    }
-    .form-comp{
-      display: flex;
-      flex-direction: column;
-    }
-    .signup-image{
-      display: none;
-    }
-    .google-btn,.signup-btn{
-      width: 100%;
-     }
-  }
+}
