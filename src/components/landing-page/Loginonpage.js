@@ -1,5 +1,5 @@
 import React from "react";
-import hplogin from "../../page 1 design images/haplog.jpeg";
+//import hplogin from "../../page 1 design images/haplog.jpeg";
 // import lbag from '../../page 1 design images/login back.jpeg'
 import gico from "../../page 1 design images/icons8-google-100.png";
 const Loginonpage = () => {
