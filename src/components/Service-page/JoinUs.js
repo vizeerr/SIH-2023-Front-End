@@ -15,10 +15,11 @@ const JoinUs = () => {
                 alt="..."
               />
               <div className="Join-content card-body">
-                <h5 className="mt-3 card-title">Expand Your Reach</h5>
+                <h5 className="mt-3 card-title">Elevate Your Legal Practice</h5>
                 <p className="card-text">
-                  Access a broader client base and increase your visibility in
-                  the legal community.
+                  Joining our platform is your ticket to taking your legal practice to the next level. With our innovative 
+approach to legal services, you'll gain access to a wealth of opportunities and tools designed to boost 
+your visibility and reputation.
                 </p>
               </div>
             </div>
@@ -29,10 +30,11 @@ const JoinUs = () => {
                 alt="..."
               />
               <div className="Join-content card-body">
-                <h5 className="mt-3 card-title">Expand Your Reach</h5>
+                <h5 className="mt-3 card-title">Gamified Excellence</h5>
                 <p className="card-text">
-                  Access a broader client base and increase your visibility in
-                  the legal community.
+                  We're not just a platform; we're a legal community that rewards excellence. Experience the thrill of 
+competing on our leaderboard, where weekly performance rankings and client reviews are prominently 
+featured. Your dedication and quality service will earn you the recognition you deserve.
                 </p>
               </div>
             </div>
@@ -43,10 +45,10 @@ const JoinUs = () => {
                 alt="..."
               />
               <div className="Join-content card-body">
-                <h5 className="mt-3 card-title">Expand Your Reach</h5>
+                <h5 className="mt-3 card-title">Performance-Based Badges</h5>
                 <p className="card-text">
-                  Access a broader client base and increase your visibility in
-                  the legal community.
+                  Showcase your expertise and commitment with performance-based badges. These badges serve as 
+tangible proof of your legal prowess and dedication to clients. Earning them will set you apart as a top-tier legal service provider.
                 </p>
               </div>
             </div>
@@ -57,10 +59,11 @@ const JoinUs = () => {
                 alt="..."
               />
               <div className="Join-content card-body">
-                <h5 className="mt-3 card-title">Expand Your Reach</h5>
+                <h5 className="mt-3 card-title">Bilingual Support</h5>
                 <p className="card-text">
-                  Access a broader client base and increase your visibility in
-                  the legal community.
+                  We understand the importance of inclusivity. Our platform offers bilingual support to cater to a wider 
+audience. Whether you speak English, Spanish, or another language, you can confidently engage with 
+users and clients.
                 </p>
               </div>
             </div>

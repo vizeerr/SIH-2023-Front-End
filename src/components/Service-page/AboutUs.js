@@ -34,11 +34,10 @@ const AboutUs = () => {
         <div className="d-flex align-items-center justify-content-center">
                   <div class="w-50 m-5">
                     <p className="text-start fs-3 ">
-                      "WakilMart help me get so many clients. Being an advocate its
-                      not easy to reach a larger audience"
+                      "Being part of an online legal platform has given me exposure to potential clients who are actively seeking legal services. "
                     </p>
-                    <p className="text-start fs-5 lighttext">~ by Satya Singh</p>
-                    <p className="text-start fs-5 lighttext">Advocate Delhi High Court</p>
+                    <p className="text-start fs-5 lighttext">~ by Aryan Sharma</p>
+                    <p className="text-start fs-5 lighttext">Advocate Allahabad High Court</p>
                   </div>
                   <img src={pavds} class="rounded-5 w-25" alt="..." />
             </div>
@@ -47,11 +46,10 @@ const AboutUs = () => {
       <div className="d-flex align-items-center justify-content-center">
                 <div class="w-50 m-5">
                   <p className="text-start fs-3 ">
-                    "WakilMart help me get so many clients. Being an advocate its
-                    not easy to reach a larger audience"
+                    "Wakilmart streamline administrative tasks, such as appointment scheduling, document management, and billing. This efficiency allows me to focus more on legal work and client relationships."
                   </p>
-                  <p className="text-start fs-5 lighttext">~ by Satya Singh</p>
-                  <p className="text-start fs-5 lighttext">Advocate Delhi High Court</p>
+                  <p className="text-start fs-5 lighttext">~ by Rohan Kumar</p>
+                  <p className="text-start fs-5 lighttext">Advocate Uttarakhand High Court</p>
                 </div>
                 <img src={pavds} class="rounded-5 w-25" alt="..." />
           </div>
