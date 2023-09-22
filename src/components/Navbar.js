@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { Link,useLocation } from "react-router-dom";
+import axios from 'axios';
+
 
 const Navbar = () => {
    let location = useLocation();
@@ -11,28 +13,33 @@ const Navbar = () => {
     const [selectedLanguage, setSelectedLanguage] = useState("English"); // Default language
     const handleLanguageChange = (language) => {
       setSelectedLanguage(language);
-      getTextElement();
-    };
-
-    const getTextElement = () => {
-      // Get all text nodes within the document
-      const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
-      
-      const textNodesToTranslate = [];
-      
-      while (walker.nextNode()) {
-        textNodesToTranslate.push(walker.currentNode);
+      // getTextElement();
+      if(language == "Hindi"){
+        handleExtractText();
+      }else{
+        window.location.reload();
       }
-    
-      // Translate each text node and update its content
-      textNodesToTranslate.forEach(async (node) => {
-        const translated = await query(node.textContent);
-        // console.log(translated);
-        // node.textContent = JSON.parse(translated).translation; // Update the text content
-      });
     };
-    const API_URL = "https://api-inference.huggingface.co/models/Helsinki-NLP/opus-mt-en-hi";
 
+    // const getTextElement = () => {
+    //   // Get all text nodes within the document
+    //   const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+      
+    //   const textNodesToTranslate = [];
+      
+    //   while (walker.nextNode()) {
+    //     textNodesToTranslate.push(walker.currentNode);
+    //   }
+    
+    //   // Translate each text node and update its content
+    //   textNodesToTranslate.forEach(async (node) => {
+    //     const translated = await query(node.textContent);
+    //     // console.log(translated);
+    //     // node.textContent = JSON.parse(translated).translation; // Update the text content
+    //   });
+    // };
+
+    const API_URL = "https://api-inference.huggingface.co/models/Helsinki-NLP/opus-mt-en-hi";
     async function query(data) {
       const response = await fetch(API_URL, {
         method: "POST",
@@ -42,13 +49,36 @@ const Navbar = () => {
         },
         body: JSON.stringify({ inputs: data }), // Wrap data in an object
       });
-  
       const result = await response.json();
       return JSON.stringify(result);
-  
     }
-  
+    
+  const handleExtractText = async()=> {
+    // const elementsWithText = document.body.querySelectorAll('p,h1,h2,h3,h4,h5,h6,button');
+    // let extractedText = '';
+    // elementsWithText.forEach(async (element) => {
+    //   if (element.textContent && element.textContent.trim() !== '') {
+    //     extractedText += element.textContent + ' ';
+    //     const text = element.textContent.trim();
+    //     try {
+    //       const response = await axios.post('http://localhost:5000/', { text: text })
+    //       var doubledText = response.data.translation;
+    //     } catch (error) {
+    //       var doubledText = error;
+    //     }
 
+    //     // query(text);
+    //     element.textContent = doubledText;
+
+  
+      // }
+    // });
+    document.documentElement.lang = 'hi';
+    document.documentElement.setAttribute('lang', 'hi');
+    
+    
+  }
+  
    
   return (
   
