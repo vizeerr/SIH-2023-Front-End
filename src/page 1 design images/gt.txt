@@ -1,0 +1,15 @@
+onst [selectedLanguage, setSelectedLanguage] = useState("en"); // Default language is English
+  const handleLanguageChange = (languageCode) => {
+    setSelectedLanguage(languageCode);
+    googleTranslateElementChangeLanguage(languageCode);
+  };
+
+  const googleTranslateElementChangeLanguage = (languageCode) => {
+    const translateElement = document.querySelector(".goog-te-combo");
+    if (translateElement) {
+      translateElement.value = languageCode;
+      translateElement.dispatchEvent(new Event("change"));
+    }
+  };
+
+google translation

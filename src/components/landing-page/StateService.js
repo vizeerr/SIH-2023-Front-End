@@ -31,40 +31,40 @@ const StateService = () => {
                 <div className="card border-none bg-transparent text-light" >
                     <img src={delhi} className="card-img-top rounded-4 stateimg" alt="..."/>
                     <div className="card-body">
-                        <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
-                        <h3 className="card-title">Maharashtra</h3>
+                        <p className='m-0  darktextlight'>50+ Service Available </p>
+                        <h4 className="card-title">Maharashtra</h4>
                         {/* <Link to="/"> */}
-                        <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
+                        <button type="button " className="btn btn-lightbg w-50  p-0">View All</button>
                         {/* </Link> */}
                     </div>
                 </div>
                 <div className="card border-none bg-transparent text-light" >
                     <img src={hima} className="card-img-top rounded-4 stateimg " alt="..."/>
                     <div className="card-body">
-                        <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
-                        <h3 className="card-title">Himachal Pradesh</h3>
+                        <p className='m-0  darktextlight'>50+ Service Available </p>
+                        <h4 className="card-title">Himachal Pradesh</h4>
                         {/* <Link to="/"> */}
-                        <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
+                        <button type="button " className="btn btn-lightbg w-50  ">View All</button>
                         {/* </Link> */}
                     </div>
                 </div>
                 <div className="card border-none bg-transparent text-light" >
                     <img src={uttar} className="card-img-top rounded-4 stateimg" alt="..."/>
                     <div className="card-body">
-                        <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
-                        <h3 className="card-title">Uttar Pradesh</h3>
+                        <p className='m-0  darktextlight'>50+ Service Available </p>
+                        <h4 className="card-title">Uttar Pradesh</h4>
                         {/* <Link to="/"> */}
-                        <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
+                        <button type="button " className="btn btn-lightbg w-50  ">View All</button>
                         {/* </Link> */}
                     </div>
                 </div>
                 <div className="card border-none bg-transparent text-light" >
                     <img src={guja} className="card-img-top rounded-4 stateimg" alt="..."/>
                     <div className="card-body">
-                        <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
-                        <h3 className="card-title">Gujarat</h3>
+                        <p className='m-0  darktextlight'>50+ Service Available </p>
+                        <h4 className="card-title">Gujarat</h4>
                         {/* <Link to="/"> */}
-                        <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
+                        <button type="button " className="btn btn-lightbg w-50  ">View All</button>
                         {/* </Link> */}
                     </div>
                 </div>
@@ -74,40 +74,40 @@ const StateService = () => {
                 <div className="card border-none bg-transparent text-light" >
                     <img src={raj} className="card-img-top rounded-4 stateimg" alt="..."/>
                     <div className="card-body">
-                        <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
-                        <h3 className="card-title">Rajasthan</h3>
+                        <p className='m-0  darktextlight'>50+ Service Available </p>
+                        <h4 className="card-title">Rajasthan</h4>
                         {/* <Link to="/"> */}
-                        <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
+                        <button type="button " className="btn btn-lightbg w-50  ">View All</button>
                         {/* </Link> */}
                     </div>
                 </div>
                 <div className="card border-none bg-transparent text-light" >
                     <img src={kerla} className="card-img-top rounded-4 stateimg " alt="..."/>
                     <div className="card-body">
-                        <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
-                        <h3 className="card-title">Kerala</h3>
+                        <p className='m-0  darktextlight'>50+ Service Available </p>
+                        <h4 className="card-title">Kerala</h4>
                         {/* <Link to="/"> */}
-                        <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
+                        <button type="button " className="btn btn-lightbg w-50  ">View All</button>
                         {/* </Link> */}
                     </div>
                 </div>
                 <div className="card border-none bg-transparent text-light" >
                     <img src={delhi} className="card-img-top rounded-4 stateimg" alt="..."/>
                     <div className="card-body">
-                        <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
-                        <h3 className="card-title">Delhi</h3>
+                        <p className='m-0  darktextlight'>50+ Service Available </p>
+                        <h4 className="card-title">Delhi</h4>
                         {/* <Link to="/"> */}
-                        <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
+                        <button type="button " className="btn btn-lightbg w-50  ">View All</button>
                         {/* </Link> */}
                     </div>
                 </div>
                 <div className="card border-none bg-transparent text-light" >
                     <img src={delhi} className="card-img-top rounded-4 stateimg" alt="..."/>
                     <div className="card-body">
-                        <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
-                        <h3 className="card-title">Maharashtra</h3>
+                        <p className='m-0  darktextlight'>50+ Service Available </p>
+                        <h4 className="card-title">Maharashtra</h4>
                         {/* <Link to="/"> */}
-                        <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
+                        <button type="button " className="btn btn-lightbg w-50  ">View All</button>
                         {/* </Link> */}
                     </div>
                 </div>
@@ -121,40 +121,40 @@ const StateService = () => {
                 <div className="card border-none bg-transparent text-light" >
                     <img src={delhi} className="card-img-top rounded-4 stateimg" alt="..."/>
                     <div className="card-body">
-                        <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
+                        <p className='m-0  darktextlight'>50+ Service Available </p>
                         <h3 className="card-title">Maharashtra</h3>
                         {/* <Link to="/"> */}
-                        <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
+                        <button type="button " className="btn btn-lightbg w-50  ">View All</button>
                         {/* </Link> */}
                     </div>
                 </div>
                 <div className="card border-none bg-transparent text-light" >
                     <img src={hima} className="card-img-top rounded-4 stateimg " alt="..."/>
                     <div className="card-body">
-                        <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
+                        <p className='m-0  darktextlight'>50+ Service Available </p>
                         <h3 className="card-title">Himachal Pradesh</h3>
                         {/* <Link to="/"> */}
-                        <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
+                        <button type="button " className="btn btn-lightbg w-50  ">View All</button>
                         {/* </Link> */}
                     </div>
                 </div>
                 <div className="card border-none bg-transparent text-light" >
                     <img src={uttar} className="card-img-top rounded-4 stateimg" alt="..."/>
                     <div className="card-body">
-                        <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
+                        <p className='m-0  darktextlight'>50+ Service Available </p>
                         <h3 className="card-title">Uttar Pradesh</h3>
                         {/* <Link to="/"> */}
-                        <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
+                        <button type="button " className="btn btn-lightbg w-50  ">View All</button>
                         {/* </Link> */}
                     </div>
                 </div>
                 <div className="card border-none bg-transparent text-light" >
                     <img src={guja} className="card-img-top rounded-4 stateimg" alt="..."/>
                     <div className="card-body">
-                        <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
+                        <p className='m-0  darktextlight'>50+ Service Available </p>
                         <h3 className="card-title">Gujarat</h3>
                         {/* <Link to="/"> */}
-                        <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
+                        <button type="button " className="btn btn-lightbg w-50  ">View All</button>
                         {/* </Link> */}
                     </div>
                 </div>
@@ -164,40 +164,40 @@ const StateService = () => {
                 <div className="card border-none bg-transparent text-light" >
                     <img src={raj} className="card-img-top rounded-4 stateimg" alt="..."/>
                     <div className="card-body">
-                        <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
+                        <p className='m-0  darktextlight'>50+ Service Available </p>
                         <h3 className="card-title">Rajasthan</h3>
                         {/* <Link to="/"> */}
-                        <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
+                        <button type="button " className="btn btn-lightbg w-50  ">View All</button>
                         {/* </Link> */}
                     </div>
                 </div>
                 <div className="card border-none bg-transparent text-light" >
                     <img src={kerla} className="card-img-top rounded-4 stateimg " alt="..."/>
                     <div className="card-body">
-                        <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
+                        <p className='m-0  darktextlight'>50+ Service Available </p>
                         <h3 className="card-title">Kerala</h3>
                         {/* <Link to="/"> */}
-                        <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
+                        <button type="button " className="btn btn-lightbg w-50  ">View All</button>
                         {/* </Link> */}
                     </div>
                 </div>
                 <div className="card border-none bg-transparent text-light" >
                     <img src={delhi} className="card-img-top rounded-4 stateimg" alt="..."/>
                     <div className="card-body">
-                        <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
+                        <p className='m-0  darktextlight'>50+ Service Available </p>
                         <h3 className="card-title">Delhi</h3>
                         {/* <Link to="/"> */}
-                        <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
+                        <button type="button " className="btn btn-lightbg w-50  ">View All</button>
                         {/* </Link> */}
                     </div>
                 </div>
                 <div className="card border-none bg-transparent text-light" >
                     <img src={delhi} className="card-img-top rounded-4 stateimg" alt="..."/>
                     <div className="card-body">
-                        <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
+                        <p className='m-0  darktextlight'>50+ Service Available </p>
                         <h3 className="card-title">Maharashtra</h3>
                         {/* <Link to="/"> */}
-                        <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
+                        <button type="button " className="btn btn-lightbg w-50  ">View All</button>
                         {/* </Link> */}
                     </div>
                 </div>
@@ -212,40 +212,40 @@ const StateService = () => {
                 <div className="card border-none bg-transparent text-light" >
                     <img src={delhi} className="card-img-top rounded-4 stateimg" alt="..."/>
                     <div className="card-body">
-                        <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
+                        <p className='m-0  darktextlight'>50+ Service Available </p>
                         <h3 className="card-title">Maharashtra</h3>
                         {/* <Link to="/"> */}
-                        <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
+                        <button type="button " className="btn btn-lightbg w-50  ">View All</button>
                         {/* </Link> */}
                     </div>
                 </div>
                 <div className="card border-none bg-transparent text-light" >
                     <img src={hima} className="card-img-top rounded-4 stateimg " alt="..."/>
                     <div className="card-body">
-                        <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
+                        <p className='m-0  darktextlight'>50+ Service Available </p>
                         <h3 className="card-title">Himachal Pradesh</h3>
                         {/* <Link to="/"> */}
-                        <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
+                        <button type="button " className="btn btn-lightbg w-50  ">View All</button>
                         {/* </Link> */}
                     </div>
                 </div>
                 <div className="card border-none bg-transparent text-light" >
                     <img src={uttar} className="card-img-top rounded-4 stateimg" alt="..."/>
                     <div className="card-body">
-                        <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
+                        <p className='m-0  darktextlight'>50+ Service Available </p>
                         <h3 className="card-title">Uttar Pradesh</h3>
                         {/* <Link to="/"> */}
-                        <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
+                        <button type="button " className="btn btn-lightbg w-50  ">View All</button>
                         {/* </Link> */}
                     </div>
                 </div>
                 <div className="card border-none bg-transparent text-light" >
                     <img src={guja} className="card-img-top rounded-4 stateimg" alt="..."/>
                     <div className="card-body">
-                        <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
+                        <p className='m-0  darktextlight'>50+ Service Available </p>
                         <h3 className="card-title">Gujarat</h3>
                         {/* <Link to="/"> */}
-                        <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
+                        <button type="button " className="btn btn-lightbg w-50  ">View All</button>
                         {/* </Link> */}
                     </div>
                 </div>
@@ -255,40 +255,40 @@ const StateService = () => {
                 <div className="card border-none bg-transparent text-light" >
                     <img src={raj} className="card-img-top rounded-4 stateimg" alt="..."/>
                     <div className="card-body">
-                        <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
+                        <p className='m-0  darktextlight'>50+ Service Available </p>
                         <h3 className="card-title">Rajasthan</h3>
                         {/* <Link to="/"> */}
-                        <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
+                        <button type="button " className="btn btn-lightbg w-50  ">View All</button>
                         {/* </Link> */}
                     </div>
                 </div>
                 <div className="card border-none bg-transparent text-light" >
                     <img src={kerla} className="card-img-top rounded-4 stateimg " alt="..."/>
                     <div className="card-body">
-                        <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
+                        <p className='m-0  darktextlight'>50+ Service Available </p>
                         <h3 className="card-title">Kerala</h3>
                         {/* <Link to="/"> */}
-                        <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
+                        <button type="button " className="btn btn-lightbg w-50  ">View All</button>
                         {/* </Link> */}
                     </div>
                 </div>
                 <div className="card border-none bg-transparent text-light" >
                     <img src={delhi} className="card-img-top rounded-4 stateimg" alt="..."/>
                     <div className="card-body">
-                        <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
+                        <p className='m-0  darktextlight'>50+ Service Available </p>
                         <h3 className="card-title">Delhi</h3>
                         {/* <Link to="/"> */}
-                        <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
+                        <button type="button " className="btn btn-lightbg w-50  ">View All</button>
                         {/* </Link> */}
                     </div>
                 </div>
                 <div className="card border-none bg-transparent text-light" >
                     <img src={delhi} className="card-img-top rounded-4 stateimg" alt="..."/>
                     <div className="card-body">
-                        <p className='m-0 sm-13 darktextlight'>50+ Service Available </p>
+                        <p className='m-0  darktextlight'>50+ Service Available </p>
                         <h3 className="card-title">Maharashtra</h3>
                         {/* <Link to="/"> */}
-                        <button type="button " className="btn btn-lightbg w-50 sm-13 ">View All</button>
+                        <button type="button " className="btn btn-lightbg w-50  ">View All</button>
                         {/* </Link> */}
                     </div>
                 </div>
