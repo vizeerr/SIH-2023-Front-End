@@ -47,27 +47,27 @@ function Serviceinfo() {
           <div className="carousel-item active mb-4 mb-5" data-bs-interval="10000">
             <div className="d-flex m-auto">
               <div class="card m-4 border-none text-center ">
-              <Link to='/templates'><img src={Sshot1} class="card-img-top doctempimg" alt="..."/></Link>
+              <Link to='/change-name'><img src={Sshot1} class="card-img-top doctempimg" alt="..."/></Link>
                 <div class="card-body lightbackground">
                   <h5 class="card-title">Affidavit for name change</h5>  
                 </div>
               </div>
               <div class="card m-4 border-none text-center">
-                <img src={Sshot2} class="card-img-top doctempimg" alt="..."/>
+              <Link to='/death-certificate'><img src={Sshot2} class="card-img-top doctempimg" alt="..."/></Link>
                 <div class="card-body lightbackground">
                   <h5 class="card-title">Affidavit for death certificate</h5>  
                 </div>
               </div>
               <div class="card m-4 border-none text-center">
-                <img src={Sshot1} class="card-img-top doctempimg" alt="..."/>
+              <Link to='/vehicle-registration'><img src={Sshot1} class="card-img-top doctempimg" alt="..."/></Link>
                 <div class="card-body lightbackground">
-                  <h5 class="card-title">Affidavit for birth proof</h5>  
+                  <h5 class="card-title">Vehicle Registration</h5>  
                 </div>
               </div>
               <div class="card m-4 border-none text-center">
-                <img src={Sshot1} class="card-img-top doctempimg" alt="..."/>
+              <Link to='/year-gap'><img src={Sshot1} class="card-img-top doctempimg" alt="..."/></Link>
                 <div class="card-body lightbackground">
-                  <h5 class="card-title">Affidavit for duplicate marksheet</h5>  
+                  <h5 class="card-title">Affidavit for Year Gap</h5>  
                 </div>
               </div>
               <div class="card m-4 border-none text-center">

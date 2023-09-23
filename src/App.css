@@ -364,7 +364,9 @@ body {
   margin-right: 35px;
 }
 
-
+#goog-gt-tt{
+  display: none;
+}
 
 /* Rishav */
 .Works-container {
