@@ -9,18 +9,18 @@ const Navbar = () => {
   };
 
   const setUserLanguagePreference = (language) => {
-    localStorage.setItem('userLanguage', language);
+    localStorage.setItem("userLanguage", language);
   };
 
   const getUserLanguagePreference = () => {
-    return localStorage.getItem('userLanguage') || 'en'; // Default to English if not set
+    return localStorage.getItem("userLanguage") || "en"; // Default to English if not set
   };
 
   const initialUserLanguage = getUserLanguagePreference();
   const [selectedLanguage, setSelectedLanguage] = useState(initialUserLanguage);
   const handleLanguageChange = (languageCode) => {
     setSelectedLanguage(languageCode);
-    setUserLanguagePreference(languageCode)
+    setUserLanguagePreference(languageCode);
     googleTranslateElementChangeLanguage(languageCode);
   };
 
@@ -31,7 +31,7 @@ const Navbar = () => {
       translateElement.dispatchEvent(new Event("change"));
     }
   };
-  
+
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top ">
       <div className="container-fluid text-center">
@@ -52,19 +52,70 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className={`nav-link ${location.pathname === '/' ? "active" : ""}`} aria-current="page" to="/">Home</Link>
+              <Link
+                className={`nav-link ${
+                  location.pathname === "/" ? "active" : ""
+                }`}
+                aria-current="page"
+                to="/"
+              >
+                Home
+              </Link>
             </li>
             <li className="nav-item">
-              <Link className={`nav-link ${location.pathname === '/services' ? "active" : ""}`} aria-current="page" to="services">Service Provider</Link>
+              <Link
+                className={`nav-link ${
+                  location.pathname === "/services" ? "active" : ""
+                }`}
+                aria-current="page"
+                to="services"
+              >
+                Service Provider
+              </Link>
             </li>
-              <li><div id="google_translate_element"> </div></li>
+            <li className="nav-item">
+              <Link
+                className={`nav-link ${
+                  location.pathname === "/profile" ? "active" : ""
+                }`}
+                aria-current="page"
+                to="profile"
+              >
+                Profile
+              </Link>
+            </li>
+            <li>
+              <div id="google_translate_element"> </div>
+            </li>
             <li class="nav-item dropdown" onClick={toggleDropdown}>
-              <Link class="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <Link
+                class="nav-link dropdown-toggle"
+                href="/"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
                 Translate ({selectedLanguage})
               </Link>
-              <ul class={`dropdown-menu ${isOpen ? 'show' : ''}`}>
-                <li><Link class="dropdown-item" href="/" onClick={() =>handleLanguageChange("en") }>English</Link></li>
-                <li><Link class="dropdown-item" href="/" onClick={() =>handleLanguageChange("hi") }>Hindi</Link></li>
+              <ul class={`dropdown-menu ${isOpen ? "show" : ""}`}>
+                <li>
+                  <Link
+                    class="dropdown-item"
+                    href="/"
+                    onClick={() => handleLanguageChange("en")}
+                  >
+                    English
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    class="dropdown-item"
+                    href="/"
+                    onClick={() => handleLanguageChange("hi")}
+                  >
+                    Hindi
+                  </Link>
+                </li>
               </ul>
             </li>
           </ul>
