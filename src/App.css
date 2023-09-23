@@ -564,8 +564,9 @@ body {
 .comm-image {
   width: 50%;
   object-fit: cover;
-  height: 60vh;
+  height:80vh;
 }
+
 
 .comm-content {
   padding: 4rem;

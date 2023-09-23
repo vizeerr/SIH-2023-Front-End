@@ -1,7 +1,10 @@
 import React from "react";
-import haplog from "../../page 1 design images/haplog.jpeg";
 import blstar from "../../page 1 design images/icons8-rating-100.png";
 import flstar from "../../page 1 design images/icons8-star-50.png";
+import per1 from "../../page 1 design images/per1.jpeg";
+import per2 from "../../page 1 design images/per2.jpeg";
+import per3 from "../../page 1 design images/per3.jpeg";
+import per4 from "../../page 1 design images/per4.jpeg";
 
 const Userfeed = () => {
   return (
@@ -47,7 +50,7 @@ const Userfeed = () => {
                   <div class="row g-0">
                     <div class="col-md-4">
                       <img
-                        src={haplog}
+                        src={per1}
                         class="img-fluid rounded-start"
                         alt="..."
                       />
@@ -76,7 +79,7 @@ const Userfeed = () => {
                   <div class="row g-0">
                     <div class="col-md-4">
                       <img
-                        src={haplog}
+                        src={per2}
                         class="img-fluid rounded-start"
                         alt="..."
                       />
@@ -107,7 +110,7 @@ const Userfeed = () => {
                   <div class="row g-0">
                     <div class="col-md-4">
                       <img
-                        src={haplog}
+                        src={per3}
                         class="img-fluid rounded-start"
                         alt="..."
                       />
@@ -136,7 +139,7 @@ const Userfeed = () => {
                   <div class="row g-0">
                     <div class="col-md-4">
                       <img
-                        src={haplog}
+                        src={per4}
                         class="img-fluid rounded-start"
                         alt="..."
                       />
@@ -176,14 +179,14 @@ const Userfeed = () => {
                   <div class="row g-0">
                     <div class="col-md-4">
                       <img
-                        src={haplog}
+                        src={per1}
                         class="img-fluid rounded-start"
                         alt="..."
                       />
                     </div>
                     <div class="col-md-8">
                       <div class="card-body">
-                        <h5 class="card-title">Joshua</h5>
+                        <h5 class="card-title">Amyra</h5>
                         <p class="card-text">
                           They were very efficient, friendly, and thorough. They were honest, realistic, and sincere. They made a terrible situation barrable.
                         </p>
@@ -205,7 +208,7 @@ const Userfeed = () => {
                   <div class="row g-0">
                     <div class="col-md-4">
                       <img
-                        src={haplog}
+                        src={per2}
                         class="img-fluid rounded-start"
                         alt="..."
                       />
@@ -236,7 +239,7 @@ const Userfeed = () => {
                   <div class="row g-0">
                     <div class="col-md-4">
                       <img
-                        src={haplog}
+                        src={per4}
                         class="img-fluid rounded-start"
                         alt="..."
                       />
@@ -265,7 +268,7 @@ const Userfeed = () => {
                   <div class="row g-0">
                     <div class="col-md-4">
                       <img
-                        src={haplog}
+                        src={per3}
                         class="img-fluid rounded-start"
                         alt="..."
                       />
@@ -304,14 +307,14 @@ const Userfeed = () => {
                   <div class="row g-0">
                     <div class="col-md-4">
                       <img
-                        src={haplog}
+                        src={per1}
                         class="img-fluid rounded-start"
                         alt="..."
                       />
                     </div>
                     <div class="col-md-8">
                       <div class="card-body">
-                        <h5 class="card-title">Amyra</h5>
+                        <h5 class="card-title">Arpita</h5>
                         <p class="card-text">
                            Very knowledgeable, kind, and diligent team. Would definitely recommend to anyone.
                         </p>
@@ -333,7 +336,7 @@ const Userfeed = () => {
                   <div class="row g-0">
                     <div class="col-md-4">
                       <img
-                        src={haplog}
+                        src={per4}
                         class="img-fluid rounded-start"
                         alt="..."
                       />
@@ -364,14 +367,14 @@ const Userfeed = () => {
                   <div class="row g-0">
                     <div class="col-md-4">
                       <img
-                        src={haplog}
+                        src={per2}
                         class="img-fluid rounded-start"
                         alt="..."
                       />
                     </div>
                     <div class="col-md-8">
                       <div class="card-body">
-                        <h5 class="card-title">Nitika</h5>
+                        <h5 class="card-title">Nitin</h5>
                         <p class="card-text">
                           Friendly and helpful attorneys and staff. 
                         </p>
@@ -393,7 +396,7 @@ const Userfeed = () => {
                   <div class="row g-0">
                     <div class="col-md-4">
                       <img
-                        src={haplog}
+                        src={per3}
                         class="img-fluid rounded-start"
                         alt="..."
                       />
