@@ -346,6 +346,23 @@ body {
   margin-top: 5em;
 }
 
+.tempinpu{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tempinpu input {
+  border-radius: 50px;
+  border: 2px solid var(--searchcol);
+  width: 100%;
+  background-color: transparent;
+}
+
+.tempinpu .mb-3{
+  width:40%;
+  margin-right: 35px;
+}
+
 
 
 /* Rishav */
@@ -397,11 +414,14 @@ body {
 
 .hero-content {
   position: absolute;
-  top: 55%;
+  top: 4.5%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
+.bpw-header-subtitle{
+  display: none !important;
+}
 
 .hero-content h1 {
   /* font-size: 5.2em; */
@@ -500,6 +520,16 @@ body {
 .doctempimg {
   box-shadow: 0px 0px 17px #00000026;
   border: 1px solid #BDBDBD;
+  
+}
+
+/* effect hover */
+.stateimg, .doctempimg{
+  transition: 0.2s ease-in-out;
+}
+
+.stateimg:hover,.doctempimg:hover{
+  scale:1.1;
 }
 
 #serviceinfo .carol-serv {
@@ -524,6 +554,8 @@ body {
 
 
 }
+
+
 
 /* Madhav */
 /************************CSS BY MADHAV -Service Page****************************/
@@ -786,3 +818,4 @@ body {
     width: 100%;
   }
 }
+
