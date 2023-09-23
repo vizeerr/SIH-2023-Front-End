@@ -1,5 +1,10 @@
 import React from "react";
-import pavds from "../../page 1 design images/pvads.jpeg";
+
+import re1 from "../../page 1 design images/re1.jpeg";
+import re2 from "../../page 1 design images/re2.jpeg";
+import re3 from "../../page 1 design images/re3.jpeg";
+
+
 
 const AboutUs = () => {
   return (
@@ -27,7 +32,7 @@ const AboutUs = () => {
                   <p className="text-start fs-5 lighttext">~ by Satya Singh</p>
                   <p className="text-start fs-5 lighttext">Advocate Delhi High Court</p>
                 </div>
-                <img src={pavds} class="rounded-5 w-25" alt="..." />
+                <img src={re1} class="rounded-5 w-25" alt="..." />
           </div>
       </div>
       <div className="carousel-item" data-bs-interval="2000">
@@ -39,19 +44,19 @@ const AboutUs = () => {
                     <p className="text-start fs-5 lighttext">~ by Aryan Sharma</p>
                     <p className="text-start fs-5 lighttext">Advocate Allahabad High Court</p>
                   </div>
-                  <img src={pavds} class="rounded-5 w-25" alt="..." />
+                  <img src={re2} class="rounded-5 w-25" alt="..." />
             </div>
       </div>
       <div className="carousel-item">
       <div className="d-flex align-items-center justify-content-center">
                 <div class="w-50 m-5">
                   <p className="text-start fs-3 ">
-                    "Wakilmart streamline administrative tasks, such as appointment scheduling, document management, and billing. This efficiency allows me to focus more on legal work and client relationships."
+                    "Wakilmart streamline administrative tasks, such as billing etc. This efficiency allows me to focus more on my work ."
                   </p>
                   <p className="text-start fs-5 lighttext">~ by Rohan Kumar</p>
                   <p className="text-start fs-5 lighttext">Advocate Uttarakhand High Court</p>
                 </div>
-                <img src={pavds} class="rounded-5 w-25" alt="..." />
+                <img src={re3} class="rounded-5 w-25" alt="..." />
           </div>
       
       </div>

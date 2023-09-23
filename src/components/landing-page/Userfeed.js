@@ -5,6 +5,14 @@ import per1 from "../../page 1 design images/per1.jpeg";
 import per2 from "../../page 1 design images/per2.jpeg";
 import per3 from "../../page 1 design images/per3.jpeg";
 import per4 from "../../page 1 design images/per4.jpeg";
+import per5 from "../../page 1 design images/user1.jpeg"
+import per6 from "../../page 1 design images/user2.jpeg"
+import per7 from "../../page 1 design images/user3.jpeg" 
+import per8 from "../../page 1 design images/user4.jpeg"
+import per9 from "../../page 1 design images/user5.jpeg"
+import per10 from "../../page 1 design images/user6.jpeg"
+import per11 from "../../page 1 design images/user7.jpeg"
+import per12 from "../../page 1 design images/user8.jpeg"
 
 const Userfeed = () => {
   return (
@@ -58,8 +66,8 @@ const Userfeed = () => {
                     <div class="col-md-8">
                       <div class="card-body">
                         <h5 class="card-title">Arya</h5>
-                        <p class="card-text">
-                          Real estate law can be very confusing and, as a real estate client, the firm helped us draft up legal documents in no time at all.
+                        <p class="card-text"> They got back to us quickly and made it a seamless operation, especially as we were facing time constraints. Thanks, team!
+                          
                         </p>
                         <div className="d-flex flex-wrap justify-content-start ">
                           <div className="d-flex flex-wrap justify-content-start">
@@ -86,12 +94,12 @@ const Userfeed = () => {
                     </div>
                     <div class="col-md-8">
                       <div class="card-body">
-                        <h5 class="card-title">Rohan Sharma</h5>
+                        <h5 class="card-title">Rohan</h5>
                         <p class="card-text">
-                          They got back to us quickly and made it a seamless operation, especially as we were facing time constraints. I highly recommend and will work with this law office again. Thanks, team!
+                         Real estate law can be very confusing and, as a real estate client, the firm helped us.
                         </p>
                         <div className="d-flex flex-wrap justify-content-start ">
-                          <div className="d-flex flex-wrap justify-content-start">
+                          <div className="d-flex flex-wrap justify-content-start"> 
                             <img src={flstar} alt="" className="verifico" />
                             <img src={flstar} alt="" className="verifico" />
                             <img src={flstar} alt="" className="verifico" />
@@ -117,9 +125,9 @@ const Userfeed = () => {
                     </div>
                     <div class="col-md-8">
                       <div class="card-body">
-                        <h5 class="card-title">Pulkit Kapoor</h5>
+                        <h5 class="card-title">Pulkit</h5>
                         <p class="card-text">
-                          Such an amazing and competent team!
+                         They were very friendly, and thorough. They were honest, realistic, and sincere. They made a terrible situation barrable.
                         </p>
                         <div className="d-flex flex-wrap justify-content-start ">
                           <div className="d-flex flex-wrap justify-content-start">
@@ -148,8 +156,8 @@ const Userfeed = () => {
                       <div class="card-body">
                         <h5 class="card-title">Ruhi</h5>
                         <p class="card-text">
-                          They were very efficient, friendly, and thorough. They were honest, realistic, and sincere. They made a terrible situation barrable.
-                        </p>
+                          
+                        Such an amazing and competent team!I highly recommend and will work with this law office again.</p>
                         <div className="d-flex flex-wrap justify-content-start ">
                           <div className="d-flex flex-wrap justify-content-start">
                             <img src={flstar} alt="" className="verifico" />
@@ -179,7 +187,7 @@ const Userfeed = () => {
                   <div class="row g-0">
                     <div class="col-md-4">
                       <img
-                        src={per1}
+                        src={per9}
                         class="img-fluid rounded-start"
                         alt="..."
                       />
@@ -188,7 +196,7 @@ const Userfeed = () => {
                       <div class="card-body">
                         <h5 class="card-title">Amyra</h5>
                         <p class="card-text">
-                          They were very efficient, friendly, and thorough. They were honest, realistic, and sincere. They made a terrible situation barrable.
+                          They were very efficient,and thorough. They were honest and sincere. They made a terrible situation barrable.
                         </p>
                         <div className="d-flex flex-wrap justify-content-start ">
                           <div className="d-flex flex-wrap justify-content-start">
@@ -208,7 +216,7 @@ const Userfeed = () => {
                   <div class="row g-0">
                     <div class="col-md-4">
                       <img
-                        src={per2}
+                        src={per5}
                         class="img-fluid rounded-start"
                         alt="..."
                       />
@@ -217,7 +225,7 @@ const Userfeed = () => {
                       <div class="card-body">
                         <h5 class="card-title">Sameer</h5>
                         <p class="card-text">
-                          The most empathetic and professional law firm we've ever worked with. That's why we've come back to them for help.
+                          The most professional legal platform we've ever worked with. That's why we've come back to them for help.
                         </p>
                         <div className="d-flex flex-wrap justify-content-start ">
                           <div className="d-flex flex-wrap justify-content-start">
@@ -239,7 +247,7 @@ const Userfeed = () => {
                   <div class="row g-0">
                     <div class="col-md-4">
                       <img
-                        src={per4}
+                        src={per10}
                         class="img-fluid rounded-start"
                         alt="..."
                       />
@@ -248,7 +256,7 @@ const Userfeed = () => {
                       <div class="card-body">
                         <h5 class="card-title">Ishita</h5>
                         <p class="card-text">
-                          I wouldn't hesitate to recommend them in the slightest.
+                          I wouldn't hesitate to recommend them in the slightest.They are always available to help.
                         </p>
                         <div className="d-flex flex-wrap justify-content-start ">
                           <div className="d-flex flex-wrap justify-content-start">
@@ -268,16 +276,16 @@ const Userfeed = () => {
                   <div class="row g-0">
                     <div class="col-md-4">
                       <img
-                        src={per3}
+                        src={per6}
                         class="img-fluid rounded-start"
                         alt="..."
                       />
                     </div>
                     <div class="col-md-8">
                       <div class="card-body">
-                        <h5 class="card-title">Aakash Kumar</h5>
+                        <h5 class="card-title">Aakash</h5>
                         <p class="card-text">
-                          Absolutey wonderful!The perfect team to have on your side. They keep you informed every step of the way and make sure they are available anytime you need them.
+                          Absolutey wonderful!The perfect team to have on your side. They keep you informed every step of the way .
                         </p>
                         <div className="d-flex flex-wrap justify-content-start ">
                           <div className="d-flex flex-wrap justify-content-start">
@@ -307,7 +315,7 @@ const Userfeed = () => {
                   <div class="row g-0">
                     <div class="col-md-4">
                       <img
-                        src={per1}
+                        src={per11}
                         class="img-fluid rounded-start"
                         alt="..."
                       />
@@ -316,7 +324,7 @@ const Userfeed = () => {
                       <div class="card-body">
                         <h5 class="card-title">Arpita</h5>
                         <p class="card-text">
-                           Very knowledgeable, kind, and diligent team. Would definitely recommend to anyone.
+                           Very knowledgeable, kind, and diligent team.They were efficient an very sincere. Would definitely recommend to anyone.
                         </p>
                         <div className="d-flex flex-wrap justify-content-start ">
                           <div className="d-flex flex-wrap justify-content-start">
@@ -336,7 +344,7 @@ const Userfeed = () => {
                   <div class="row g-0">
                     <div class="col-md-4">
                       <img
-                        src={per4}
+                        src={per12}
                         class="img-fluid rounded-start"
                         alt="..."
                       />
@@ -345,7 +353,7 @@ const Userfeed = () => {
                       <div class="card-body">
                         <h5 class="card-title">Ashu</h5>
                         <p class="card-text">
-                          Fantastic law firm.
+                          Fantastic law firm.That's why we've come back to them for help.Thank you team.
                         </p>
                         <div className="d-flex flex-wrap justify-content-start ">
                           <div className="d-flex flex-wrap justify-content-start">
@@ -367,7 +375,7 @@ const Userfeed = () => {
                   <div class="row g-0">
                     <div class="col-md-4">
                       <img
-                        src={per2}
+                        src={per7}
                         class="img-fluid rounded-start"
                         alt="..."
                       />
@@ -376,7 +384,7 @@ const Userfeed = () => {
                       <div class="card-body">
                         <h5 class="card-title">Nitin</h5>
                         <p class="card-text">
-                          Friendly and helpful attorneys and staff. 
+                          Friendly and helpful attorneys and staff.They helped us in our very difficult situation and cost is also fair.
                         </p>
                         <div className="d-flex flex-wrap justify-content-start ">
                           <div className="d-flex flex-wrap justify-content-start">
@@ -396,7 +404,7 @@ const Userfeed = () => {
                   <div class="row g-0">
                     <div class="col-md-4">
                       <img
-                        src={per3}
+                        src={per8}
                         class="img-fluid rounded-start"
                         alt="..."
                       />
