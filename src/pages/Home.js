@@ -25,11 +25,7 @@ const Home = () => {
       <Jumbo />
       <Bestpart/>
       <ServicesSlider/>
-       
       
-      
-     
-
       <ProviderSlider/>
       <StateService/>
       <Serviceinfo /> 

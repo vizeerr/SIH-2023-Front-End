@@ -1,0 +1,67 @@
+const setUserLanguagePreference = (language) => {
+    localStorage.setItem('userLanguage', language);
+  };
+
+  const getUserLanguagePreference = () => {
+    return localStorage.getItem('userLanguage') || 'English'; // Default to English if not set
+  };
+
+  const initialUserLanguage = getUserLanguagePreference();
+  const [selectedLanguage, setSelectedLanguage] = useState(initialUserLanguage);
+  useEffect(() => {
+    if (initialUserLanguage !== 'English') {
+      const translations = JSON.parse(localStorage.getItem(`${initialUserLanguage}Translations`));
+      if (translations) {
+        handleExtractText();
+      } else {
+        handleExtractText();
+      }
+    }
+  }, [initialUserLanguage]);
+
+  const handleLanguageChange = (lang)=>{
+    setUserLanguagePreference(lang);
+    setSelectedLanguage(lang);
+    if(lang==='English'){
+      handleExtractText();
+    }
+  
+  }
+
+  const handleExtractText = async () => {
+    const elementsWithText = document.body.querySelectorAll('p,h1,h2,h3,h4,h5,h6,button,a,li');
+    const userLanguage = localStorage.getItem('userLanguage') || 'English';
+    const translationMap = JSON.parse(localStorage.getItem('translationMap')) || {};
+   
+  
+    elementsWithText.forEach(async (element) => {
+      if (element.textContent && element.textContent.trim() !== '') {
+        const text = element.textContent.trim();
+        const translationKey = `${userLanguage}:${text}`;
+        
+        if (translationMap[translationKey]) {
+          element.textContent = translationMap[translationKey];
+          
+        } else {
+          try {
+            const response = await axios.post('http://localhost:5000/', { text: text });
+            const doubledText = response.data.translation;
+            translationMap[translationKey] = doubledText;
+            localStorage.setItem('translationMap', JSON.stringify(translationMap));
+            element.textContent = doubledText;
+            
+          } catch (error) {
+            console.log(error);}
+          }
+
+        }
+      });
+      
+      console.log('done');
+      
+      document.documentElement.lang = userLanguage;
+      document.documentElement.setAttribute('lang', userLanguage);
+    };
+    
+  
+  own api integration
