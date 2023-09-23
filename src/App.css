@@ -189,9 +189,10 @@ body {
   border-radius: 22px;
 }
 
-.skiptranslate{
+.skiptranslate {
   display: none;
 }
+
 .carol-provid .card {
   margin: 0 30px;
 }
@@ -480,6 +481,39 @@ body {
   padding: 0;
 }
 
+.Advocate {
+  margin-top: 6rem;
+}
+
+.profile-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+}
+
+.Verify:hover {
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.1);
+}
+
+.Advocate-details img {
+  width: 20px;
+  height: 20px;
+}
+
+.Advocate-button button {
+  width: 100%;
+  height: 34px;
+  color: #473400;
+  border-color: #473400;
+}
+
+.Advocate-button button:hover {
+  background: #473400;
+  color: #fff;
+}
+
 
 /* Vibhuti */
 
@@ -601,7 +635,7 @@ body {
 .comm-image {
   width: 50%;
   object-fit: cover;
-  height:80vh;
+  height: 80vh;
 }
 
 
