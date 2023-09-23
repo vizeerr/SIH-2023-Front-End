@@ -6,7 +6,7 @@ import blstar from '../../page 1 design images/icons8-rating-100.png'
 import flstar from '../../page 1 design images/icons8-star-50.png'
 import lawyer1 from '../../page 1 design images/lawyer1.jpeg'
 import lawyer2 from '../../page 1 design images/lawyer2.jpeg'
-
+import lawyer3 from '../../page 1 design images/lawyer3.jpeg'
 // import {Link} from "react-router-dom"
 
 const ProviderSlider = () => {
@@ -44,7 +44,7 @@ const ProviderSlider = () => {
                       <img src={locoico} className = 'verifico' alt="" />
                       <p className='d-flex sm-13 lighttext  ms-2 '> High Court, Delhi </p>
                     </div>
-                    <p className="card-text lighttext ">20+ Yr of Experience Newer Lost Any Case till know. Flexible Charge free of cost consulting</p>
+                    <p className="card-text lighttext ">20+ Yr of Experience.Never Lost Any Case till know and Flexible Charge.</p>
                     {/* <Link to="/"> */}
                     <div className='d-flex justify-content-between w-100'>
                       <button type="button " className="btn btn-brown w-75 sm-13 ">Contact Me</button>
@@ -133,11 +133,11 @@ const ProviderSlider = () => {
                 </div>
             </div>
             <div className="card border-none" >
-                <img src={lawyer2} className="card-img-top" alt="..."/>
+                <img src={lawyer3} className="card-img-top" alt="..."/>
                 <div className="card-body">
                 <div className='d-flex m-0 mb-2 justify-content-between align-items-center'>
                   <div className='d-flex align-items-center'>
-                      <p className='m-0 lighttext sm-13'>Adv Shami Gautam </p>
+                      <p className='m-0 lighttext sm-13'>Adv Rajesh</p>
                       <img className = 'verifico ms-2 m-0' src={verifico}  alt=""/>
                   </div>
                   <div>
@@ -149,7 +149,7 @@ const ProviderSlider = () => {
                       <img src={locoico} className = 'verifico' alt="" />
                       <p className='d-flex sm-13 lighttext  ms-2 '> High Court, Delhi </p>
                     </div>
-                    <p className="card-text lighttext ">I help clients in resolving varying types of civil disputes in state court, federal court, administrative law judges and regulatory boards.</p>
+                    <p className="card-text lighttext ">I help clients in resolving varying types of civil disputes in state court, federal court etc.</p>
                     {/* <Link to="/"> */}
                     <div className='d-flex justify-content-between w-100'>
                       <button type="button " className="btn btn-brown w-75 sm-13 ">Contact Me</button>
@@ -242,7 +242,7 @@ const ProviderSlider = () => {
                 </div>
             </div>
             <div className="card border-none" >
-                <img src={pvads} className="card-img-top" alt="..."/>
+                <img src={lawyer1} className="card-img-top" alt="..."/>
                 <div className="card-body">
                 <div className='d-flex m-0 mb-2 justify-content-between align-items-center'>
                   <div className='d-flex align-items-center'>
@@ -277,11 +277,11 @@ const ProviderSlider = () => {
                 </div>
             </div>
             <div className="card border-none" >
-                <img src={lawyer2} className="card-img-top" alt="..."/>
+                <img src={lawyer3} className="card-img-top" alt="..."/>
                 <div className="card-body">
                 <div className='d-flex m-0 mb-2 justify-content-between align-items-center'>
                   <div className='d-flex align-items-center'>
-                      <p className='m-0 lighttext sm-13'>Adv Shami Gautam </p>
+                      <p className='m-0 lighttext sm-13'>Adv Rajesh </p>
                       <img className = 'verifico ms-2 m-0' src={verifico}  alt=""/>
                   </div>
                   <div>
@@ -388,7 +388,7 @@ const ProviderSlider = () => {
                 </div>
             </div>
             <div className="card border-none" >
-                <img src={pvads} className="card-img-top" alt="..."/>
+                <img src={lawyer1} className="card-img-top" alt="..."/>
                 <div className="card-body">
                 <div className='d-flex m-0 mb-2 justify-content-between align-items-center'>
                   <div className='d-flex align-items-center'>
@@ -423,11 +423,11 @@ const ProviderSlider = () => {
                 </div>
             </div>
             <div className="card border-none" >
-                <img src={lawyer2} className="card-img-top" alt="..."/>
+                <img src={lawyer3} className="card-img-top" alt="..."/>
                 <div className="card-body">
                 <div className='d-flex m-0 mb-2 justify-content-between align-items-center'>
                   <div className='d-flex align-items-center'>
-                      <p className='m-0 lighttext sm-13'>Adv Shami Gautam </p>
+                      <p className='m-0 lighttext sm-13'>Adv Rajesh </p>
                       <img className = 'verifico ms-2 m-0' src={verifico}  alt=""/>
                   </div>
                   <div>
