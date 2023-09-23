@@ -343,6 +343,9 @@ body {
   background: var(--lgbag);
 }
 
+.userfeed .card{
+  height: 25vh;
+}
 .herosection {
   margin-top: 5em;
 }
@@ -366,6 +369,48 @@ body {
 
 #goog-gt-tt{
   display: none;
+}
+
+
+.bg{
+  height: 63vh;
+  width: 100%;
+  z-index: -3;
+  position: absolute;
+  background: #261800 !important;
+}
+.clienthero .leftarea{
+  width: 90%;
+}
+
+.clienthero .fs-3{
+  color: #B5B5B5;
+  font-weight: 200;
+}
+.clienthero .rightarea{
+  z-index: 3 !important;
+}
+
+.clienthero .rightarea img{
+  width: 75%;
+  filter: drop-shadow(0px 0px 20px #000000c6);
+}
+.clienthero .head-land{
+  color: #FFFFFF;
+  text-shadow: 6px 4px 22px #00000045;
+  font-family: inherit;
+  font-weight:400;
+}
+
+.clienthero .w-70{
+  width: 70%;
+  border: 3px solid #848484;
+  background: #fff;
+  box-shadow: 0px 0px 25px #FFFFFF4A;
+}
+
+.clienthero .lighttext, .badges span{
+  color: #B5B5B5;
 }
 
 /* Rishav */
@@ -515,6 +560,8 @@ body {
   background: #473400;
   color: #fff;
 }
+
+
 
 
 /* Vibhuti */
@@ -737,12 +784,12 @@ body {
 
 .submit-btn {
   border-radius: 3rem;
-  padding: 0.75rem;
+  padding: 7px;
   background-color: var(--brown);
   color: var(--yellight);
   margin-top: 2rem;
   font-size: 1rem;
-  width: 15%;
+  width: 11%;
   border-style: none;
 }
 .select-tag{
