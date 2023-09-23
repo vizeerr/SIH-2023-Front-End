@@ -17,6 +17,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route exact path="services" element={<Service />} />
           <Route exact path="profile" element={<Profile />} />
+         
           <Route path="/templates" element={<DocumentCreate/>}/>
         </Routes>
       </Router>
