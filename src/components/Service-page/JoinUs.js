@@ -1,8 +1,8 @@
 import React from "react";
 import expand from "../../page 1 design images/pexels-fauxels-3184465.jpg";
 import op2 from "../../page 1 design images/op2.jpg";
-import op3 from "../../page 1 design images/op3.jpg";
-import op4 from "../../page 1 design images/op4.jpg";
+import op3 from "../../page 1 design images/op4 (2).jpg";
+import op4 from "../../page 1 design images/op3 (2).jpg";
 
 const JoinUs = () => {
   return (

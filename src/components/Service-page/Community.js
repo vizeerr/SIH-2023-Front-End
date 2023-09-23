@@ -2,6 +2,7 @@ import React from 'react'
 import commimage from "../../service page images/pexels-pavel-danilyuk-6340688.jpg"
 import fam from "../../page 1 design images/family-law-q2rkt7sgpskp9dph2acgnex6yz1b27u49ti9vpu458.jpg"
 import sp from "../../page 1 design images/spon.jpg"
+import inc from "../../page 1 design images/incentive.jpg"
 function Community() {
   return (
     <div className='q'>
@@ -26,7 +27,7 @@ function Community() {
             <p className='comm-subheading'>Talk,Engage and Create Friends</p>
         </div>
         <div className='comm-comp'>
-            <img src={commimage} className="comm-image" width={1124} height={384} alt="" />
+            <img src={inc} className="comm-image" width={1124} height={384} alt="" />
             <p className='comm-content'>Get access to our Community Member Group where you can engage with other members who are related to your fields.Connect with them ,Create friends and lot more</p>
         </div>
          <div className='leads-comp1'>

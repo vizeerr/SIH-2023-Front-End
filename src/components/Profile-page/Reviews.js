@@ -1,5 +1,7 @@
 import React from 'react'
-import pavds from "../../page 1 design images/pvads.jpeg";
+import re3 from "../../page 1 design images/re3.jpeg";
+import re2 from "../../page 1 design images/re2.jpeg";
+import re1 from "../../page 1 design images/re1.jpeg";
 
 function Reviews() {
   return (
@@ -21,12 +23,12 @@ function Reviews() {
         <div className="d-flex flex-row-reverse align-items-center justify-content-center">
                 <div class="w-50 m-5">
                   <p className="text-start fs-3 ">
-                    "Best Advocate for criminal case"
+                    "Best Advocate for criminal case."
                   </p>
                   <p className="text-start fs-5 lighttext">~ by Satya Singh</p>
                   <p className="text-start fs-5 lighttext">Advocate Delhi High Court</p>
                 </div>
-                <img src={pavds} class="rounded-5 w-25" alt="..." />
+                <img src={re3} class="rounded-5 w-25" alt="..." />
           </div>
       </div>
       <div className="carousel-item" data-bs-interval="2000">
@@ -38,19 +40,19 @@ function Reviews() {
                     <p className="text-start fs-5 lighttext">~ by Aryan Sharma</p>
                     <p className="text-start fs-5 lighttext">Advocate Allahabad High Court</p>
                   </div>
-                  <img src={pavds} class="rounded-5 w-25" alt="..." />
+                  <img src={re2} class="rounded-5 w-25" alt="..." />
             </div>
       </div>
       <div className="carousel-item">
       <div className="d-flex  flex-row-reverse align-items-center justify-content-center">
                 <div class="w-50 m-5">
                   <p className="text-start fs-3 ">
-                   "Listens carefully and help you in all kind of divorced cases"
+                   "Such an amazing and competent team."
                   </p>
                   <p className="text-start fs-5 lighttext">~ by Rohan Kumar</p>
                   <p className="text-start fs-5 lighttext">Advocate Uttarakhand High Court</p>
                 </div>
-                <img src={pavds} class="rounded-5 w-25" alt="..." />
+                <img src={re1} class="rounded-5 w-25" alt="..." />
           </div>
       
       </div>
