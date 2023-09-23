@@ -3,12 +3,20 @@ import orgico from '../../page 1 design images/icons8-organization-100.png'
 import famlawimg from '../../page 1 design images/family-law-q2rkt7sgpskp9dph2acgnex6yz1b27u49ti9vpu458.jpg'
 import solo from '../../page 1 design images/icons8-person-100.png'
 import qs from '../../page 1 design images/icons8-question-mark-100.png'
-import md from '../../page 1 design images/icons8-mediator-100.png'
-import ntr from '../../page 1 design images/icons8-notary-100.png'
-import doc from '../../page 1 design images/icons8-document-writer-100.png'
-import arbi from '../../page 1 design images/icons8-arbitrator-100.png'
-import law from '../../page 1 design images/icons8-lawyer-100.png'
-import atr from '../../page 1 design images/icons8-attorney-100.png'
+import md from '../../page 1 design images/med.png'
+import ntr from '../../page 1 design images/notary.png'
+import doc from '../../page 1 design images/doc.png'
+import arbi from '../../page 1 design images/meet.png'
+import law from '../../page 1 design images/law.png'
+import atr from '../../page 1 design images/att.png'
+import sol from '../../page 1 design images/sol.jpeg'
+import sol1 from '../../page 1 design images/sol1.jpeg'
+import sol2 from '../../page 1 design images/sol2.jpeg'
+import sol3 from '../../page 1 design images/sol3.jpeg'
+import sol4 from '../../page 1 design images/sol4.jpeg'
+import sol5 from '../../page 1 design images/sol5.jpeg'
+import sol6 from '../../page 1 design images/sol6.jpeg'
+import sol7 from '../../page 1 design images/sol7.jpeg'
 
 
 const ServicesSlider = () => {
@@ -48,7 +56,7 @@ const ServicesSlider = () => {
                     <p className="card-text lighttext fs-6 lh-lg">A sole practitioner is a licensed professional who operates a firm without any other partners.</p>
                 </div>
             </div>
-            <img src={famlawimg} className="card-img-bottom z-1 " alt="..."/>
+            <img src={sol} className="card-img-bottom z-1 " alt="..."/>
         </div>
         <div className="contain-card text-center">
             <div className="card m-auto">
@@ -58,7 +66,7 @@ const ServicesSlider = () => {
                     <p className="card-text lighttext fs-6 lh-lg">Experts in specific area of law who provide advice and guidance to business and individuals.</p>
                 </div>
             </div>
-            <img src={famlawimg} className="card-img-bottom z-1 " alt="..."/>
+            <img src={sol1} className="card-img-bottom z-1 " alt="..."/>
         </div>
         
         </div>
@@ -74,7 +82,7 @@ const ServicesSlider = () => {
                     <p className="card-text lighttext fs-6 lh-lg">A mediator is a trained professional who acts as a neutral facilitator during the mediation process and help them in negoitating.</p>
                 </div>
             </div>
-            <img src={famlawimg} className="card-img-bottom z-1 " alt="..."/>
+            <img src={sol2} className="card-img-bottom z-1 " alt="..."/>
         </div>
         <div className="contain-card text-center">
             <div className="card m-auto">
@@ -84,7 +92,7 @@ const ServicesSlider = () => {
                     <p className="card-text lighttext fs-6 lh-lg">A notary is a publicly commissioned official who serves as an impartial witness to the signing of a legal document.</p>
                 </div>
             </div>
-            <img src={famlawimg} className="card-img-bottom z-1 " alt="..."/>
+            <img src={sol3} className="card-img-bottom z-1 " alt="..."/>
         </div>
         <div className="contain-card text-center">
             <div className="card m-auto">
@@ -94,7 +102,7 @@ const ServicesSlider = () => {
                     <p className="card-text lighttext fs-6 lh-lg">A legal writer creates contracts, agreements  and other documents that need legal terminology.</p>
                 </div>
             </div>
-            <img src={famlawimg} className="card-img-bottom z-1 " alt="..."/>
+            <img src={sol4} className="card-img-bottom z-1 " alt="..."/>
         </div>
         
         </div>
@@ -107,30 +115,30 @@ const ServicesSlider = () => {
                 <img src={arbi} className="card-img-top w-25 ms-3 mt-3" alt="..."/>
                 <div className="card-body mx-3 text-start">
                     <h2 className="card-title">Arbitrators</h2>
-                    <p className="card-text lighttext fs-6 lh-lg">Someone who has been officially chosen to make decision that ends legal disagreement without it having to be solved in court</p>
+                    <p className="card-text lighttext fs-6 lh-lg">Someone who has been chosen to make decision that ends legal disagreement without it having solved in court.</p>
                 </div>
             </div>
-            <img src={famlawimg} className="card-img-bottom z-1 " alt="..."/>
+            <img src={sol5} className="card-img-bottom z-1 " alt="..."/>
         </div>
         <div className="contain-card text-center">
             <div className="card m-auto">
                 <img src={law} className="card-img-top w-25 ms-3 mt-3" alt="..."/>
                 <div className="card-body mx-3 text-start">
                     <h2 className="card-title">Lawyer</h2>
-                    <p className="card-text lighttext fs-6 lh-lg"> A person who is trained and qualified to advise people about the law and to represent them in court, and to write legal documents.</p>
+                    <p className="card-text lighttext fs-6 lh-lg"> A person who is qualified to advise people about the law and to represent them in court, and to write legal documents.</p>
                 </div>
             </div>
-            <img src={famlawimg} className="card-img-bottom z-1 " alt="..."/>
+            <img src={sol6} className="card-img-bottom z-1 " alt="..."/>
         </div>
         <div className="contain-card text-center">
             <div className="card m-auto">
                 <img src={atr} className="card-img-top w-25 ms-3 mt-3" alt="..."/>
                 <div className="card-body mx-3 text-start">
                     <h2 className="card-title">Attorney</h2>
-                    <p className="card-text lighttext fs-6 lh-lg">A person who is legally qualified and licensed to represent a person in a legal matter, such as a transaction lawsuit or other cases.</p>
+                    <p className="card-text lighttext fs-6 lh-lg">A person who is legally qualified to represent a person in a legal matter, such as a transaction lawsuit or other cases.</p>
                 </div>
             </div>
-            <img src={famlawimg} className="card-img-bottom z-1 " alt="..."/>
+            <img src={sol7} className="card-img-bottom z-1 " alt="..."/>
         </div>
         
         </div>
