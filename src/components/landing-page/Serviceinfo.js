@@ -1,5 +1,7 @@
 import React from "react";
 import "../../App.css";
+import { Link } from "react-router-dom";
+
 
 import Sshot1 from "../../page 1 design images/Screenshot 2023-09-16 150112.png";
 import Sshot2 from "../../page 1 design images/Screenshot 2023-09-16 151438.png";
@@ -45,7 +47,7 @@ function Serviceinfo() {
           <div className="carousel-item active mb-4 mb-5" data-bs-interval="10000">
             <div className="d-flex m-auto">
               <div class="card m-4 border-none text-center ">
-                <img src={Sshot1} class="card-img-top doctempimg" alt="..."/>
+              <Link to='/templates'><img src={Sshot1} class="card-img-top doctempimg" alt="..."/></Link>
                 <div class="card-body lightbackground">
                   <h5 class="card-title">Affidavit for name change</h5>  
                 </div>
