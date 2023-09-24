@@ -9,7 +9,7 @@ function map() {
     <div>
       <div className="container-1 border 1px solid #707070 ">
         <div className="container-l d-flex  ">
-          <div className="d-flex flex-column  ">
+          <div className="d-flex flex-column ">
             <div className="display-5 ms-5 pb-2 mt-3  ">
               Locate Services In the Map
             </div>
