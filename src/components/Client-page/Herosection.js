@@ -1,13 +1,11 @@
-import React from "react";
+import React,{useState} from "react";
 import loj from "../../Client Page Images/header.png";
 import searchbtn from "../../page 1 design images/searchbtn.png"; 
-import legalico from "../../page 1 design images/legalico.png";
-import transpico from "../../page 1 design images/transpico.png";
-import convico from "../../page 1 design images/convico.png";
-import expertico from "../../page 1 design images/expertico.png";
+
 
 const Herosection = () => {
   return (
+    <>
     <div className="herosection clienthero container-l mt-5 ">
     <div className="bg"></div>
       <div className="hero d-flex justify-content-between pt-5">
@@ -24,10 +22,12 @@ const Herosection = () => {
               className="form-control me-2 border-none"
               type="search"
               placeholder="Search"
-              aria-label="Search"
+              aria-label="Search" 
+              
             />
             <img className="searchlog" src={searchbtn} alt="" />
           </form>
+          
 
           <div className="searchsuggest d-flex align-items-center">
             <p className="fs-5 m-0 lighttext"> Popular: </p>
@@ -47,6 +47,8 @@ const Herosection = () => {
         </div>
       </div>
     </div>
+      
+    </>
   );
 };
 

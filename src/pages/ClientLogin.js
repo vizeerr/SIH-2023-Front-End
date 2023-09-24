@@ -11,7 +11,7 @@ import Footer from '../components/Footer'
 
 const ClientLogin = () => {
   return (
-    <div>
+    <div > 
     <Navbar/>
       <HeroSection></HeroSection>
       <ServicesSlider/>
