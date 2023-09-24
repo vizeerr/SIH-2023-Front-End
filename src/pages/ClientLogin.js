@@ -7,7 +7,7 @@ import StateService from '../components/landing-page/StateService'
 import Serviceinfo from '../components/landing-page/Serviceinfo'
 const ClientLogin = () => {
   return (
-    <div>
+    <div > 
     <Navbar/>
       <HeroSection></HeroSection>
       <ServicesSlider/>
