@@ -7,10 +7,10 @@ import Sc1 from "../../page 1 design images/Screenshot(117).jpeg";
 function map() {
   return (
     <div>
-      <div className="container-1">
+      <div className="container-1 border 1px solid #707070 ">
         <div className="container-l d-flex  ">
           <div className="d-flex flex-column  ">
-            <div className="display-5 ms-5 pb-2   ">
+            <div className="display-5 ms-5 pb-2 mt-3  ">
               Locate Services In the Map
             </div>
 
@@ -186,13 +186,14 @@ function map() {
           </div>
           </div>
 
-          <div className="  w-50 mt-5 pt-4 ps-2 mb-5 ">
+          <div className="  w-50 mt-5 pt-5 ps-2 mb-5 ">
             <img src={Sc} alt=""></img>
           </div>
 
           
         </div>
         </div>
+       
       </div>
     
   );

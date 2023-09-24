@@ -96,7 +96,7 @@ const Userfeed = () => {
                       <div class="card-body">
                         <h5 class="card-title">Rohan</h5>
                         <p class="card-text">
-                         Real estate law can be very confusing and, as a real estate client, the firm helped us.
+                         Real estate law can be very confusing and, as a real estate client, the firm helped us. Great Experience and recommended
                         </p>
                         <div className="d-flex flex-wrap justify-content-start ">
                           <div className="d-flex flex-wrap justify-content-start"> 
@@ -157,7 +157,7 @@ const Userfeed = () => {
                         <h5 class="card-title">Ruhi</h5>
                         <p class="card-text">
                           
-                        Such an amazing and competent team!I highly recommend and will work with this law office again.</p>
+                        Such an amazing and competent team!I highly recommend and will work with this law office again. Thanks A Lot !</p>
                         <div className="d-flex flex-wrap justify-content-start ">
                           <div className="d-flex flex-wrap justify-content-start">
                             <img src={flstar} alt="" className="verifico" />

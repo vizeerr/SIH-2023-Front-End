@@ -21,7 +21,7 @@ import sol7 from '../../page 1 design images/sol7.jpeg'
 
 const ServicesSlider = () => {
   return (
-    <div className='lgbag container-l mt-5 mb- p-0 pt-5 pb-5'>
+    <div className='lgbag container-l  mb- p-0 pt-5 pb-5'>
     <div className='w-100 text-center mt-5'>
         <h1 className="display-3 "> A Passion For Justice, Our Service Areas</h1>
         <button type="button" className="btn btn-brown float-end me-5"> View More</button>

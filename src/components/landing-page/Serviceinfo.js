@@ -13,9 +13,9 @@ function Serviceinfo() {
     <div className="container-l lightbackground mt-0 pt-5 pb-5">
       <div className="w-100 text-center mt-5">
         <h1 className="display-3 "> Create Documents Quickly and Easily!</h1>
-        <button type="button" className="btn btn-brown float-end me-5">
+        <Link to="/templates"> <button type="button" className="btn btn-brown float-end me-5">
           View More
-        </button>
+        </button></Link>
       </div>
       <div
         id="serviceinfo"
@@ -71,9 +71,9 @@ function Serviceinfo() {
                 </div>
               </div>
               <div class="card m-4 border-none text-center">
-                <img src={Sshot1} class="card-img-top doctempimg" alt="..."/>
+              <Link to='/regular-bail'> <img src={Sshot1} class="card-img-top doctempimg" alt="..."/></Link>
                 <div class="card-body lightbackground">
-                  <h5 class="card-title">Affidavit for income certificate </h5>  
+                  <h5 class="card-title">Application For Regular </h5>  
                 </div>
               </div>
             </div>

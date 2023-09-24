@@ -8,6 +8,9 @@ import YearGapDocument from "./documents/YearGap";
 import VehicleRegistrationDocument from "./documents/VehicleRegistr";
 import DeathCertificateDocument from "./documents/DeathCertif";
 import ChangeInName from "./documents/ChangeInName";
+import AppliForBail from "./documents/AppliForBail";
+import ClientLogin from "./pages/ClientLogin";
+
 function App() {
   return (
     <>
@@ -21,6 +24,8 @@ function App() {
           <Route path="/vehicle-registration" element={<VehicleRegistrationDocument />} />
           <Route path="/death-certificate" element={<DeathCertificateDocument />} />
           <Route path="/change-name" element={<ChangeInName />} />
+          <Route path="/regular-bail" element={<AppliForBail />} />
+          <Route path="/loggedinuser" element={<ClientLogin />} />
         </Routes>
       </Router>
     </>
