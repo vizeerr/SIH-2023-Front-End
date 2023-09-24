@@ -20,8 +20,7 @@ function App() {
           <Route exact path="services" element={<Service />} />
           <Route exact path="profile" element={<Profile />} />
           <Route path="/templates" element={<Templates/>} />
-
-          <Route path="/year-gap" element={<YearGapDocument />} />
+           <Route path="/year-gap" element={<YearGapDocument />} />
           <Route path="/vehicle-registration" element={<VehicleRegistrationDocument />} />
           <Route path="/death-certificate" element={<DeathCertificateDocument />} />
           <Route path="/change-name" element={<ChangeInName />} />

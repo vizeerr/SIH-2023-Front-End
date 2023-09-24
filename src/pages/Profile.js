@@ -13,6 +13,7 @@ const Profile = () => {
       <HeroSection />
       <Reviews/>
         <Contact_form/>
+        
       <FAQ />
       <Footer />
     </div>
