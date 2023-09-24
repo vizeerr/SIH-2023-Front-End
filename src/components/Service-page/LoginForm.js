@@ -1,6 +1,6 @@
 import React from 'react'
-import img from "../../service page images/hammer-img.jpg"
-import search from "../servicepageimages/search.png"
+// import img from "../../service page images/hammer-img.jpg"
+// import search from "../servicepageimages/search.png"
 
 function LoginForm() {
   return (

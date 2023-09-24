@@ -97,6 +97,17 @@ const Navbar = () => {
                 Templates
               </Link>
             </li>
+            <li className="nav-item">
+              <Link
+                className={`nav-link ${
+                  location.pathname === "/loggedinuser" ? "active" : ""
+                }`}
+                aria-current="page"
+                to="loggedinuser"
+              >
+                Client Page
+              </Link>
+            </li>
             <li>
               <div id="google_translate_element"> </div>
             </li>
