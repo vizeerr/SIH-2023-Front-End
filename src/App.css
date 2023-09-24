@@ -273,6 +273,7 @@ body {
 
 .loginbg {
   position: relative;
+  /* filter: brightness(1) !important; */
 }
 
 .loginbg::before {
@@ -293,25 +294,8 @@ body {
 
 .loginrbg {
   position: relative;
+  filter: brightness(1);
 }
-
-.loginrbg::before {
-  content: "";
-  background-image: url('../src/page 1 design images/haplog.jpeg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  filter: brightness(0.5);
-  opacity: 1;
-  /* Adjust the opacity value as needed */
-  z-index: -1;
-  /* Ensure the overlay is behind the content */
-}
-
 .loginservice{
   background: #FFFBF6 ;
   /* box-shadow: 0px 0px 25px #00000029; */
@@ -400,7 +384,7 @@ body {
 
 
 .bg{
-  height: 63vh;
+  height: 65vh;
   width: 100%;
   z-index: -3;
   position: absolute;
@@ -408,6 +392,7 @@ body {
 }
 .clienthero .leftarea{
   width: 90%;
+  padding-top: 2.5em;
 }
 
 .clienthero .fs-3{
@@ -416,6 +401,7 @@ body {
 }
 .clienthero .rightarea{
   z-index: 3 !important;
+  padding-top: 1em;
 }
 
 .clienthero .rightarea img{
@@ -438,6 +424,24 @@ body {
 
 .clienthero .lighttext, .badges span{
   color: #B5B5B5;
+}
+
+
+.carol-map{
+  
+}
+
+.carol-map .carousel-control-next, .carousel-control-prev {
+  width: 15%;
+  bottom: 0;
+}
+
+.carol-map .carousel-control-prev, .carol-map .carousel-indicators{
+  margin-top: 0;
+}
+
+.carol-map .card{
+  scale: 0.75;
 }
 
 /* Rishav */

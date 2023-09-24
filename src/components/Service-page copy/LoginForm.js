@@ -11,7 +11,7 @@ const Loginonpage = () => {
             <div>
               <h1 className="display-4 mt-5"> Signup and get clients today !</h1>
              
-              <form style = {{width:45+"%",float:"left"}} className="mt-3 mb-3">
+              <form style = {{width:50+"%",float:"left"}} className="mt-3 mb-3 pe-5 border-end">
                 <div className="mb-3">
                   <label for="fullname" className="form-label">
                     Full Name
