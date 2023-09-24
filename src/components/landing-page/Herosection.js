@@ -1,14 +1,24 @@
-import React from "react";
+import React,{useState} from "react";
 import loj from "../../page 1 design images/loj.png";
 import searchbtn from "../../page 1 design images/searchbtn.png";
 import legalico from "../../page 1 design images/legalico.png";
 import transpico from "../../page 1 design images/transpico.png";
 import convico from "../../page 1 design images/convico.png";
 import expertico from "../../page 1 design images/expertico.png";
+import SearchSugg from "../SearchSugg";
 
 const Herosection = () => {
+  const [isSearchOpen, setisSearchOpen] = useState(false);
+  const handleSearchClick = () => {
+    setisSearchOpen(true);
+  };
+
+const handleSearchClose = () => {
+  setisSearchOpen(false);
+};
   return (
-    <div className="herosection container-fluid">
+    <>
+    <div className="herosection container-fluid ">
       <div className="hero d-flex justify-content-between mt-5">
         <div className="leftarea  ms-5">
           <h1 className="display-1 head-land ">High Quality Legal Services </h1>
@@ -17,7 +27,7 @@ const Herosection = () => {
             anymore
           </p>
           <form
-            className="w-75 align-items-center d-flex search rounded-pill mt-4 mb-4"
+            className="w-75 align-items-center d-flex search rounded-pill mt-4 mb-3"
             role="search"
           >
             <input
@@ -25,11 +35,12 @@ const Herosection = () => {
               type="search"
               placeholder="Search"
               aria-label="Search"
+              onClick={handleSearchClick}
             />
             <img className="searchlog" src={searchbtn} alt="" />
           </form>
-
-          <div className="searchsuggest d-flex align-items-center">
+         
+          <div className="searchsuggest d-flex align-items-center mt-4">
             <p className="fs-5 m-0 lighttext"> Popular: </p>
             <div className="badges ms-3">
               <span className="badge rounded-pill custpopbadge ">
@@ -113,6 +124,8 @@ const Herosection = () => {
         </div>
       </div>
     </div>
+    <SearchSugg isOpen={isSearchOpen} onClose={handleSearchClose}></SearchSugg>
+</>
   );
 };
 

@@ -1,9 +1,29 @@
 import React, { useState } from "react";
-import { Link,useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import SignInPop from "./SignInPop"
+import SignUpPop from "./SignUpPop"
 
 
 
 const Navbar = () => {
+  
+  const [isSignInOpen, setIsSignInOpen] = useState(false);
+  const handleSignInClick = () => {
+    setIsSignInOpen(true);
+  };
+
+const handleCloseSignIn = () => {
+  setIsSignInOpen(false);
+};
+
+const [isSignUpOpen, setIsSignUpOpen] = useState(false);
+const handleSignUpClick = () => {
+  setIsSignUpOpen(true);
+};
+
+const handleCloseSignUp = () => {
+setIsSignUpOpen(false);
+};
   let location = useLocation();
   const [isOpen, setIsOpen] = useState(false);
   const toggleDropdown = () => {
@@ -35,6 +55,7 @@ const Navbar = () => {
   };
 
   return (
+    <>
     <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top ">
       <div className="container-fluid text-center">
         <Link className="navbar-brand" href="/">
@@ -143,15 +164,20 @@ const Navbar = () => {
               </ul>
             </li>
           </ul>
-          <button type="button " className="btn btn-yellight m-2">
+          <button type="button " className="btn btn-yellight m-2 " onClick={handleSignInClick}>
             Sign In
           </button>
-          <button type="button" className="btn btn-brown">
+          <button type="button" className="btn btn-brown" onClick={handleSignUpClick}>
             Sign Up
           </button>
+
         </div>
       </div>
     </nav>
+    <SignInPop isOpen={isSignInOpen} onClose={handleCloseSignIn} />
+    <SignUpPop isOpen={isSignUpOpen} onClose={handleCloseSignUp} />
+    
+    </>
   );
 };
 
