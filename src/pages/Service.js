@@ -20,7 +20,7 @@ const Service = () => {
       <HeroSection />
       <JoinUs />
       <HowItWorks />
-      <ServicesSlider />
+      <ServicesSlider headline = "Area Of Service You Can Provide"/>
       <Community/>
       <Tools/>
 

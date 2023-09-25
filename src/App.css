@@ -40,14 +40,28 @@ body {
   color: var(--yellight);
 }
 
+.btn-brown:hover{
+  background: #fff;
+  color: var(--brown);
+  border: 1px solid var(--brown);
+}
 .btn-yellight {
   border: 1px solid var(--brown);
   color: var(--brown);
+}
+.btn-yellight:hover{
+  background: #eaeaea;
+  border: 1px solid var(--brown);
 }
 
 .btn-lightbg {
   background: var(--yellight);
   color: #000000;
+}
+
+.btn-lightbg:hover{
+  background: #eaeaea5f;
+  border: 1px solid var(--brown);
 }
 
 .head-land {
@@ -78,16 +92,27 @@ body {
 
 }
 
+
+.searchsuggest .badges span{
+  transition: 0.2s;
+}
+
+.searchsuggest .badges span:hover{
+  scale: 1.1;
+  color: #000000;
+  border: 1px solid #000000;
+}
 .search input {
   border-right: 1px solid var(--searchcol);
   border-radius: 50px;
   width: 89%;
+  border:none;
 }
 
 .search input:active,
 .search input:focus {
-  border: none;
-  box-shadow: 0 0 0 0.05rem rgb(69, 43, 1);
+  border: none !important;
+  box-shadow: 0 0 0 0.05rem rgba(69, 43, 1, 0);
 }
 
 .border-none {
@@ -168,6 +193,7 @@ body {
 
 .contain-card {
   margin: 0 40px;
+  transition: 0.2s;
 }
 
 .contain-card .card {
@@ -175,6 +201,10 @@ body {
   border: 1px solid #ADADAD;
   width: 91%;
   height: 41vh;
+}
+
+.contain-card:hover{
+  filter: grayscale(1);
 }
 
 .lighttext {
@@ -206,6 +236,7 @@ body {
 .carousel-indicators {
   margin-top: 3em;
 }
+
 
 .verifico {
   width: 13px;
@@ -315,9 +346,9 @@ body {
 
 .loginservice {
   background: #FFFBF6;
-  /* box-shadow: 0px 0px 25px #00000029; */
-  /* border: 1px solid #E2E2E2; */
-  /* border-radius: 42px; */
+border: 1px solid #E2E2E2;
+border-radius: 42px;
+scale: 0.9;
 }
 
 .loginservice .loginrbg {
@@ -457,8 +488,8 @@ body {
 
 .carol-map {}
 
-.carol-map .carousel-control-next,
-.carousel-control-prev {
+.carol-map .carousel-control-next, .carol-map .carousel-control-prev {
+
   width: 15%;
   bottom: 0;
 }

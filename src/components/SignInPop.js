@@ -3,6 +3,7 @@ import React from "react";
 import gico from "./../page 1 design images/icons8-google-100.png";
 import lthumb from "./../page 1 design images/login back.jpeg"
 import clbtn from "./../page 1 design images/icons8-close-100.png"
+import {Link} from "react-router-dom";
 
 const Loginonpage = ({ isOpen, onClose }) => {
   const handleClose = ()=>{
@@ -31,7 +32,7 @@ const Loginonpage = ({ isOpen, onClose }) => {
                     Email
                   </label>
                   <input
-                    placeholder="name@mail.com"
+                    placeholder="vivek1212@mail.com"
                     type="email"
                     className="form-control"
                     id="email"
@@ -42,17 +43,17 @@ const Loginonpage = ({ isOpen, onClose }) => {
                     Password
                   </label>
                   <input
-                    placeholder="•••••"
+                    placeholder="**********"
                     type="password"
                     className="form-control"
                     id="password"
                   />
                 </div>
-                <button type="submit" className="btn btn-brown" style={{width:"35%"}}>
+                <Link to="/loggedinuser"><button type="submit" className="btn btn-brown" style={{width:"35%"}}>
                   Sign In
-                </button>
+                </button></Link>
                 <p className="lighttext mt-3">
-                  Don't have an account yet? <a href="/">Sign In</a>
+                  Don't have an account yet? <a href="/">Sign Up Here</a>
                 </p>
               </form>
 

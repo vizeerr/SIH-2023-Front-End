@@ -12,12 +12,12 @@ import Footer from '../components/Footer'
 const ClientLogin = () => {
   return (
     <div > 
-    <Navbar/>
+    <Navbar isLogin="true"/>
       <HeroSection></HeroSection>
-      <ServicesSlider/>
-      <ProviderSlider/>
+      <ServicesSlider headline = "Popular Services"/>
+      <ProviderSlider headline ="Top Service Providers"/>
       <StateService/>
-      <Serviceinfo /> 
+      <Serviceinfo headline ="Draft Templates" /> 
       <Map />
       <Doubt />
       <Footer />

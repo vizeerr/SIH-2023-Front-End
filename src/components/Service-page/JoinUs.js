@@ -19,8 +19,8 @@ const JoinUs = () => {
               />
               <div className="Join-content card-body">
                 <h5 className="mt-3 card-title">Access to Wider Client Base</h5>
-                <p className="card-text ratio ratio-3x3">
-                 We can connect you with clients from different geographical locations, expanding your potential client base.
+                <p className="card-text ratio ratio-3x3 p-2">
+                We can connect you with clients from different geographical locations, expanding your potential client base.
                 </p>
               </div>
             </div>
@@ -33,7 +33,7 @@ const JoinUs = () => {
               <div className="Join-content card-body">
                 <h5 className="mt-3 card-title">Elevate Your Legal Practice</h5>
                 <p className="card-text ratio ratio-3x3">
-                 We can provide tools and software for efficient case management, helping you streamline your workload and improve productivity.
+                We can provide tools and software for efficient case management, helping you streamline your workload and improve productivity
                 </p>
               </div>
             </div>
@@ -45,9 +45,8 @@ const JoinUs = () => {
               />
               <div className="Join-content card-body">
                 <h5 className="mt-3 card-title">Performance-Based Badges</h5>
-                <p className="card-text ratio ratio-3x3">
-                  Showcase your expertise and commitment with performance-based badges. 
-. Earning them will set you apart as a top-tier legal service provider.
+                <p className="card-text ratio ratio-3x3 ">
+                Showcase your commitment and expertise with performance-based badges. Earning them sets you apart as a top-tier legal service provider.
                 </p>
               </div>
             </div>
@@ -60,7 +59,7 @@ const JoinUs = () => {
               <div className="Join-content card-body">
                 <h5 className="mt-3 card-title">Bilingual Support</h5>
                 <p className="card-text ratio ratio-3x3">
-                  We understand the importance of inclusivity. Our platform offers bilingual support which break down language barriers,making legal assistance more accessible.
+                We understand the importance of inclusivity. Our platform offers bilingual support, breaking down language barriers and making legal assistance more accessible
                 </p>
               </div>
             </div>

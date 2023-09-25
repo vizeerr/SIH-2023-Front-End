@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import gico from "./../page 1 design images/icons8-google-100.png";
 import lthumb from "./../page 1 design images/login back.jpeg"
@@ -8,10 +9,12 @@ const Loginonpage = ({ isOpen, onClose }) => {
   const handleClose = ()=>{
     onClose()
   }
+ 
   return (
-    <div className={`position-fixed mt-2 w-100 justify-content-center align-items-center ${isOpen ? "d-flex" : "d-none"}`} style={{zIndex:"5"}} onClick={handleClose}>
+    
+    <div className={`position-fixed w-100 justify-content-center align-items-center ${isOpen ? "d-flex" : "d-none"}`} style={{zIndex:"10"}} onClick={handleClose}>
 
-    <div className="loginonpage loginservice container p-0 m-0 w-75 overflow-hidden d-flex flex-nowrap shadow-lg rounded-4" style={{height:85+"vh"}}>
+    <div className="loginonpage loginservice container p-0 m-0 w-75 overflow-hidden d-flex flex-nowrap shadow-lg rounded-4" style={{height:85+"vh"}} >
       <div className="row w-100 ">
         <div className="col-5 overflow-hidden">
           <img src={lthumb} alt="" srcset="" className="w-100 rounded-4 h-100"/>
@@ -80,9 +83,9 @@ const Loginonpage = ({ isOpen, onClose }) => {
                     id="cpassword"
                   />
                 </div>
-                <button type="submit" className="btn btn-brown" style={{width:"35%"}}>
+                <Link to="/verification"><button type="submit" className="btn btn-brown" style={{width:"35%"}}>
                   Sign Up
-                </button>
+                </button></Link>
                 <p className="lighttext mt-3">
                   Already have an account? <a href="/">Login Here</a>
                 </p>
@@ -102,6 +105,7 @@ const Loginonpage = ({ isOpen, onClose }) => {
       </div>
     </div>
     </div>
+    
   );
 };
 

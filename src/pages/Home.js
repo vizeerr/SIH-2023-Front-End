@@ -24,11 +24,11 @@ const Home = () => {
       <Herosection/>
       <Jumbo />
       <Bestpart/>
-      <ServicesSlider/>
+      <ServicesSlider headline = "A Passion For Justice, Our Service Areas"/>
       
-      <ProviderSlider/>
+      <ProviderSlider headline = "Our Top Service Providers"/>
       <StateService/>
-      <Serviceinfo /> 
+      <Serviceinfo headline="Create Documents Quickly and Easily!"/> 
       <Userfeed/>
       <Loginonpage/>  
       <Questions />

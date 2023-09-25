@@ -4,7 +4,7 @@ import React from "react";
 import gico from "../../page 1 design images/icons8-google-100.png";
 const Loginonpage = () => {
   return (
-    <div className="loginonpage loginservice container-l p-0 m-0  w-100  d-flex flex-nowrap">
+    <div className="loginonpage loginservice container-l p-0 m-0  mt-5 mb-5 w-100  d-flex flex-nowrap justify-content-evenly">
       <div className="row w-100 ">
         <div className="col ">
           <div className="container-fluid ps-5 pe-5 positon-relative">
