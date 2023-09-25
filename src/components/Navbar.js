@@ -2,10 +2,14 @@ import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import SignInPop from "./SignInPop"
 import SignUpPop from "./SignUpPop"
+import commun from "../Client Page Images/icons8-discussion-50.png"
+import notif from "../Client Page Images/icons8-notification-50.png"
+import mess from "../Client Page Images/icons8-message-50.png"
+import acc from "../Client Page Images/icons8-account-50.png"
 
 
 
-const Navbar = () => {
+const Navbar = ({isLogin}) => {
   
   const [isSignInOpen, setIsSignInOpen] = useState(false);
   const handleSignInClick = () => {
@@ -91,7 +95,7 @@ setIsSignUpOpen(false);
                   location.pathname === "/services" ? "active" : ""
                 }`}
                 aria-current="page"
-                to="services"
+                to="/services"
               >
                 Service Provider
               </Link>
@@ -102,7 +106,7 @@ setIsSignUpOpen(false);
                   location.pathname === "/profile" ? "active" : ""
                 }`}
                 aria-current="page"
-                to="profile"
+                to="/profile"
               >
                 Profile
               </Link>
@@ -113,7 +117,7 @@ setIsSignUpOpen(false);
                   location.pathname === "/templates" ? "active" : ""
                 }`}
                 aria-current="page"
-                to="templates"
+                to="/templates"
               >
                 Templates
               </Link>
@@ -124,7 +128,7 @@ setIsSignUpOpen(false);
                   location.pathname === "/loggedinuser" ? "active" : ""
                 }`}
                 aria-current="page"
-                to="loggedinuser"
+                to="/loggedinuser"
               >
                 Client Page
               </Link>
@@ -164,13 +168,20 @@ setIsSignUpOpen(false);
               </ul>
             </li>
           </ul>
-          <button type="button " className="btn btn-yellight m-2 " onClick={handleSignInClick}>
+          <button type="button " className={`${isLogin ? "d-none" :  "d-block"} btn btn-yellight m-2 `}   onClick={handleSignInClick}>
             Sign In
           </button>
-          <button type="button" className="btn btn-brown" onClick={handleSignUpClick}>
+          <button type="button" className= {`${isLogin ? "d-none" :  "d-block"} btn btn-brown m-2 `} onClick={handleSignUpClick}>
             Sign Up
           </button>
 
+          <div className={`${isLogin ? "d-flex" : "d-none"} logtabs d-flex flex-row flex-nowrap align-items-center justify-content-end`}>
+            <img src={commun} alt="" className="me-3" style={{width:5+"%"}} />
+            <img src={notif} alt="" className="me-3" style={{width:5+"%"}}/>
+            <img src={mess} alt="" className="me-3" style={{width:5.5+"%"}}/>
+            <p className="m-0 p-0 me-2 ">Vivek Sagar</p>
+            <img src={acc} alt="" className="" style={{width:5.5+"%"}} />
+          </div>
         </div>
       </div>
     </nav>

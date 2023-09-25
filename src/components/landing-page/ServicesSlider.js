@@ -17,13 +17,15 @@ import sol4 from '../../page 1 design images/sol4.jpeg'
 import sol5 from '../../page 1 design images/sol5.jpeg'
 import sol6 from '../../page 1 design images/sol6.jpeg'
 import sol7 from '../../page 1 design images/sol7.jpeg'
+import { Link } from "react-router-dom";
 
 
-const ServicesSlider = () => {
+
+const ServicesSlider = ({headline}) => {
   return (
     <div className='lgbag container-l  mb- p-0 pt-5 pb-5'>
     <div className='w-100 text-center mt-5'>
-        <h1 className="display-3 "> A Passion For Justice, Our Service Areas</h1>
+        <h1 className="display-3 "> {headline}</h1>
         <button type="button" className="btn btn-brown float-end me-5"> View More</button>
     </div>
     
@@ -48,7 +50,7 @@ const ServicesSlider = () => {
             </div>
             <img src={famlawimg} className="card-img-bottom z-1 " alt="..."/>
         </div>
-        <div className="contain-card text-center">
+        <div className="contain-card text-center"><Link to="/solopractitioners" style={{textDecoration:"none"}}>
             <div className="card m-auto">
                 <img src={solo} className="card-img-top w-25 ms-3 mt-3" alt="..."/>
                 <div className="card-body mx-3 text-start">
@@ -57,7 +59,7 @@ const ServicesSlider = () => {
                 </div>
             </div>
             <img src={sol} className="card-img-bottom z-1 " alt="..."/>
-        </div>
+            </Link></div>
         <div className="contain-card text-center">
             <div className="card m-auto">
                 <img src={qs} className="card-img-top w-25 ms-3 mt-3" alt="..."/>

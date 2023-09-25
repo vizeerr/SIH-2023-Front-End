@@ -1,9 +1,17 @@
 import React,{useState} from "react";
 import loj from "../../Client Page Images/header.png";
 import searchbtn from "../../page 1 design images/searchbtn.png"; 
-
+import SearchSugg from "../SearchSugg";
 
 const Herosection = () => {
+  const [isSearchOpen, setisSearchOpen] = useState(false);
+  const handleSearchClick = () => {
+    setisSearchOpen(true);
+  };
+
+const handleSearchClose = () => {
+  setisSearchOpen(false);
+};
   return (
     <>
     <div className="herosection clienthero container-l mt-5 ">
@@ -23,6 +31,7 @@ const Herosection = () => {
               type="search"
               placeholder="Search"
               aria-label="Search" 
+              onClick={handleSearchClick}
               
             />
             <img className="searchlog" src={searchbtn} alt="" />
@@ -47,7 +56,7 @@ const Herosection = () => {
         </div>
       </div>
     </div>
-      
+    <SearchSugg isOpen={isSearchOpen} onClose={handleSearchClose} topPos="7.5"></SearchSugg>
     </>
   );
 };

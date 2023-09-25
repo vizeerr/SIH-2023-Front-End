@@ -8,11 +8,11 @@ import Sshot2 from "../../page 1 design images/Screenshot 2023-09-16 151438.png"
 // import Sshot3 from "../../page 1 design images/Screenshot 2023-09-16 151501.png";
 // import Sshot4 from "../../page 1 design images/Screenshot 2023-09-16 151519.png";
 
-function Serviceinfo() {
+function Serviceinfo({headline}) {
   return (
     <div className="container-l lightbackground mt-0 pt-5 pb-5">
       <div className="w-100 text-center mt-5">
-        <h1 className="display-3 "> Create Documents Quickly and Easily!</h1>
+        <h1 className="display-3 "> {headline}</h1>
         <Link to="/templates"> <button type="button" className="btn btn-brown float-end me-5">
           View More
         </button></Link>

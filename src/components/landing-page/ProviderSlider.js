@@ -9,11 +9,11 @@ import lawyer2 from '../../page 1 design images/lawyer2.jpeg'
 import lawyer3 from '../../page 1 design images/lawyer3.jpeg'
 // import {Link} from "react-router-dom"
 
-const ProviderSlider = () => {
+const ProviderSlider = ({headline}) => {
   return (
     <div className='container-l  mb-5 p-0 pt-5 pb-5'>
     <div className='w-100 text-center mt-5'>
-        <h1 className="display-3 "> Our Top Service Providers</h1>
+        <h1 className="display-3 "> {headline}</h1>
         <button type="button" className="btn btn-brown float-end me-5"> View More</button>
     </div>
     
@@ -39,7 +39,7 @@ const ProviderSlider = () => {
                   <p className='m-0 lighttext sm-13'>Level 3+</p>
                   </div>
                 </div>
-                    <h4 className="card-title">CriminalLawyer</h4>
+                    <h4 className="card-title">Criminal Lawyer</h4>
                     <div className='locprovider d-flex w-100 align-item-center '>
                       <img src={locoico} className = 'verifico' alt="" />
                       <p className='d-flex sm-13 lighttext  ms-2 '> High Court, Delhi </p>
@@ -74,7 +74,7 @@ const ProviderSlider = () => {
                   <p className='m-0 lighttext sm-13'>Level 2</p>
                   </div>
                 </div>
-                    <h4 className="card-title">LegalConsultancy</h4>
+                    <h4 className="card-title">Legal Consultancy</h4>
                     <div className='locprovider d-flex w-100 align-item-center '>
                       <img src={locoico} className = 'verifico' alt="" />
                       <p className='d-flex sm-13 lighttext  ms-2 '> District Court, Nanital </p>
@@ -109,7 +109,7 @@ const ProviderSlider = () => {
                   <p className='m-0 lighttext sm-13'>Level 3</p>
                   </div>
                 </div>
-                    <h4 className="card-title">FamilyLawyer</h4>
+                    <h4 className="card-title">Family Lawyer</h4>
                     <div className='locprovider d-flex w-100 align-item-center '>
                       <img src={locoico} className = 'verifico' alt="" />
                       <p className='d-flex sm-13 lighttext  ms-2 '> High Court, Delhi </p>
@@ -144,7 +144,7 @@ const ProviderSlider = () => {
                   <p className='m-0 lighttext sm-13'>Level 3+</p>
                   </div>
                 </div>
-                    <h4 className="card-title">CivilLawyer</h4>
+                    <h4 className="card-title">Civil Lawyer</h4>
                     <div className='locprovider d-flex w-100 align-item-center '>
                       <img src={locoico} className = 'verifico' alt="" />
                       <p className='d-flex sm-13 lighttext  ms-2 '> High Court, Delhi </p>
@@ -183,7 +183,7 @@ const ProviderSlider = () => {
                   <p className='m-0 lighttext sm-13'>Level 3+</p>
                   </div>
                 </div>
-                    <h4 className="card-title">CriminalLawyer</h4>
+                    <h4 className="card-title">Criminal Lawyer</h4>
                     <div className='locprovider d-flex w-100 align-item-center '>
                       <img src={locoico} className = 'verifico' alt="" />
                       <p className='d-flex sm-13 lighttext  ms-2 '> High Court, Delhi </p>
@@ -253,7 +253,7 @@ const ProviderSlider = () => {
                   <p className='m-0 lighttext sm-13'>Level 3</p>
                   </div>
                 </div>
-                    <h4 className="card-title">FamilyLawyer</h4>
+                    <h4 className="card-title">Family Lawyer</h4>
                     <div className='locprovider d-flex w-100 align-item-center '>
                       <img src={locoico} className = 'verifico' alt="" />
                       <p className='d-flex sm-13 lighttext  ms-2 '> High Court, Delhi </p>
@@ -288,7 +288,7 @@ const ProviderSlider = () => {
                   <p className='m-0 lighttext sm-13'>Level 3+</p>
                   </div>
                 </div>
-                    <h4 className="card-title">CivilLawyer</h4>
+                    <h4 className="card-title">Civil Lawyer</h4>
                     <div className='locprovider d-flex w-100 align-item-center '>
                       <img src={locoico} className = 'verifico' alt="" />
                       <p className='d-flex sm-13 lighttext  ms-2 '> High Court, Delhi </p>
@@ -329,7 +329,7 @@ const ProviderSlider = () => {
                   <p className='m-0 lighttext sm-13'>Level 3+</p>
                   </div>
                 </div>
-                    <h4 className="card-title">CriminalLawyer</h4>
+                    <h4 className="card-title">Criminal Lawyer</h4>
                     <div className='locprovider d-flex w-100 align-item-center '>
                       <img src={locoico} className = 'verifico' alt="" />
                       <p className='d-flex sm-13 lighttext  ms-2 '> High Court, Delhi </p>
@@ -364,7 +364,7 @@ const ProviderSlider = () => {
                   <p className='m-0 lighttext sm-13'>Level 2</p>
                   </div>
                 </div>
-                    <h4 className="card-title">LegalConsultancy</h4>
+                    <h4 className="card-title">Legal Consultancy</h4>
                     <div className='locprovider d-flex w-100 align-item-center '>
                       <img src={locoico} className = 'verifico' alt="" />
                       <p className='d-flex sm-13 lighttext  ms-2 '> District Court, Nanital </p>
@@ -399,7 +399,7 @@ const ProviderSlider = () => {
                   <p className='m-0 lighttext sm-13'>Level 3</p>
                   </div>
                 </div>
-                    <h4 className="card-title">FamilyLawyer</h4>
+                    <h4 className="card-title">Family Lawyer</h4>
                     <div className='locprovider d-flex w-100 align-item-center '>
                       <img src={locoico} className = 'verifico' alt="" />
                       <p className='d-flex sm-13 lighttext  ms-2 '> High Court, Delhi </p>
@@ -434,7 +434,7 @@ const ProviderSlider = () => {
                   <p className='m-0 lighttext sm-13'>Level 3+</p>
                   </div>
                 </div>
-                    <h4 className="card-title">CivilLawyer</h4>
+                    <h4 className="card-title">Civil Lawyer</h4>
                     <div className='locprovider d-flex w-100 align-item-center '>
                       <img src={locoico} className = 'verifico' alt="" />
                       <p className='d-flex sm-13 lighttext  ms-2 '> High Court, Delhi </p>

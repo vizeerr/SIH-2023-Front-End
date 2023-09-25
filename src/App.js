@@ -10,6 +10,10 @@ import DeathCertificateDocument from "./documents/DeathCertif";
 import ChangeInName from "./documents/ChangeInName";
 import AppliForBail from "./documents/AppliForBail";
 import ClientLogin from "./pages/ClientLogin";
+import SearchData from "./pages/SearchData";
+import VerificationPage from "./pages/VerificationPage";
+import DelhiService from "./pages/StateService";
+import ServicesCateg from "./pages/ServicesCateg"
 
 function App() {
   return (
@@ -17,15 +21,20 @@ function App() {
       <Router>
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route exact path="services" element={<Service />} />
-          <Route exact path="profile" element={<Profile />} />
+          <Route exact path="/services" element={<Service />} />
+          <Route exact path="/profile" element={<Profile />} />
           <Route path="/templates" element={<Templates/>} />
-           <Route path="/year-gap" element={<YearGapDocument />} />
+           <Route path="/year-gap" element={<YearGapDocument/>} />
           <Route path="/vehicle-registration" element={<VehicleRegistrationDocument />} />
           <Route path="/death-certificate" element={<DeathCertificateDocument />} />
           <Route path="/change-name" element={<ChangeInName />} />
           <Route path="/regular-bail" element={<AppliForBail />} />
           <Route path="/loggedinuser" element={<ClientLogin />} />
+          <Route path="/searches-criminal" element={<SearchData toSearch="Criminal..."/>} />
+          <Route path="/searches-divorce" element={<SearchData toSearch="Divorce..."/>} />
+          <Route path="/verification" element={<VerificationPage/>} />
+          <Route path="/delhiserives" element={<DelhiService/>} />
+          <Route path="/solopractitioners" element={<ServicesCateg/>} />
         </Routes>
       </Router>
     </>
