@@ -3,6 +3,8 @@ import Home from "./pages/Home";
 import Service from "./pages/Service";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Profile from "./pages/Profile";
+import ServiceLogin from "./pages/Service_Login";
+import Badges from "./pages/Badges";
 import Templates from "./pages/Templates";
 import YearGapDocument from "./documents/YearGap";
 import VehicleRegistrationDocument from "./documents/VehicleRegistr";
@@ -26,19 +28,21 @@ function App() {
       <Router>
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route exact path="/services" element={<Service />} />
-          <Route exact path="/profile" element={<Profile />} />
-          <Route path="/templates" element={<Templates/>} />
+          <Route exact path="services" element={<Service />} />
+          <Route exact path="profile" element={<Profile />} />
+          <Route exact path="serviceLogin" element={<ServiceLogin />} />
+          <Route exact path="badges" element={<Badges />} />
+          <Route path="/templates" element={<Templates />} />
             
          {/* <Route path="/profile1" element={<ProfilePage1/>} />*/}
           <Route path="/profile2" element={<ProfilePage2/>} />
           <Route path="/profile3" element={<ProfilePage3/>} />
            <Route path="/year-gap" element={<YearGapDocument />} />
-           
+
           <Route path="/vehicle-registration" element={<VehicleRegistrationDocument />} />
           <Route path="/death-certificate" element={<DeathCertificateDocument />} />
           <Route path="/change-name" element={<ChangeInName />} />
-          <Route path="/regular-bail" element={<AppliForBail />} />
+          <Route path="/regular-bail" element={<AppliForBail />} /> */}
           <Route path="/loggedinuser" element={<ClientLogin />} />
           <Route path="/searches-criminal" element={<SearchData toSearch="Criminal..."/>} />
           <Route path="/searches-divorce" element={<SearchData toSearch="Divorce..."/>} />

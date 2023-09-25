@@ -2,6 +2,12 @@ import React from "react";
 import lawyer3 from "../../page 1 design images/lawyer3.jpeg";
 import StarFill from "../../page 1 design images/icons8-star-50.png";
 import StarNoFill from "../../page 1 design images/icons8-rating-100.png";
+
+import Location from "../../page 1 design images/icons8-location-48.png";
+import Language from "../../page 1 design images/icons8-language-48.png";
+import Experience from "../../page 1 design images/icons8-briefcase-48.png";
+import Practice from "../../page 1 design images/icons8-law-48.png";
+
 import pvads from '../../page 1 design images/pvadscpy.jpeg'
 import verifico from '../../page 1 design images/icons8-verified-50.png'
 import locoico from '../../page 1 design images/icons8-location-50.png'
@@ -10,6 +16,7 @@ import flstar from '../../page 1 design images/icons8-star-50.png'
 // import lawyer1 from '../../page 1 design images/lawyer1.jpeg'
 // import lawyer2 from '../../page 1 design images/lawyer2.jpeg'
 // import lawyer3 from '../../page 1 design images/lawyer3.jpeg'
+
 
 const HeroSection = () => {
   return (
@@ -48,22 +55,30 @@ const HeroSection = () => {
           <div className="container text-center">
             <div className="row row-cols-1 gap-3">
               <div className="d-flex col ps-0 align-items-center">
-                <img />
+                <img className="Profile-img" src={Location} alt="Location" />
                 <h6 className="mb-0">Location :</h6>
                 <p className="ms-1 mb-0">Kailash Hills, Delhi</p>
               </div>
               <div className="d-flex col ps-0 align-items-center">
-                <img />
+                <img className="Profile-img" src={Language} alt="Language" />
                 <h6 className="mb-0">Languages :</h6>
                 <p className="ms-1 mb-0">English, Hindi</p>
               </div>
               <div className="d-flex col ps-0 align-items-center">
-                <img />
+                <img
+                  className="Profile-img"
+                  src={Experience}
+                  alt="Experience"
+                />
                 <h6 className="mb-0">Experience :</h6>
                 <p className="ms-1 mb-0">16 years</p>
               </div>
               <div className="d-flex col ps-0 align-items-center">
-                <img />
+                <img
+                  className="Profile-img"
+                  src={Practice}
+                  alt="Practice areas"
+                />
                 <h6 className="mb-0">Practice areas :</h6>
                 <p className="ms-1 mb-0">
                   Arbitration, Cheque Bounce, Child Custody, Court Marriage,
