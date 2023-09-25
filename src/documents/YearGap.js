@@ -1,71 +1,39 @@
 
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import DocumentGenerator from "./DocumentGenerator"
 import afv from './images/YearGap.png'
 
-const yearGapFormFields = [
-  {
-    name: 'fullName',
-    label: "Your Full Name",
-  },
-  {
-    name: 'fatherName',
-    label: "Father's Name",
-  },
-  {
-    name: 'degree',
-    label: "Degree",
-  },
-  {
-    name: 'dept',
-    label: "Dept",
-  },
-  {
-    name: 'collegeName',
-    label: "College Name",
-  },
-  {
-    name: 'mainUniv',
-    label: "Main University",
-  },
-  {
-    name: 'passedYear',
-    label: "Passed Year",
-  },
-  {
-    name: 'gapYearDuration',
-    label: "Gap Year Duration",
-  },
-  {
-    name: 'gapYear',
-    label: "Gap Year",
-  },
-  {
-    name: 'dob',
-    label: "DOB",
-  },
-  {
-    name: 'newAdm',
-    label: "New Admission",
-  },
-  {
-    name: 'newDept',
-    label: "New Department",
-  },
-];
+import WordDocumentGenerator from './WordDocumentGenerator';
+
+
   
   const YearGapDocument = () => {
+    const formFields1 = [
+      { name: 'full_name', label: 'Full Name' },
+      { name: 'father_name', label: 'Father\'s Name' },
+      { name: 'degree', label: 'Degree' },
+      { name: 'dept', label: 'Department' },
+      { name: 'college_name', label: 'College Name' },
+      { name: 'main_univ', label: 'Main University' },
+      { name: 'passed_year', label: 'Year of Passing' },
+      { name: 'gap_year_duration', label: 'Gap Year Duration' },
+      { name: 'year', label: 'Year' },
+      { name: 'dob', label: 'Date of Birth' },
+      { name: 'new_adm', label: 'New Admission' },
+      { name: 'new_dept', label: 'New Department' },
+    ];
+    
     return (
       <>
       <Navbar></Navbar>
       <div className="pt-5  container">
       <div className="row">
         <div className="col">
-        <DocumentGenerator
-        templateUrl='https://aireply.000webhostapp.com/documents/YearGap.docx'
-        formFields={yearGapFormFields}
-      />
+          <WordDocumentGenerator
+          formFields={formFields1}
+          templateUrl="https://aireply.000webhostapp.com/documents/YearGap.docx"
+          fileName="AffidavitForYearGap.docx"
+        />
         </div>
         <div className="col d-flex justify-content-center align-items-center flex-column">
         <p className='fs-5 mb-4 lighttext'>Affidavit For Year Gap</p>

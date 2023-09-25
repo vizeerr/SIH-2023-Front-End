@@ -1,4 +1,6 @@
 import React,{useState} from "react";
+import { Link} from "react-router-dom";
+
 import loj from "../../page 1 design images/loj.png";
 import searchbtn from "../../page 1 design images/searchbtn.png";
 import legalico from "../../page 1 design images/legalico.png";
@@ -43,9 +45,9 @@ const handleSearchClose = () => {
           <div className="searchsuggest d-flex align-items-center mt-4">
             <p className="fs-5 m-0 lighttext"> Popular: </p>
             <div className="badges ms-3">
-              <span className="badge rounded-pill custpopbadge ">
+            <Link to="/searches-divorce"><span className="badge rounded-pill custpopbadge ">
                 Divorce Lawyer
-              </span>
+              </span></Link>
               <span className="badge rounded-pill custpopbadge">Notaries</span>
               <span className="badge rounded-pill custpopbadge">
                 Consultant
@@ -124,7 +126,7 @@ const handleSearchClose = () => {
         </div>
       </div>
     </div>
-    <SearchSugg isOpen={isSearchOpen} onClose={handleSearchClose}></SearchSugg>
+    <SearchSugg isOpen={isSearchOpen} onClose={handleSearchClose} topPos = "4.2"></SearchSugg>
 </>
   );
 };

@@ -21,6 +21,12 @@ const DownloadApp = () => {
             </div>
           </div>
         </div>
+        <div className="Download d-flex flex-column gap-4 align-items-center justify-content-center">
+          <h3 className="d-flex justify-content-center display-5">
+            Become A Service Provider
+          </h3>
+          <button className="btn btn-brown w-25">Register</button>
+        </div>
       </div>
     </div>
   );

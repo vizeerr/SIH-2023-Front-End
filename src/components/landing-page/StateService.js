@@ -18,6 +18,7 @@ import tri from '../../page 1 design images/trip.jpeg'
 import gwt from '../../page 1 design images/gwt.jpeg'
 import patna from '../../page 1 design images/patna.jpeg'
 import mp from '../../page 1 design images/mp.jpeg'
+import { Link } from "react-router-dom";
 
 
 
@@ -103,7 +104,7 @@ const StateService = () => {
                         {/* </Link> */}
                     </div>
                 </div>
-                <div className="card border-none bg-transparent text-light" >
+                <div className="card border-none bg-transparent text-light" ><Link to="/delhiserives" style={{textDecoration:"none", color:"#FFF"}}>
                     <img src={delhi} className="card-img-top rounded-4 stateimg" alt="..."/>
                     <div className="card-body">
                         <p className='m-0  darktextlight'>50+ Service Available </p>
@@ -112,7 +113,7 @@ const StateService = () => {
                         <button type="button " className="btn btn-lightbg w-50  ">View All</button>
                         {/* </Link> */}
                     </div>
-                </div>
+                </Link></div>
                 <div className="card border-none bg-transparent text-light" >
                     <img src={orrisa} className="card-img-top rounded-4 stateimg" alt="..."/>
                     <div className="card-body">
