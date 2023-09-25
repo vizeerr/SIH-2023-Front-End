@@ -1,5 +1,5 @@
 import React from "react";
-import per2 from "../../page 1 design images/per2.jpeg";
+import lawyer3 from "../../page 1 design images/lawyer3.jpeg";
 import StarFill from "../../page 1 design images/icons8-star-50.png";
 import StarNoFill from "../../page 1 design images/icons8-rating-100.png";
 import pvads from '../../page 1 design images/pvadscpy.jpeg'
@@ -19,7 +19,7 @@ const HeroSection = () => {
       <div className="container text-center mt-5 d-flex gap-5">
         <div className="w-25 d-flex flex-column align-items-center justify-content-center gap-3">
           <div className="profile-img w-100 p-3 border rounded border-secondary shadow">
-            <img src={per2} alt="Profile" />
+            <img src={lawyer3} alt="Profile" />
           </div>
           <div className="Verify border border-secondary rounded w-100 pt-2 pb-1 px-3">
             ✅Verified
@@ -28,7 +28,7 @@ const HeroSection = () => {
         <div className="d-flex flex-column justify-content-center">
           <div className="d-flex justify-content-between align-items-center">
             <div className="Advocate-details d-flex flex-column align-items-start">
-              <h3 className="mb-0">Advocate name</h3>
+              <h3 className="mb-0">Mr. Rajesh</h3>
               <div className="d-flex">
                 <img src={StarFill} alt="Star" />
                 <img src={StarFill} alt="Star" />
@@ -76,34 +76,30 @@ const HeroSection = () => {
       </div>
       <div className="container d-flex flex-column justify-content-center mt-4">
         <p>
-          lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-          sollicitudin, nisl quis vestibulum commodo, felis justo aliquam
-          libero, vitae aliquet dolor orci non nisl. Sed vitae enim vitae ligula
-          cursus ultricies. Quisque auctor, eros eget aliquet sollicitudin, leo
-          ex efficitur massa, a aliquam felis leo et tortor. Donec et lectus
-          quis nibh aliquet aliquam. Nullam consectetur, ex ut ultricies tempor,
-          ante magna ultrices mi, a aliquam felis leo et tortor. Donec et lectus
-          quis nibh aliquet aliquam. Nullam consectetur, ex ut ultricies tempor,
-          ante magna ultrices mi, a aliquam felis leo et tortor. Donec et lectus
+          Mr. Rajesh, Advocate, completed his law in the year 2001 and has been
+          providing services in various fields of law like Arbitration, Cheque
+          Bounce, Child Custody, Court Marriage,Civil Cases etc. He is a
+          dedicated and experienced attorney with a passion for advocating on
+          behalf of his clients. With 12 years of legal practice, he has
+          successfully represented individuals and businesses in a wide range of
+          legal matters. He has completed his BA.LLB(Hons) from Jamia Millia
+          Islamia and has been practicing and handling cases independently and
+          provides legal consultancy and advisory services.
         </p>
         <p>
-          lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-          sollicitudin, nisl quis vestibulum commodo, felis justo aliquam
-          libero, vitae aliquet dolor orci non nisl. Sed vitae enim vitae ligula
-          cursus ultricies. Quisque auctor, eros eget aliquet sollicitudin, leo
-          ex efficitur massa, a aliquam felis leo et tortor. Donec et lectus
-          quis nibh aliquet aliquam. Nullam, quis nibh aliquet aliquam. Nullam
-          consectetur, ex ut ultricies tempor, ante magna ultrices mi, a aliquam
-          felis leo et tortor. Donec et lectus quis nibh aliquet aliquam. Nullam
-          consectetur, ex ut ultricies tempor, ante magna ultrices mi, a aliquam
-          felis leo et tortor. Donec et lectus quis nibh aliquet aliquam. Nullam
-          consectetur, ex ut ultricies tempor, ante magna ultrices mi, a
+          He believe in providing his clients with the highest level of legal
+          representation by combining his knowledge and experience with a
+          personalized approach. He take the time to understand the unique
+          circumstances and goals of each client, ensuring that he can develop
+          tailored strategies to address their legal needs. His commitment to
+          open communication and transparency is the foundation of his practice.
         </p>
         <p>
-          lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-          sollicitudin, nisl quis vestibulum commodo, felis justo aliquam
-          libero, vitae aliquet dolor orci non nisl. Sed vitae enim vitae ligula
-          cursus ultricies. Quisque auctor, eros eget aliquet sollicitudin, leo
+          He is available to assist you with your legal needs and can schedule
+          consultations at your convenience. Don't hesitate to reach out to
+          discuss your case or legal concerns.His commitment to providing
+          personalized, client-focused legal solutions sets him apart in the
+          field.
         </p>
       </div>
       <div className="container d-flex justify-content-between mt-5">

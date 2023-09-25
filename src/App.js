@@ -10,6 +10,11 @@ import DeathCertificateDocument from "./documents/DeathCertif";
 import ChangeInName from "./documents/ChangeInName";
 import AppliForBail from "./documents/AppliForBail";
 import ClientLogin from "./pages/ClientLogin";
+
+//import ProfilePage1 from "./components/Profile-Pages/profile1"
+import ProfilePage2 from "./components/Profile-Pages/profile2"
+import ProfilePage3 from "./components/Profile-Pages/profile3"
+
 import SearchData from "./pages/SearchData";
 import VerificationPage from "./pages/VerificationPage";
 import DelhiService from "./pages/StateService";
@@ -24,7 +29,12 @@ function App() {
           <Route exact path="/services" element={<Service />} />
           <Route exact path="/profile" element={<Profile />} />
           <Route path="/templates" element={<Templates/>} />
-           <Route path="/year-gap" element={<YearGapDocument/>} />
+            
+         {/* <Route path="/profile1" element={<ProfilePage1/>} />*/}
+          <Route path="/profile2" element={<ProfilePage2/>} />
+          <Route path="/profile3" element={<ProfilePage3/>} />
+           <Route path="/year-gap" element={<YearGapDocument />} />
+           
           <Route path="/vehicle-registration" element={<VehicleRegistrationDocument />} />
           <Route path="/death-certificate" element={<DeathCertificateDocument />} />
           <Route path="/change-name" element={<ChangeInName />} />

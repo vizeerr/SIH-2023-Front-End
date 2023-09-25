@@ -7,7 +7,7 @@ import flstar from '../../page 1 design images/icons8-star-50.png'
 import lawyer1 from '../../page 1 design images/lawyer1.jpeg'
 import lawyer2 from '../../page 1 design images/lawyer2.jpeg'
 import lawyer3 from '../../page 1 design images/lawyer3.jpeg'
-// import {Link} from "react-router-dom"
+ import {Link} from "react-router-dom"
 
 const ProviderSlider = ({headline}) => {
   return (
@@ -45,9 +45,9 @@ const ProviderSlider = ({headline}) => {
                       <p className='d-flex sm-13 lighttext  ms-2 '> High Court, Delhi </p>
                     </div>
                     <p className="card-text lighttext ">20+ Yr of Experience.Never Lost Any Case till know and Flexible Charge.</p>
-                    {/* <Link to="/"> */}
+                     
                     <div className='d-flex justify-content-between w-100'>
-                      <button type="button " className="btn btn-brown w-75 sm-13 ">Contact Me</button>
+                     <button type="button " className="btn btn-brown w-75 sm-13 ">Contact Me</button>
                       <div className='d-flex flex-wrap justify-content-end'>
                         <div className='d-flex flex-nowrap justify-content-end'>
                           <img src={flstar} alt="" className='verifico'/>
@@ -59,7 +59,7 @@ const ProviderSlider = ({headline}) => {
                         <p className=' sm-9 mt-2 lighttext '>4.0 | 30+ User Rating</p>
                       </div>
                     </div>
-                    {/* </Link> */}
+                     
                 </div>
             </div>
             <div className="card border-none" >
@@ -80,8 +80,8 @@ const ProviderSlider = ({headline}) => {
                       <p className='d-flex sm-13 lighttext  ms-2 '> District Court, Nanital </p>
                     </div>
                     <p className="card-text lighttext ">I will Consult you regarding any legal problem. 10+yr of experience and consults more than 1000+ clients</p>
-                    {/* <Link to="/"> */}
-                    <div className='d-flex justify-content-between w-100'>
+                     
+               <Link to='/profile2'>   <div className='d-flex justify-content-between w-100'>
                       <button type="button " className="btn btn-brown w-75 sm-13 ">Contact Me</button>
                       <div className='d-flex flex-wrap justify-content-end'>
                         <div className='d-flex flex-nowrap justify-content-end'>
@@ -94,7 +94,7 @@ const ProviderSlider = ({headline}) => {
                         <p className=' sm-9 mt-2 lighttext '>3.0 | 15+ User Rating</p>
                       </div>
                     </div>
-                    {/* </Link> */}
+                     </Link>
                 </div>
             </div>
             <div className="card border-none" >
@@ -115,7 +115,7 @@ const ProviderSlider = ({headline}) => {
                       <p className='d-flex sm-13 lighttext  ms-2 '> High Court, Delhi </p>
                     </div>
                     <p className="card-text lighttext ">5+ Yr of Experience Never Lost Any Case till now. Free of cost consulting</p>
-                    {/* <Link to="/"> */}
+                     <Link to="/profile3"> 
                     <div className='d-flex justify-content-between w-100'>
                       <button type="button " className="btn btn-brown w-75 sm-13 ">Contact Me</button>
                       <div className='d-flex flex-wrap justify-content-end'>
@@ -129,7 +129,7 @@ const ProviderSlider = ({headline}) => {
                         <p className=' sm-9 mt-2 lighttext '>4.0 | 30+ User Rating</p>
                       </div>
                     </div>
-                    {/* </Link> */}
+                     </Link> 
                 </div>
             </div>
             <div className="card border-none" >
@@ -150,7 +150,7 @@ const ProviderSlider = ({headline}) => {
                       <p className='d-flex sm-13 lighttext  ms-2 '> High Court, Delhi </p>
                     </div>
                     <p className="card-text lighttext ">I help clients in resolving varying types of civil disputes in state court, federal court etc.</p>
-                    {/* <Link to="/"> */}
+                     <Link to="/profile"> 
                     <div className='d-flex justify-content-between w-100'>
                       <button type="button " className="btn btn-brown w-75 sm-13 ">Contact Me</button>
                       <div className='d-flex flex-wrap justify-content-end'>
@@ -164,7 +164,7 @@ const ProviderSlider = ({headline}) => {
                         <p className=' sm-9 mt-2 lighttext '>4.0 | 30+ User Rating</p>
                       </div>
                     </div>
-                    {/* </Link> */}
+                     </Link> 
                 </div>
             </div>
         </div>
