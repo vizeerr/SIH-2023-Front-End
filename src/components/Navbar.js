@@ -163,6 +163,28 @@ setIsSignUpOpen(false);
                 </li>
               </ul>
             </li>
+            <li className="nav-item">
+              <Link
+                className={`nav-link ${
+                  location.pathname === "/loggedinprovider" ? "active" : ""
+                }`}
+                aria-current="page"
+                to="loggedinprovider"
+              >
+                Service Login
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                className={`nav-link ${
+                  location.pathname === "/badges" ? "active" : ""
+                }`}
+                aria-current="page"
+                to="badges"
+              >
+                Badges
+              </Link>
+            </li>
           </ul>
           <button type="button " className="btn btn-yellight m-2 " onClick={handleSignInClick}>
             Sign In
