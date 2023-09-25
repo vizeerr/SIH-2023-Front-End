@@ -1,4 +1,4 @@
-/*import React, { useState } from 'react';
+import React, { useState } from 'react';
 import Docxtemplater from 'docxtemplater';
 import PizZip from 'pizzip';
 import PizZipUtils from 'pizzip/utils/index.js';
@@ -74,4 +74,4 @@ const DocumentGenerator = ({ templateUrl, formFields }) => {
   );
 };
 
-export default DocumentGenerator;*/
+export default DocumentGenerator;

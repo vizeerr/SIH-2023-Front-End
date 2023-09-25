@@ -1,6 +1,6 @@
 import React from "react";
 import "../../App.css";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 
 
 import Sshot1 from "../../page 1 design images/Screenshot 2023-09-16 150112.png";
