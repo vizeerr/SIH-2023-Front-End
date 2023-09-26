@@ -12,12 +12,15 @@ const AdviceVideo = () => {
   };
   return (
     <div className="Advice container-l mb-5 w-100" onCanPlay={handlePlay}>
-      <h1 className="display-3 text-center"> Advice Video </h1>
-      <div className="w-100 overflow-hidden">
-        <video ref={videoRef} className="w-100" autoplay loop muted playsinline>
+    <div className="w-75 m-auto">
+
+      <h1 className="display-3 text-center mb-5">Our Services At A Glance 😄</h1>
+      <div className="w-100 overflow-hidden ">
+        <video ref={videoRef} className="w-100 shadow border" autoplay loop muted playsinline>
           <source src={Advice} type="video/mp4" />
         </video>
       </div>
+    </div>
     </div>
   );
 };

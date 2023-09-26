@@ -103,6 +103,17 @@ setIsSignUpOpen(false);
             <li className="nav-item">
               <Link
                 className={`nav-link ${
+                  location.pathname === "/serviceLogin" ? "active" : ""
+                }`}
+                aria-current="page"
+                to="/serviceLogin"
+              >
+                Leaderboard
+              </Link>
+            </li>
+            {/* <li className="nav-item">
+              <Link
+                className={`nav-link ${
                   location.pathname === "/profile" ? "active" : ""
                 }`}
                 aria-current="page"
@@ -110,7 +121,7 @@ setIsSignUpOpen(false);
               >
                 Profile
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link
                 className={`nav-link ${
@@ -122,7 +133,7 @@ setIsSignUpOpen(false);
                 Templates
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link
                 className={`nav-link ${
                   location.pathname === "/loggedinuser" ? "active" : ""
@@ -132,7 +143,7 @@ setIsSignUpOpen(false);
               >
                 Client Page
               </Link>
-            </li>
+            </li> */}
             <li>
               <div id="google_translate_element"> </div>
             </li>

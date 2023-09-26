@@ -8,6 +8,8 @@ import flstar from '../page 1 design images/icons8-star-50.png'
 import lawyer1 from '../page 1 design images/lawyer1.jpeg'
 import lawyer2 from '../page 1 design images/lawyer2.jpeg'
 import lawyer3 from '../page 1 design images/lawyer3.jpeg'
+import {Link} from "react-router-dom"
+
 
 const Searchdata = ({sdata}) => {
   return (
@@ -18,7 +20,7 @@ const Searchdata = ({sdata}) => {
         
         <div className="container mt-5">
               <div class="row align-items-start">
-                <div class="col-3  mb-5">
+                <div class="col-3  mb-5"><Link to="/profile" style={{textDecoration:"none", color:"#000"}}>
                 <div className="card border-none" >
                 <img src={pvads} className="card-img-top" alt="..."/>
                 <div className="card-body">
@@ -31,7 +33,7 @@ const Searchdata = ({sdata}) => {
                   <p className='m-0 lighttext sm-13'>Level 3+</p>
                   </div>
                 </div>
-                    <h4 className="card-title">Criminal Lawyer</h4>
+                    <h4 className="card-title"> Lawyer</h4>
                     <div className='locprovider d-flex w-100 align-item-center '>
                       <img src={locoico} className = 'verifico' alt="" />
                       <p className='d-flex sm-13 lighttext  ms-2 '> High Court, Delhi </p>
@@ -54,7 +56,7 @@ const Searchdata = ({sdata}) => {
                     {/* </Link> */}
                 </div>
             </div>
-                </div>
+                </Link></div>
                 <div class="col-3  mb-5">
                 <div className="card border-none" >
                 <img src={lawyer1} className="card-img-top" alt="..."/>

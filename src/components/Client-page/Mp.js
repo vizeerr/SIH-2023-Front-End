@@ -93,6 +93,16 @@ function map() {
 
           <div className="col  d-flex justify-content-end align-items-center">
             <img src={Sc} alt="" className="border w-100"></img>
+            {/* <iframe
+  width="600"
+  height="450"
+ 
+  loading="lazy"
+  allowfullscreen
+  referrerpolicy="no-referrer-when-downgrade"
+  src="https://www.google.com/maps/embed/v1/place?key=API_KEY
+    &q=Space+Needle,Seattle+WA">
+</iframe> */}
           </div>
 
           

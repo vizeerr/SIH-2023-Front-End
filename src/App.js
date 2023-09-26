@@ -27,28 +27,44 @@ function App() {
     <>
       <Router>
         <Routes>
+          
+          {/* Mainpages  */}
           <Route exact path="/" element={<Home />} />
-          <Route exact path="services" element={<Service />} />
-          <Route exact path="profile" element={<Profile />} />
-          <Route exact path="serviceLogin" element={<ServiceLogin />} />
-          <Route exact path="badges" element={<Badges />} />
-          <Route path="/templates" element={<Templates />} />
+          <Route exact path="/services" element={<Service />} />
+          <Route exact path="/profile" element={<Profile />} />
+          
+          {/* leaderboard */}
+          <Route exact path="/serviceLogin" element={<ServiceLogin />} />
+          <Route exact path="/badges" element={<Badges />} />
             
-         {/* <Route path="/profile1" element={<ProfilePage1/>} />*/}
+          {/* Profiles */}
+         {/* <Route path="/profile1" element={<ProfilePage1/>} /> */}
           <Route path="/profile2" element={<ProfilePage2/>} />
           <Route path="/profile3" element={<ProfilePage3/>} />
-           <Route path="/year-gap" element={<YearGapDocument />} />
+          
+          {/* Documents */}
+          <Route path="/templates" element={<Templates />} />
 
+          <Route path="/year-gap" element={<YearGapDocument />} />
           <Route path="/vehicle-registration" element={<VehicleRegistrationDocument />} />
           <Route path="/death-certificate" element={<DeathCertificateDocument />} />
           <Route path="/change-name" element={<ChangeInName />} />
-          <Route path="/regular-bail" element={<AppliForBail />} /> */}
+          <Route path="/regular-bail" element={<AppliForBail />} />
+
+          {/* logined client */}
           <Route path="/loggedinuser" element={<ClientLogin />} />
+          
+          {/* serach */}
           <Route path="/searches-criminal" element={<SearchData toSearch="Criminal..."/>} />
           <Route path="/searches-divorce" element={<SearchData toSearch="Divorce..."/>} />
+          
+          {/* signup */}
           <Route path="/verification" element={<VerificationPage/>} />
+          
+          {/* State and provider */}
           <Route path="/delhiserives" element={<DelhiService/>} />
           <Route path="/solopractitioners" element={<ServicesCateg/>} />
+
         </Routes>
       </Router>
     </>

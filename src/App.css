@@ -220,7 +220,7 @@ body {
 }
 
 .skiptranslate {
-  display: none;
+  display: none !important;
 }
 
 .carol-provid .card {

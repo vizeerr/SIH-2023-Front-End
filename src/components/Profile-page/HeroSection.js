@@ -17,11 +17,15 @@ import flstar from '../../page 1 design images/icons8-star-50.png'
 // import lawyer2 from '../../page 1 design images/lawyer2.jpeg'
 // import lawyer3 from '../../page 1 design images/lawyer3.jpeg'
 
+import Badges1 from "../../page 1 design images/icons8-samurai-helmet-48.png";
+import Badges2 from "../../page 1 design images/icons8-samurai-64.png";
+
+
 
 const HeroSection = () => {
   return (
     <>
-    <div className="Advocate container-l mb-5 ">
+    {/* <div className="Advocate container-l mb-5 ">
       <h1 className="display-3 text-center"> Profile Page </h1>
       <div className="container text-center mt-5 d-flex gap-5">
         <div className="w-25 d-flex flex-column align-items-center justify-content-center gap-3">
@@ -132,34 +136,34 @@ const HeroSection = () => {
           </p>
         </div>
       </div>
-    </div>
+    </div> */}
 
-    <div className="container mt-5">
-    <div class="container ">
-    <div class="row align-items-start">
-      <div class="col-3">
-      <div className="card border-none" >
-                <img src={pvads} className="card-img-top" alt="..."/>
+    <div className="container-l mt-5 mb-5 pb-5 pt-5 lightbackground">
+          <div class="container">
+        <div class="row g-3">
+          <div class="col-3 ">
+          <div className="card border-none p-2 rounded-4" >
+                <img src={pvads} className="card-img-top rounded-4 shadow border" alt="..."/>
                 <div className="card-body">
                 <div className='d-flex m-0 mb-2 justify-content-between align-items-center'>
                   <div className='d-flex align-items-center'>
-                      <p className='m-0 lighttext sm-13'>Adv Shami Khan </p>
-                      <img className = 'verifico ms-2 m-0' src={verifico}  alt=""/>
+                      <h4 className='m-0'>Adv Shami Khan</h4>
+                      <img className = 'verifico ms-2 m-0 ' src={verifico}  alt=""/>
                   </div>
                   <div>
-                  <p className='m-0 lighttext sm-13'>Level 3+</p>
+                  {/* <p className='m-0 lighttext sm-13'>Level 3+</p> */}
                   </div>
                 </div>
-                    <h4 className="card-title">Criminal Lawyer</h4>
+                    {/* <h4 className="card-title">Criminal Lawyer</h4> */}
                     <div className='locprovider d-flex w-100 align-item-center '>
-                      <img src={locoico} className = 'verifico' alt="" />
+                      <img src={locoico} className = 'verifico ' alt="" />
                       <p className='d-flex sm-13 lighttext  ms-2 '> High Court, Delhi </p>
                     </div>
-                    <p className="card-text lighttext ">20+ Yr of Experience.Never Lost Any Case till know and Flexible Charge.</p>
+                    <p className="card-text lighttext ">20+ Yr of Experience Never Lost Any Case till know. Flexible Charge free of cost consulting</p>
                     {/* <Link to="/"> */}
                     <div className='d-flex justify-content-between w-100'>
-                      <button type="button " className="btn btn-brown w-75 sm-13 ">Contact Me</button>
-                      <div className='d-flex flex-wrap justify-content-end'>
+                      <button type="button " className="btn btn-brown w-50 sm-13 ">Contact Me</button>
+                      {/* <div className='d-flex flex-wrap justify-content-end'>
                         <div className='d-flex flex-nowrap justify-content-end'>
                           <img src={flstar} alt="" className='verifico'/>
                           <img src={flstar} alt="" className='verifico'/>
@@ -168,19 +172,160 @@ const HeroSection = () => {
                           <img src={blstar} alt="" className='verifico'/>
                         </div>
                         <p className=' sm-9 mt-2 lighttext '>4.0 | 30+ User Rating</p>
-                      </div>
+                      </div> */}
                     </div>
                     {/* </Link> */}
                 </div>
             </div>
+          </div>
+          <div class="col-9 rounded-4">
+          <div class="card  mb-3 border-none" >
+            <div class="card-header">About</div>
+            <div class="card-body">
+              <h2 class="card-title">Criminal Lawyer</h2>
+              <p class="card-text fs-5 Lighttext">I believe in providing my clients with the highest level of legal
+          representation by combining my knowledge and experience with a
+          personalized approach. I take the time to understand the unique
+          circumstances and goals of each client, ensuring that I can develop
+          tailored strategies to address their legal needs. My commitment to
+          open communication and transparency is the foundation of my  practice.</p>
+              <ul class="list-group">
+                <li class="list-group-item lighttext fs-5">Level <b style={{color:"#000"}}>3+ 🔥</b></li>
+                <li class="list-group-item lighttext fs-5">EXP <b style={{color:"#000"}}>5243 🥇</b></li>
+                <li class="list-group-item lighttext fs-5">Ratings <b style={{color:"#000"}}>4.5+ ⭐</b></li>
+              </ul>
+            </div>
+            
+          </div>
+          <div class="card  mb-3 border-none" >
+            <div class="card-header">Achievements</div>
+            <div class="card-body">
+            <div className="d-flex align-items-center justify-content-between">
+            <div className="d-flex align-items-center gap-2">
+              <img src={Badges1} alt="Badges" />
+              <p className="mb-0">Beginner</p>
+            </div>
+            
+            <div className="d-flex align-items-center gap-2">
+              <img src={Badges1} alt="Badges" />
+              <p className="mb-0">Intermediate</p>
+            </div>
+            <div className="d-flex align-items-center gap-2">
+              <img src={Badges2} alt="Badges" />
+              <p className="mb-0">Expert</p>
+            </div>
+            <div className="d-flex align-items-center gap-2">
+              <img src={Badges2} alt="Badges" />
+              <p className="mb-0">Professional</p>
+            </div>
+          </div>
+            </div>
+            
+          </div>
+          </div>
+          <div class="col-6 ">
+          <div class="card  mb-3  p-2 border" style={{background:"#fff"}} >
+            <div class="card-header">Education</div>
+            <table class="table table-borderless">
+              <thead>
+                <tr>
+                  <th scope="col">Sno.</th>
+                  <th scope="col">Institute/ Univ</th>
+                  <th scope="col">Degree</th>
+                  <th scope="col">Year</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Sachdeva College Delhi</td>
+                  <td>Bcom</td>
+                  <td>2011</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Delhi University</td>
+                  <td>LLB</td>
+                  <td>2014</td>
+                </tr>
+              </tbody>
+            </table>
+            
+          </div>
+          </div>
+          <div class="col-6 ">
+          <div class="card  mb-3  p-2 border" style={{background:"#fff"}} >
+            <div class="card-header">Work Experience</div>
+            <table class="table table-borderless">
+              <thead>
+                <tr>
+                  <th scope="col">Sno.</th>
+                  <th scope="col">Work Field</th>
+                  <th scope="col">Year</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>District Court Rohini</td>
+                  <td>2013</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>High Court Delhi</td>
+                  <td>2018</td>
+                </tr>
+              </tbody>
+            </table>
+            
+          </div>
+          </div>
+
+          
+          <div class="col-4 ">
+          <div class="card  mb-3  p-2 border" style={{background:"#fff"}} >
+          <div class="card-body">
+              <h3 class="card-title">Official Address</h3>
+              <p class="card-text Lighttext ">Office Timing : 9:00 Am to 6:00 Pm | Mon to Fri</p>
+              <p className="fs-5">
+                E Block-5 Pitampura Aggarwal Apartment, Near NSP, Delhi 
+              </p>
+            </div>
+            
+            
+          </div>
+          </div>
+          
+          <div class="col-4 ">
+          <div class="card  mb-3  p-2 border" style={{background:"#fff"}} >
+          <div class="card-body">
+              <h3 class="card-title">Area of Expertiese</h3>
+              <span class="badge rounded-pill text-bg-primary p-2 ps-3 pe-3 me-3 mt-2">Criminal Lawyer</span>
+              <span class="badge rounded-pill text-bg-primary p-2 ps-3 pe-3 me-3 mt-2">Legal Consult</span>
+              
+            </div>
+            
+            
+          </div>
+          </div>
+          <div class="col-2">
+          <div class="card  mb-3  p-2 border" style={{background:"#fff"}} >
+          <div class="card-body">
+              <h3 class="card-title">Socials</h3>
+              <p className="fs-6"><a href="">Linkedin</a></p>
+              <p className="fs-6 m-0"><a href="">Facebook</a></p>
+            </div>
+            
+            
+          </div>
+          </div>
+         
+
+        </div>
       </div>
-      <div class="col-5">
-        One of three columns
-      </div>
-      
     </div>
-  </div>
-    </div>
+
+   
 
     </>
   );

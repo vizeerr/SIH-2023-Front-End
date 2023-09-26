@@ -27,7 +27,7 @@ const ProviderSlider = ({headline}) => {
     <div className="container carousel-inner carol-provid">
       <div className="carousel-item mb-5 active" data-bs-interval="10000">
         <div className="d-flex">
-            <div className="card border-none" >
+            <div className="card border-none" ><Link to="/profile" style={{textDecoration:"none", color:"#000"}}>
                 <img src={pvads} className="card-img-top" alt="..."/>
                 <div className="card-body">
                 <div className='d-flex m-0 mb-2 justify-content-between align-items-center'>
@@ -60,7 +60,7 @@ const ProviderSlider = ({headline}) => {
                       </div>
                     </div>
                      
-                </div>
+                </div></Link>
             </div>
             <div className="card border-none" >
                 <img src={lawyer2} className="card-img-top" alt="..."/>

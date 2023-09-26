@@ -12,8 +12,8 @@ const Profile = () => {
     <div>
       <Navbar />
       <HeroSection />
-      <Reviews />
       <AdviceVideo />
+      <Reviews />
       <ContactForm />
       <FAQ />
       <Footer />
