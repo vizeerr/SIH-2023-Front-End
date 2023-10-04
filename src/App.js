@@ -22,6 +22,7 @@ import VerificationPage from "./pages/VerificationPage";
 import DelhiService from "./pages/StateService";
 import ServicesCateg from "./pages/ServicesCateg"
 
+
 function App() {
   return (
     <>
@@ -50,6 +51,8 @@ function App() {
           <Route path="/death-certificate" element={<DeathCertificateDocument />} />
           <Route path="/change-name" element={<ChangeInName />} />
           <Route path="/regular-bail" element={<AppliForBail />} />
+          
+
 
           {/* logined client */}
           <Route path="/loggedinuser" element={<ClientLogin />} />

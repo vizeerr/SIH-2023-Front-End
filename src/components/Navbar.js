@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import SignInPop from "./SignInPop"
 import SignUpPop from "./SignUpPop"
@@ -57,6 +57,8 @@ setIsSignUpOpen(false);
       translateElement.dispatchEvent(new Event("change"));
     }
   };
+
+
 
   return (
     <>
@@ -174,6 +176,55 @@ setIsSignUpOpen(false);
                     onClick={() => handleLanguageChange("hi")}
                   >
                     Hindi
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    class="dropdown-item"
+                    href="/"
+                    onClick={() => handleLanguageChange("bn")}
+                  >
+                    Bengali
+                  </Link>
+                </li><li>
+                  <Link
+                    class="dropdown-item"
+                    href="/"
+                    onClick={() => handleLanguageChange("mr")}
+                  >
+                    Marathi
+                  </Link>
+                </li><li>
+                  <Link
+                    class="dropdown-item"
+                    href="/"
+                    onClick={() => handleLanguageChange("ta")}
+                  >
+                    Tamil
+                  </Link>
+                </li><li>
+                  <Link
+                    class="dropdown-item"
+                    href="/"
+                    onClick={() => handleLanguageChange("te")}
+                  >
+                    Telagu
+                  </Link>
+                </li><li>
+                  <Link
+                    class="dropdown-item"
+                    href="/"
+                    onClick={() => handleLanguageChange("gu")}
+                  >
+                    Gujarati
+                  </Link>
+                </li><li>
+                  <Link
+                    class="dropdown-item"
+                    href="/"
+                    onClick={() => handleLanguageChange("kn")}
+                  >
+                    Kannada
                   </Link>
                 </li>
               </ul>

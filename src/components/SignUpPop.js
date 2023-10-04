@@ -6,6 +6,7 @@ import lthumb from "./../page 1 design images/login back.jpeg"
 import clbtn from "./../page 1 design images/icons8-close-100.png"
 
 const Loginonpage = ({ isOpen, onClose }) => {
+  
   const handleClose = ()=>{
     onClose()
   }

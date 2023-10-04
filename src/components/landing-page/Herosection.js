@@ -8,6 +8,9 @@ import transpico from "../../page 1 design images/transpico.png";
 import convico from "../../page 1 design images/convico.png";
 import expertico from "../../page 1 design images/expertico.png";
 import SearchSugg from "../SearchSugg";
+import filterbtn from "../../page 1 design images/icons8-filter-100.png"
+import SearchFill from "../SearchFillter"
+
 
 const Herosection = () => {
   const [isSearchOpen, setisSearchOpen] = useState(false);
@@ -17,6 +20,14 @@ const Herosection = () => {
 
 const handleSearchClose = () => {
   setisSearchOpen(false);
+};
+const [isFillOpen, setisFillOpen] = useState(false);
+  const handleFilterClick = () => {
+    setisFillOpen(true);
+  };
+
+const handleFilterClose = () => {
+  setisFillOpen(false);
 };
   return (
     <>
@@ -28,6 +39,8 @@ const handleSearchClose = () => {
             Finding a right Legal Service Provider can be difficult but not
             anymore
           </p>
+          <div className="d-flex align-items-center">
+
           <form
             className="w-75 align-items-center d-flex search rounded-pill mt-4 mb-3"
             role="search"
@@ -41,6 +54,11 @@ const handleSearchClose = () => {
             />
             <img className="searchlog" src={searchbtn} alt="" />
           </form>
+          <div onClick={handleFilterClick} className='border rounded-5 ms-3 mt-1 d-flex align-items-center' style={{height:6+"vh"}}>
+          <p className='m-0  ms-3'>Filter</p>
+          <img src={filterbtn} alt="" style={{width:22+"px",height:22+"px"}} className='m-2 me-3'/>
+          </div>
+          </div>
          
           <div className="searchsuggest d-flex align-items-center mt-4">
             <p className="fs-5 m-0 lighttext"> Popular: </p>
@@ -127,6 +145,7 @@ const handleSearchClose = () => {
       </div>
     </div>
     <SearchSugg isOpen={isSearchOpen} onClose={handleSearchClose} topPos = "4.2"></SearchSugg>
+    <SearchFill isOpen={isFillOpen} onClose={handleFilterClose} topPos="4.4"></SearchFill>
 </>
   );
 };
