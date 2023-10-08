@@ -44,6 +44,7 @@ setIsSignUpOpen(false);
 
   const initialUserLanguage = getUserLanguagePreference();
   const [selectedLanguage, setSelectedLanguage] = useState(initialUserLanguage);
+  
   const handleLanguageChange = (languageCode) => {
     setSelectedLanguage(languageCode);
     setUserLanguagePreference(languageCode);

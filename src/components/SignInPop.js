@@ -36,6 +36,7 @@ const Loginonpage = ({ isOpen, onClose }) => {
                     type="email"
                     className="form-control"
                     id="email"
+                    value="vivek1212@mail.com"
                   />
                 </div>
                 <div className="mb-3">
@@ -47,6 +48,7 @@ const Loginonpage = ({ isOpen, onClose }) => {
                     type="password"
                     className="form-control"
                     id="password"
+                    value = "*********"
                   />
                 </div>
                 <Link to="/loggedinuser"><button type="submit" className="btn btn-brown" style={{width:"35%"}}>

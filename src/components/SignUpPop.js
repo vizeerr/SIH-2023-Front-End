@@ -13,7 +13,7 @@ const Loginonpage = ({ isOpen, onClose }) => {
  
   return (
     
-    <div className={`position-fixed w-100 justify-content-center align-items-center ${isOpen ? "d-flex" : "d-none"}`} style={{zIndex:"10"}} onClick={handleClose}>
+    <div className={`position-fixed w-100 justify-content-center align-items-center ${isOpen ? "d-flex" : "d-none"}`} style={{zIndex:"10"}} >
 
     <div className="loginonpage loginservice container p-0 m-0 w-75 overflow-hidden d-flex flex-nowrap shadow-lg rounded-4" style={{height:85+"vh"}} >
       <div className="row w-100 ">
