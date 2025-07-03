@@ -12,6 +12,7 @@ import acc from "../Client Page Images/icons8-account-50.png"
 const Navbar = ({isLogin}) => {
   
   const [isSignInOpen, setIsSignInOpen] = useState(false);
+
   const handleSignInClick = () => {
     setIsSignInOpen(true);
   };
@@ -248,6 +249,7 @@ setIsSignUpOpen(false);
         </div>
       </div>
     </nav>
+    
     <SignInPop isOpen={isSignInOpen} onClose={handleCloseSignIn} />
     <SignUpPop isOpen={isSignUpOpen} onClose={handleCloseSignUp} />
     

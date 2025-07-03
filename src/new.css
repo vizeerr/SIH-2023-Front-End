@@ -1,0 +1,66 @@
+/* Vivek */
+:root {
+    /* colors */
+    --themecolorbrown: #452B01;
+  
+    /* fonts */
+    --bodyfont:'Josefin Sans', sans-serif;
+    --headfont:'Libre Baskerville', serif;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--bodyfont);
+  }
+
+  .text-color-brown{
+    color:var(--themecolorbrown)
+  }
+  
+  .bg-color-brown{
+    background: var(--themecolorbrown);
+  }
+  
+  .font-family-body{
+    font-family: var(--bodyfont);
+  }
+  
+  .font-family-head{
+    font-family: var(--headfont);
+  }
+  
+
+  .border-color-brown{
+    border-color: var(--themecolorbrown) !important; 
+  }
+
+  
+  .margin-top-5{
+    margin-top: 5em;
+  }
+  
+
+  /* bootstrap default class  */
+
+  .btn {
+    border-radius: 60px;
+  }
+
+  input[type="search"]:active,
+  input[type="search"]:focus {
+    border: none !important;
+    box-shadow: 0 0 0 0.05rem rgba(69, 43, 1, 0);
+  }
+
+  .w-45{
+    width: 45% !important;
+  }
+
+  .w-85{
+    width: 85% !important;
+  }
+
+  .w-90{
+    width: 90% !important;
+  }

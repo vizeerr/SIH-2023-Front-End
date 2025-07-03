@@ -1,7 +1,9 @@
 
 import React from "react";
 import Navbar from "../components/Navbar";
-import Herosection from "../components/landing-page/Herosection";
+
+import Herosection from "../components/landing-page/HeroSection/HeroSection";
+
 import Bestpart from "../components/landing-page/Bestpart";
 import ServicesSlider from "../components/landing-page/ServicesSlider";
 import ProviderSlider from "../components/landing-page/ProviderSlider";
@@ -25,7 +27,6 @@ const Home = () => {
       <Jumbo />
       <Bestpart/>
       <ServicesSlider headline = "A Passion For Justice, Our Service Areas"/>
-      
       <ProviderSlider headline = "Our Top Service Providers"/>
       <StateService/>
       <Serviceinfo headline="Create Documents Quickly and Easily!"/> 

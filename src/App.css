@@ -1,57 +1,102 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Josefin Sans', sans-serif;
-}
+
 
 /* Vivek */
 :root {
+  /* colors */
+  --themecolorbrown: #452B01;
+  --greylight: #686868;
+
+
+  /* fonts */
+  --bodyfont:'Josefin Sans', sans-serif;
+  --headfont:'Libre Baskerville', serif;
+
   --unnamed-color-707070: #707070;
   --unnamed-color-fef3e4: #FEF3E4;
   --unnamed-color-ff9f00: #FF9F00;
+
+  --lighttext: #686868;
+
   --yellight: #F4EEE4;
   --lgbag: #FFFBF6;
   --unnamed-color-e8e8e8: #E8E8E8;
   --searchcol: #B9977F;
-  --brown: #452B01;
-  --lighttext: #686868;
+  
   --darktextlight: #A2A2A2;
   --lightbackground: #F0F0F0;
 }
+
+
+.text-color-brown{
+  color:var(--themecolorbrown)
+}
+
+.bg-color-brown{
+  background: var(--themecolorbrown);
+}
+
+/* .text-color-secondary{
+  color: var(--greylight);
+} */
+
+.font-family-body{
+  font-family: var(--bodyfont);
+}
+
+.font-family-head{
+  font-family: var(--headfont);
+}
+
+
+.margin-top-5{
+  margin-top: 5em;
+}
+
+.border-color-brown{
+  border-color: var(--themecolorbrown) !important; 
+}
+
 
 
 /* .Spacer{
   height: 10vh;
 } */
 
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--bodyfont);
+}
+
 .navbar-brand {
-  font-family: 'Libre Baskerville', serif;
+  font-family: var(--headfont);
 }
 
 .btn {
   border-radius: 60px;
-  width: 9%;
-  height: 33px;
-  font-size: 15px;
+  /* width: 9%; */
+  /* height: 33px;
+  font-size: 15px; */
 }
 
 .btn-brown {
-  background: var(--brown);
+  background: var(--themecolorbrown);
   color: var(--yellight);
 }
 
 .btn-brown:hover{
   background: #fff;
-  color: var(--brown);
-  border: 1px solid var(--brown);
+  color: var(--themecolorbrown);
+  border: 1px solid var(--themecolorbrown);
 }
 .btn-yellight {
-  border: 1px solid var(--brown);
-  color: var(--brown);
+  border: 1px solid var(--themecolorbrown);
+  color: var(--themecolorbrown);
 }
 .btn-yellight:hover{
   background: #eaeaea;
-  border: 1px solid var(--brown);
+  border: 1px solid var(--themecolorbrown);
 }
 
 .btn-lightbg {
@@ -61,15 +106,18 @@ body {
 
 .btn-lightbg:hover{
   background: #eaeaea5f;
-  border: 1px solid var(--brown);
+  border: 1px solid var(--themecolorbrown);
 }
 
-.head-land {
-  color: var(--brown);
+
+/* Landing Page Hero Section  */
+ 
+.text-shadow-head {
   text-shadow: 5px 4px 9px #00000029;
-  font-family: 'Libre Baskerville', serif;
 }
 
+
+/*   
 .rightarea {
   z-index: -2;
 }
@@ -84,13 +132,14 @@ body {
   width: 53%;
   margin: 0 auto;
 }
+*/
 
-.leftarea .search {
+/* .search {
   border: 2px solid var(--searchcol);
   padding: 3px;
   justify-content: space-between;
 
-}
+} */
 
 
 .searchsuggest .badges span{
@@ -102,15 +151,16 @@ body {
   color: #000000;
   border: 1px solid #000000;
 }
-.search input {
+
+/* input[type="search"] {
   border-right: 1px solid var(--searchcol);
   border-radius: 50px;
   width: 89%;
   border:none;
-}
+} */
 
-.search input:active,
-.search input:focus {
+input[type="search"]:active,
+input[type="search"]:focus {
   border: none !important;
   box-shadow: 0 0 0 0.05rem rgba(69, 43, 1, 0);
 }
@@ -118,20 +168,22 @@ body {
 .border-none {
   border: none !important;
 }
+/*
+*/
 
-.searchlog {
+/* .searchlog {
   width: 25px;
   height: 25px;
-  margin-right: 20px;
-}
+}  */
 
-/*.leftarea h1 {
+/* .leftarea h1 {
    font-size: 5.5em; 
-}*/
+}  */
 
-.showtabs .card {
+/* .showtabs .card {
   width: 45%;
 }
+
 
 .showtabs .card img {
   width: 85%;
@@ -144,7 +196,31 @@ body {
   padding: 10px 26px 6px;
   font-weight: 400;
   margin: 0 10px;
+} */
+
+.w-45{
+  width: 45% !important;
 }
+
+.w-85{
+  width: 85% !important;
+}
+
+.w-90{
+  width: 90% !important;
+}
+
+
+.w-95{
+  width: 95% !important;
+}
+
+
+.w-70{
+  width: 70% !important;
+}
+
+
 
 
 .infotab-img {
@@ -168,7 +244,7 @@ body {
 
 .infotab .card img {
   width: 33%;
-}
+} 
 
 .lgbag {
   background: var(--lgbag);
@@ -412,9 +488,7 @@ scale: 0.9;
   height: 25vh;
 }
 
-.herosection {
-  margin-top: 5em;
-}
+
 
 .tempinpu {
   display: flex;
@@ -941,7 +1015,7 @@ scale: 0.9;
 .submit-btn {
   border-radius: 3rem;
   padding: 7px;
-  background-color: var(--brown);
+  background-color: var(--themecolorbrown);
   color: var(--yellight);
   margin-top: 2rem;
   font-size: 1rem;
